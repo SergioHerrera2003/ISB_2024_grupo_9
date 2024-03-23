@@ -38,12 +38,12 @@ contenido
 
 | Tema                                                        | 
 |-------------------------------------------------------------|
-| Introducción, señales biomédicas más usadas. Características de una señal biomédica.                |
+| Introducción, señales biomédicas más usadas. Características de una señal biomédica. |
 | Git y GitHub                                                |
-| Conceptos básicos de adquisición y ploteo de señales       |
+| Conceptos básicos de adquisición y ploteo de señales        |
 | Electromiograma: Fisiología, medición y características y Arritmia.  |
 | Electrocardiograma: Anatomía, Ondas, Derivaciones, Caract. |
-| Electroencefalograma: Ritmos, medición, adquisición, canales       |
+| Electroencefalograma: Ritmos, medición, adquisición, canales |
 
 ### UNIDAD 2: PROCESAMIENTO Y ANÁLISIS DE SEÑALES ECG, EMG Y EEG.
 
@@ -51,11 +51,9 @@ contenido
 |-------------------------------------------------------------|
 | Filtros digitales para señales biomédicas I                |
 | Filtros digitales para señales biomédicas II               |
-| Tratamiento de señal EMG: Análisis básico de la señal y detección de la actividad muscular.     |
-| Tratamiento de señal ECG: Algoritmo de detección QRS, Dispersión QT (QTd), 
-Variabilidad de la frecuencia cardiaca.    |
-| Tratamiento de señal EEG, Electroencefalograma: Análisis básico de la señal (alpha, 
-beta, gamma y theta). |
+| Tratamiento de señal EMG: Análisis básico de la señal y detección de la actividad muscular. |
+| Tratamiento de señal ECG: Algoritmo de detección QRS, Dispersión QT (QTd), Variabilidad de la frecuencia cardiaca. |
+| Tratamiento de señal EEG, Electroencefalograma: Análisis básico de la señal (alpha, beta, gamma y theta). |
 
 ### UNIDAD 3: INTRODUCCIÓN AL ANÁLISIS DE DATOS E INTELIGENCIA ARTIFICIAL.
 
