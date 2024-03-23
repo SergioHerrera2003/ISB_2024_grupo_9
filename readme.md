@@ -91,7 +91,7 @@ contenido
 
 - Armoa Britez Guillermo Javier 
 
-    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Biología, Biología Molecular, , Ingeniería de Tejidos, Biomateriales y Electrónica.
+    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Biología, Biología Molecular, Ingeniería de Tejidos, Biomateriales y Electrónica.
 
      (guillermo.armoa@upch.pe)
 
