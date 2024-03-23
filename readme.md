@@ -36,36 +36,35 @@ contenido
 
 ### UNIDAD 1: INTRODUCCIÓN Y ADQUISICIÓN DE LAS SEÑALES EMG, ECG Y EEG.
 
-| Tema                                                        | Descripción                                                                                   |
-|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Introducción, señales biomédicas más usadas                | Discusión sobre las señales biomédicas comunes y su importancia en la monitorización médica. |
-| Git y GitHub                                                | Introducción al control de versiones con Git y su plataforma de alojamiento, GitHub.          |
-| Conceptos básicos de adquisición y ploteo de señales       | Fundamentos de adquisición y visualización de señales biomédicas.                             |
-| Electromiograma: Fisiología, medición y características    | Estudio de la fisiología muscular, técnicas de medición y características del EMG.            |
-| Electrocardiograma: Anatomía, Ondas, Derivaciones, Caract. | Anatomía del corazón, características de las ondas del ECG, derivaciones y arritmias.         |
-| Electroencefalograma: Ritmos, medición, adquisición       | Análisis de los ritmos cerebrales, técnicas de medición, adquisición de EEG y canales.        |
+| Tema                                                        | 
+|-------------------------------------------------------------|
+| Introducción, señales biomédicas más usadas                |
+| Git y GitHub                                                |
+| Conceptos básicos de adquisición y ploteo de señales       |
+| Electromiograma: Fisiología, medición y características    |
+| Electrocardiograma: Anatomía, Ondas, Derivaciones, Caract. |
+| Electroencefalograma: Ritmos, medición, adquisición       |
 
 ### UNIDAD 2: PROCESAMIENTO Y ANÁLISIS DE SEÑALES ECG, EMG Y EEG.
 
-| Tema                                                        | Descripción                                                                                         |
-|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Filtros digitales para señales biomédicas I                | Introducción a los filtros digitales y su aplicación en el procesamiento de señales biomédicas.    |
-| Filtros digitales para señales biomédicas II               | Continuación del estudio de filtros digitales con enfoque en su aplicación a señales biomédicas.    |
-| Tratamiento de señal EMG: Análisis básico y detección      | Métodos de análisis básico y detección de actividad muscular en señales de electromiografía.        |
-| Tratamiento de señal ECG: Algoritmos de detección, etc.    | Algoritmos para la detección de eventos en señales de electrocardiografía y análisis de variabilidad. |
-| Tratamiento de señal EEG: Análisis básico de la señal      | Análisis de los componentes básicos de la señal de electroencefalografía (alpha, beta, gamma, theta).|
+| Tema                                                        | 
+|-------------------------------------------------------------|
+| Filtros digitales para señales biomédicas I                |
+| Filtros digitales para señales biomédicas II               |
+| Tratamiento de señal EMG: Análisis básico y detección      |
+| Tratamiento de señal ECG: Algoritmos de detección, etc.    |
+| Tratamiento de señal EEG: Análisis básico de la señal      |
 
 ### UNIDAD 3: INTRODUCCIÓN AL ANÁLISIS DE DATOS E INTELIGENCIA ARTIFICIAL.
 
-| Tema                                                        | Descripción                                                                                   |
-|-------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| Datos estructurados: Análisis estadístico                   | Métodos estadísticos para el análisis de datos estructurados, aplicados a señales biomédicas. |
-| Creación de dataset de las señales biomédicas adquiridas    | Proceso de creación de conjuntos de datos a partir de señales biomédicas adquiridas.          |
-| Introducción a la Inteligencia Artificial y TinyML          | Conceptos básicos de Inteligencia Artificial y su aplicación en dispositivos con TinyML.      |
-| Creación de modelos de ML con Edgeimpulse                   | Desarrollo de modelos de aprendizaje automático utilizando la plataforma Edge Impulse.       |
-| Revisión de informe final                                  | Revisión y presentación del informe final del curso.                                           |
-| Feria de póster                                            | Presentación de proyectos mediante feria de póster.                                             |
-
+| Tema                                                        | 
+|-------------------------------------------------------------|
+| Datos estructurados: Análisis estadístico                   |
+| Creación de dataset de las señales biomédicas adquiridas    |
+| Introducción a la Inteligencia Artificial y TinyML          |
+| Creación de modelos de ML con Edgeimpulse                   |
+| Revisión de informe final                                  |
+| Feria de póster                                            |
 
 ## Participantes
 
