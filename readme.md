@@ -1,5 +1,7 @@
 
-# Repositorio del Grupo 9 - Curso: Introducción a Señales Biomédicas
+# Bienvenidos al repositorio del Grupo 9 en el curso “Introducción a Señales Biomédicas”
+ Realizado por estudiantes de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia (UPCH) y la Pontificia Universidad Católica del Perú (PUCP), en el semestre 2024.1
+
 
 Proyecto: ...
 
@@ -7,14 +9,14 @@ El objetivo de este proyecto es ...
 
 ## Tabla de contenidos:
 
-- [Descripción del proyecto](#descripcion-del-proyecto)
-- [Materiales necesarios](#materiales-necesarios)
-- [Metodología de trabajo](#metodologia-de-trabajo)
-- [Temática del proyecto](#tematica-del-proyecto)
-- [Contenido del curso](#contenido-del-curso)
-- [Participantes](#participantes)
-- [Docentes](#docentes)
-- [Jefes de práctica](#jefes-de-práctica)
+* [Descripción del proyecto](#descripcion-del-proyecto)
+* [Materiales necesarios](#materiales-necesarios)
+* [Metodología de trabajo](#metodologia-de-trabajo)
+* [Temática del proyecto](#tematica-del-proyecto)
+* [Contenido del curso](#contenido-del-curso)
+* [Participantes](#participantes)
+* [Docentes](#docentes)
+* [Jefes de práctica](#jefes-de-práctica)
 
 ## Descripción del proyecto
 
@@ -69,10 +71,33 @@ contenido
 
 ## Participantes
 
-- Herrera del Carpio Sergio Jesús Miguel (sergio.herrera@upch.pe)
-- Jaico Roman Maria José                 (maria.jaico@upch.pe)
-- Armoa Britez Guillermo Javier          (guillermo.armoa@upch.pe)
-- Woll Garcia Alberto Gianfranco         (alberto.woll@upch.pe)
+- Herrera del Carpio Sergio Jesús Miguel
+    
+    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Señales e Imágenes Médicas, Electrónica, Ingeniería de Tejidos y Biomecánica.   
+    (sergio.herrera@upch.pe)
+
+    ![Marcado 1](/Imagenes/Sergio_Herrera.jpeg)
+
+
+
+- Jaico Roman Maria José   
+
+    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesada en el área de Ingeniería de Tejidos y Biomateriales, biotecnología, biología molecular y sintética.\
+    (maria.jaico@upch.pe)
+
+    ![Marcado 2](/Imagenes/Maria_Jaico.jpg)
+
+- Armoa Britez Guillermo Javier 
+
+    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Biología, Biología Molecular, , Ingeniería de Tejidos, Biomateriales y Electrónica.\
+     (guillermo.armoa@upch.pe)
+
+
+- Woll Garcia Alberto Gianfranco 
+
+    g\
+    (alberto.woll@upch.pe)
+    
 
 ## Docentes
 
