@@ -36,18 +36,18 @@ contenido
 
 ### UNIDAD 1: INTRODUCCIÓN Y ADQUISICIÓN DE LAS SEÑALES EMG, ECG Y EEG.
 
-| Tema                                                        | 
+| Tema                                                        |
 |-------------------------------------------------------------|
 | Introducción, señales biomédicas más usadas. Características de una señal biomédica. |
 | Git y GitHub                                                |
 | Conceptos básicos de adquisición y ploteo de señales        |
-| Electromiograma: Fisiología, medición y características y Arritmia.  |
+| Electromiograma: Fisiología, medición y características y Arritmia. |
 | Electrocardiograma: Anatomía, Ondas, Derivaciones, Caract. |
 | Electroencefalograma: Ritmos, medición, adquisición, canales |
 
 ### UNIDAD 2: PROCESAMIENTO Y ANÁLISIS DE SEÑALES ECG, EMG Y EEG.
 
-| Tema                                                        | 
+| Tema                                                        |
 |-------------------------------------------------------------|
 | Filtros digitales para señales biomédicas I                |
 | Filtros digitales para señales biomédicas II               |
@@ -57,7 +57,7 @@ contenido
 
 ### UNIDAD 3: INTRODUCCIÓN AL ANÁLISIS DE DATOS E INTELIGENCIA ARTIFICIAL.
 
-| Tema                                                        | 
+| Tema                                                        |
 |-------------------------------------------------------------|
 | Datos estructurados: Análisis estadístico                   |
 | Creación de dataset de las señales biomédicas adquiridas    |
@@ -65,6 +65,7 @@ contenido
 | Creación de modelos de ML con Edgeimpulse                   |
 | Revisión de informe final                                  |
 | Feria de póster                                            |
+
 
 ## Participantes
 
