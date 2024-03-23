@@ -34,6 +34,10 @@ contenido
 
 ## Contenido del curso
 
+| **_UNIDAD 1: INTRODUCCIÓN Y ADQUISICIÓN DE LAS SEÑALES EMG, ECG Y EEG_**                                                                                                                                                                                                                                                                                                                             |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. Introducción, señales biomédicas más usadas. Características de una señal biomédica. 2. Git y GitHub. 3. Conceptos básicos de adquisición y ploteo de señales. 4. Electromiograma: Fisiología, medición y características. 5. Electrocardiograma: Anatomía del corazón, Ondas del ECG, Derivaciones, Características y Arritmia. 6. Electroencefalograma: Ritmos, medición, adquisición, canales. |
+
 UNIDAD 1: INTRODUCCIÓN Y ADQUISICIÓN DE LAS SEÑALES EMG, ECG Y 
 EEG.
 1. Introducción, señales biomédicas más usadas. Características de una señal biomédica.
