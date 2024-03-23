@@ -36,7 +36,7 @@ contenido
 
 ### UNIDAD 1: INTRODUCCIÓN Y ADQUISICIÓN DE LAS SEÑALES EMG, ECG Y EEG.
 
-| Tema                                                        |
+| Tema                                                                                                               |
 |-------------------------------------------------------------|
 | Introducción, señales biomédicas más usadas. Características de una señal biomédica. |
 | Git y GitHub                                                |
@@ -57,7 +57,7 @@ contenido
 
 ### UNIDAD 3: INTRODUCCIÓN AL ANÁLISIS DE DATOS E INTELIGENCIA ARTIFICIAL.
 
-| Tema                                                        |
+| Tema                                                                                                               |
 |-------------------------------------------------------------|
 | Datos estructurados: Análisis estadístico                   |
 | Creación de dataset de las señales biomédicas adquiridas    |
