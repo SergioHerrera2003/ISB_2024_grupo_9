@@ -89,14 +89,21 @@ contenido
 
 - Armoa Britez Guillermo Javier 
 
-    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Biología, Biología Molecular, , Ingeniería de Tejidos, Biomateriales y Electrónica.\
+    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Biología, Biología Molecular, , Ingeniería de Tejidos, Biomateriales y Electrónica.
+
      (guillermo.armoa@upch.pe)
+
+     ![Marcado 3](/Imagenes/Guillermo_Armoa.jpeg)
+
 
 
 - Woll Garcia Alberto Gianfranco 
 
-    g\
+    Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Diseño de Circuitos, biotecnología, Ingeniería molecular, Procesamiento de Imágenes y Mecánica de Fluidos. 
+    
     (alberto.woll@upch.pe)
+
+    ![Marcado 4](/Imagenes/Alberto_Woll.jpeg)
     
 
 ## Docentes
