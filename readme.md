@@ -3,9 +3,11 @@
  Realizado por estudiantes de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia (UPCH) y la Pontificia Universidad Católica del Perú (PUCP), en el semestre 2024.1
 
 
-Proyecto: ...
+Proyecto: Monitorio de EEG para evualuar conductas de personas con patologías mentales.
 
-El objetivo de este proyecto es ...
+El objetivo de este proyecto es brindar una investigación para personas interesadas en las señales del cerebro que se emiten, para así tener un mayor diagnóstico y avance en la enfermedad.
+
+#
 
 ## Tabla de contenidos:
 
