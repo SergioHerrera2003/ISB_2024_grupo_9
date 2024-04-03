@@ -1,6 +1,6 @@
 
 # Bienvenidos al repositorio del Grupo 9 en el curso “Introducción a Señales Biomédicas”
- Realizado por estudiantes de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia (UPCH) y la Pontificia Universidad Católica del Perú (PUCP), en el semestre 2024.1
+ Realizado por estudiantes de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia (UPCH) y la Pontificia Universidad Católica del Perú (PUCP), en el semestre 2024.1.
 
 
 Proyecto: Caracterización de la enfermedad del Alzheimer mediante EEG como potencial herramienta de diagnóstico temprano.
