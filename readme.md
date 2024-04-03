@@ -23,10 +23,30 @@ El objetivo de este proyecto es desarrollar una herramienta de deteción tempran
 ## Descripción del proyecto
 
 1. ### Planteamiento del problema
+    La enfermedad del Alzheimer (EA) es un trastorno neurodegenerativo progresivo y de los más comunes que existen  en personas mayores. Se estima un aumento en las personas que de 2030 con 75 millones, se presente un aproximado de 131 millones de personas. [1]<br> <br> Aunque hoy en día no existe una cura, el tratamiento es un punto clave para su progresión; por lo que el diagnóstico a temprana etapa es necesario para maximizar el nivel de vida de los pacientes [2]. <br> <br>La progresión patológica de la EA conduce a la desconexión cortical, que pueden manifestarse como alteraciones de la conectividad funcional [3] <br> 
+    #### ANOMALÍAS EN EL EEG EN PACIENTES CON EA:
+    - Cambio del espectro de potencia a frecuencias más bajas
+    - Disminución de la coherencia de los ritmos rápidos [3]
+    - Desaceleración del EEG
+    - Complejidad reducida
+    - Disminución de la sincronía [4]
+    - Disminución significativa del poder alfa relativo
+    - Aumento del poder theta
+    - Notable aumento en al complejidad Omega
+    - Menor probabilidad de sincronización en la EA en los rangos de 0,5 a 25 Hz [5]
+    - La interrelación en alfa posterios (8-12 Hz)  y delta generalizada (<4 Hz)  y thetha (4-8 Hz) [6]
+
+
 
 2. ### Propuesta de Solución
 
-[Ver nuestra Presentación](https://www.canva.com/design/DAGBVwR0aRk/EpQsPL15Y5OwZCgcwBEfCA/view?utm_content=DAGBVwR0aRk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+
+    [Ver nuestra Presentación](https://www.canva.com/design/DAGBVwR0aRk/EpQsPL15Y5OwZCgcwBEfCA/view?utm_content=DAGBVwR0aRk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
+    ### Referencias
+    [1]  
+
 ## Materiales necesarios
 
 contenido
@@ -82,9 +102,9 @@ contenido
     (sergio.herrera@upch.pe)
 
 
-<div style="text-align:center;">
-    <img src="Imagenes/Sergio_Herrera.jpeg" width="200px">
-</div>
+    <div style="text-align:center;">
+        <img src="Imagenes/Sergio_Herrera.jpeg" width="200px">
+    </div>
 <br>
 <br>
 
@@ -93,9 +113,9 @@ contenido
     Estudiante de séptimo ciclo de Ingeniería Biomédica, interesada en el área de Ingeniería de Tejidos y Biomateriales, biotecnología, biología molecular y sintética.\
     (maria.jaico@upch.pe)
 
-<div style="text-align:center;">
-    <img src="Imagenes/Maria_Jaico.jpg" width="200px">
-</div>
+    <div style="text-align:center;">
+        <img src="Imagenes/Maria_Jaico.jpg" width="200px">
+    </div>
 <br>
 <br>
 
@@ -104,9 +124,9 @@ contenido
     Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Biología, Biología Molecular, Ingeniería de Tejidos, Biomateriales y Electrónica.
 
      (guillermo.armoa@upch.pe)
-<div style="text-align:center;">
-    <img src="Imagenes/Guillermo_Armoa(1).jpeg" width="200px">
-</div>
+    <div style="text-align:center;">
+        <img src="Imagenes/Guillermo_Armoa(1).jpeg" width="200px">
+    </div>
 <br>
 <br>
 
@@ -116,10 +136,9 @@ contenido
     
     (alberto.woll@upch.pe)
     <div style="text-align:center;">
-    <img src="Imagenes/Alberto_Woll.jpeg" width="200px">
+        <img src="Imagenes/Alberto_Woll.jpeg" width="200px">
     </div>
     
-
 ## Docentes
 
 - Mg. De la Cruz Rodriguez U. Lewis      (umbert.de.la.cruz@upch.pe)
