@@ -22,30 +22,46 @@ El objetivo de este proyecto es desarrollar una herramienta de deteción tempran
 
 ## Descripción del proyecto
 
+[Ver Presentación](https://www.canva.com/design/DAGBVwR0aRk/EpQsPL15Y5OwZCgcwBEfCA/view?utm_content=DAGBVwR0aRk&utm_campaign=designshare&utm_medium=link&utm_source=editor) 
+
 1. ### Planteamiento del problema
-    La enfermedad del Alzheimer (EA) es un trastorno neurodegenerativo progresivo y de los más comunes que existen  en personas mayores. Se estima un aumento en las personas que de 2030 con 75 millones, se presente un aproximado de 131 millones de personas. [1]<br> <br> Aunque hoy en día no existe una cura, el tratamiento es un punto clave para su progresión; por lo que el diagnóstico a temprana etapa es necesario para maximizar el nivel de vida de los pacientes [2]. <br> <br>La progresión patológica de la EA conduce a la desconexión cortical, que pueden manifestarse como alteraciones de la conectividad funcional [3] <br> 
+    La enfermedad del Alzheimer (EA) es un trastorno neurodegenerativo progresivo y de los más comunes que existen  en personas mayores. Se estima un aumento en las personas que de 2030 con 75 millones, se presente un aproximado de 131 millones de personas. [1]
+    <p align = "center">
+    <img src="Imagenes/Alzheimer_cerebro.jpg" width="200px">
+    <p align = "center"> Figure 1. Comparación de cerebros con y sin Alzheimer [2]
+
+    Aunque hoy en día no existe una cura, el tratamiento es un punto clave para su progresión; por lo que el diagnóstico a temprana etapa es necesario para maximizar el nivel de vida de los pacientes [3]. <br> <br>La progresión patológica de la EA conduce a la desconexión cortical, que pueden manifestarse como alteraciones de la conectividad funcional [4] <br> 
     #### ANOMALÍAS EN EL EEG EN PACIENTES CON EA:
     - Cambio del espectro de potencia a frecuencias más bajas
-    - Disminución de la coherencia de los ritmos rápidos [3]
+    - Disminución de la coherencia de los ritmos rápidos [4]
     - Desaceleración del EEG
     - Complejidad reducida
-    - Disminución de la sincronía [4]
+    - Disminución de la sincronía [5]
     - Disminución significativa del poder alfa relativo
     - Aumento del poder theta
     - Notable aumento en al complejidad Omega
-    - Menor probabilidad de sincronización en la EA en los rangos de 0,5 a 25 Hz [5]
-    - La interrelación en alfa posterios (8-12 Hz)  y delta generalizada (<4 Hz)  y thetha (4-8 Hz) [6]
+    - Menor probabilidad de sincronización en la EA en los rangos de 0,5 a 25 Hz [6]
+    - La interrelación en alfa posterios (8-12 Hz)  y delta generalizada (<4 Hz)  y thetha (4-8 Hz) [7]
 
-
+    #### MÉTODOS DE DIAGNÓSTICO ACTUALES:
+    Pruebas de diagnóstico:
+    * Realizar pruebas de memoria, resolución de problemas, atención, conteo y lenguaje.
+    * Ordenar pruebas médicas para identificar otras posibles causas.
+    * Recolectar líquido cefalorraquídeo o sangre para medir los niveles de proteínas asociadas con el Alzheimer.
+    * Realizar escaneos cerebrales (CT, MRI, PET) para apoyar el diagnóstico o descartar otras causas [3].
+    <p align = "center">
+    <img src="Imagenes/Diagnositc_Actual.jpg" width="500px">
+    <p align = "center"> Figure 2. Imágenes encontradas de pacientes con Alzheimer [3]
 
 2. ### Propuesta de Solución
+    *Desarrollo de un sistema de análisis automatizado de EEG para el diagnóstico temprano del Alzheimer* 
 
-
-
-    [Ver nuestra Presentación](https://www.canva.com/design/DAGBVwR0aRk/EpQsPL15Y5OwZCgcwBEfCA/view?utm_content=DAGBVwR0aRk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+    1. Recopilación de datos de EEG: Entrenamiento (Alzheimer) y validación del sistema (Control).
+    2. Desarrollo de algoritmos de análisis: Uso de procesamiento de señales.
+    3. Validación clínica: Se compararán los resultados del sistema con los diagnósticos clínicos tradicionales y se realizarán análisis de sensibilidad y especificidad.
 
     ### Referencias
-    [1]  
+    [1] Ding, Y., Chu, Y., Liu, M., Ling, Z., Wang, S., Li, X., & Li, Y. (2022). Fully automated discrimination of Alzheimer's disease using resting-state electroencephalography signals. Quantitative Imaging in Medicine and Surgery, 12(2), 1063–1078. [Online]. Available: https://doi.org/10.21037/qims-21-430 <br>[2] Instituto Nacional sobre el Envejecimiento. (s.f.). Hoja Informativa sobre la enfermedad de alzheimer | NIA. La enfermedad de Alzheimer. [Online]. Available: https://www.nia.nih.gov/espanol/enfermedad-alzheimer/enfermedad-alzheimer <br>[3] Scheltens, P., De Strooper, B., Kivipelto, M., Holstege, H., Chételat, G., Teunissen, C. E., Cummings, J., & van der Flier, W. M. (2021). Alzheimer's disease. Lancet (London, England), 397(10284), 1577–1590. [Online]. Available: https://doi.org/10.1016/S0140-6736(20)32205-4 <br>[4] Nobukawa, S., Yamanishi, T., Kasakawa, S., Nishimura, H., Kikuchi, M., & Takahashi, T. (2020, April 7). Classification Methods Based on Complexity and Synchronization of Electroencephalography Signals in Alzheimer's Disease. Frontiers in Psychiatry, 11, 255. DOI: 10.3389/fpsyt.2020.00255. <br>[5] Zheng, X., Wang, B., Liu, H., Wu, W., Sun, J., Fang, W., Jiang, R., Hu, Y., Jin, C., Wei, X., & Chen, S. S. (2023, November 7). Diagnosis of Alzheimer's disease via resting-state EEG: integration of spectrum, complexity, and synchronization signal features. Frontiers in Aging Neuroscience, 15, 1288295. DOI: 10.3389/fnagi.2023.1288295.<br>[6] Balázs Czigler, Dóra Csikós, Zoltán Hidasi, Zsófia Anna Gaál, Éva Csibri, Éva Kiss, Pál Salacz, Márk Molnár. (2008). Quantitative EEG in early Alzheimer's disease patients — Power spectrum and complexity features. *International Journal of Psychophysiology*, 68(1), 75-80. ISSN 0167-8760. DOI: 10.1016/j.ijpsycho.2007.11.002. [Online]. Available: https://www.sciencedirect.com/science/article/pii/S0167876007002474 <br>[7] Babiloni, C., Arakaki, X., Azami, H., Bennys, K., Blinowska, K., Bonanni, L., et al. (2021). Measures of resting state EEG rhythms for clinical trials in Alzheimer's disease: Recommendations of an expert panel. Alzheimer's & Dementia, 17(9), 1528-1553. DOI: 10.1002/alz.12311.
 
 ## Materiales necesarios
 
