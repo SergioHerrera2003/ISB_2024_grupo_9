@@ -54,7 +54,12 @@ El objetivo de este proyecto es desarrollar una herramienta de deteción tempran
     <p align = "center"> Figure 2. Imágenes encontradas de pacientes con Alzheimer [3]
 
     ### PROBLEMÁTICA
-    Actualmente, el diagnóstico de esta enfermedad suele basarse en síntomas clínicos y pruebas neuropsicológicas que pueden no ser lo suficientemente sensibles para detectar los cambios tempranos en el cerebro, además que las pruebas invasivas de extracción de líquido cefalorraquídeo (LCR) para el diagnóstico pueden generar ansiedad y riesgos para los pacientes. El diagnóstico por imágenes médicas, como la resonancia magnética (RM), la tomografía computarizada (TC) y la tomografía por emisión de positrones (PET) aunque son altamente efectivos para detectar cambios estructurales y funcionales en el cerebro, pueden ser considerablemente más costosos y menos accesibles que el electroencefalograma (EEG).<br><br>El uso del EEG como herramienta de detección temprana podría proporcionar una solución más accesible, económica y menos invasiva para identificar patrones anómalos en la actividad eléctrica cerebral asociada con el Alzhéimer, lo que permitiría intervenciones más tempranas y potencialmente más efectivas para maximizar el nivel de vida de los pacientes.
+    Actualmente, el diagnóstico de esta enfermedad suele basarse en síntomas clínicos y pruebas neuropsicológicas que pueden no ser lo suficientemente sensibles para detectar los cambios tempranos en el cerebro, además que las pruebas invasivas de extracción de líquido cefalorraquídeo (LCR) para el diagnóstico pueden generar ansiedad y riesgos para los pacientes. El diagnóstico por imágenes médicas, como la resonancia magnética (RM), la tomografía computarizada (TC) y la tomografía por emisión de positrones (PET) aunque son altamente efectivos para detectar cambios estructurales y funcionales en el cerebro, pueden ser considerablemente más costosos y menos accesibles que el electroencefalograma (EEG). [7] 
+    <p align = "center">
+    <img src="Imagenes/Descomposition of EEGjpg.jpg" width="500px">
+    <p align = "center"> Figure 3. Imágenes encontradas de pacientes con Alzheimer [7]
+
+    <br><br>El uso del EEG como herramienta de detección temprana podría proporcionar una solución más accesible, económica y menos invasiva para identificar patrones anómalos en la actividad eléctrica cerebral asociada con el Alzhéimer, lo que permitiría intervenciones más tempranas y potencialmente más efectivas para maximizar el nivel de vida de los pacientes.
 
 
 2. ### Propuesta de Solución
@@ -67,7 +72,7 @@ El objetivo de este proyecto es desarrollar una herramienta de deteción tempran
 <p align="center">
   <img src="Imagenes/UltraCortex_1.jpeg" width="250px" style="margin-right: 20px;">
   <img src="Imagenes/UltraCortex_2.jpeg" width="200px">
-  <p align = "center"> Figure 3. DIspositivo ULTRACORTEX "MARK IV" EEG HEADSET [8]
+  <p align = "center"> Figure 4. DIspositivo ULTRACORTEX "MARK IV" EEG HEADSET [8]
 </p>
     
 <details>
