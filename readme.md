@@ -26,7 +26,7 @@ El objetivo de este proyecto es desarrollar una herramienta de deteción tempran
 
 2. ### Propuesta de Solución
 
-
+[Ver nuestra Presentación](https://www.canva.com/design/DAGBVwR0aRk/EpQsPL15Y5OwZCgcwBEfCA/view?utm_content=DAGBVwR0aRk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 ## Materiales necesarios
 
 contenido
@@ -105,7 +105,7 @@ contenido
 
      (guillermo.armoa@upch.pe)
 <div style="text-align:center;">
-    <img src="Imagenes/Guillermo_Armoa.jpeg" width="200px">
+    <img src="Imagenes/Guillermo_Armoa(1).jpeg" width="200px">
 </div>
 <br>
 <br>
