@@ -95,7 +95,7 @@ contenido
 
      (guillermo.armoa@upch.pe)
 
-     ![Marcado 3](/Imagenes/Guillermo_Armoa.jpeg)
+     ![Marcado 3](/Imagenes/Guillermo_Armoa(1).jpeg)
 
 
 
