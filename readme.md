@@ -3,9 +3,9 @@
  Realizado por estudiantes de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia (UPCH) y la Pontificia Universidad Católica del Perú (PUCP), en el semestre 2024.1
 
 
-Proyecto: Monitorio de EEG para evualuar conductas de personas con patologías mentales.
+Proyecto: Caracterización de la enfermedad del Alzheimer mediante EEG como potencial herramienta de diagnóstico temprano.
 
-El objetivo de este proyecto es brindar una investigación para personas interesadas en las señales del cerebro que se emiten, para así tener un mayor diagnóstico y avance en la enfermedad.
+El objetivo de este proyecto es desarrollar una herramienta de deteción temprana con el uso del EEG para proporcionar una solución más accesible, económica y menos invasiva. Así, poder identificar patrones anómalos en la actividad eléctrica cerebral asociada con el Alzhéimer, lo que permitiría intervenciones más tempranas y potencialmente más efectivas para maximizar el nivel de vida de los pacientes.
 
 #
 
@@ -22,7 +22,10 @@ El objetivo de este proyecto es brindar una investigación para personas interes
 
 ## Descripción del proyecto
 
-contenido
+1. ### Planteamiento del problema
+
+2. ### Propuesta de Solución
+
 
 ## Materiales necesarios
 
@@ -78,34 +81,43 @@ contenido
     Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Señales e Imágenes Médicas, Electrónica, Ingeniería de Tejidos y Biomecánica.   
     (sergio.herrera@upch.pe)
 
-    ![Marcado 1](/Imagenes/Sergio_Herrera.jpeg)
 
-
+<div style="text-align:center;">
+    <img src="Imagenes/Sergio_Herrera.jpeg" width="200px">
+</div>
+<br>
+<br>
 
 - Jaico Roman Maria José   
 
     Estudiante de séptimo ciclo de Ingeniería Biomédica, interesada en el área de Ingeniería de Tejidos y Biomateriales, biotecnología, biología molecular y sintética.\
     (maria.jaico@upch.pe)
 
-    ![Marcado 2](/Imagenes/Maria_Jaico.jpg)
+<div style="text-align:center;">
+    <img src="Imagenes/Maria_Jaico.jpg" width="200px">
+</div>
+<br>
+<br>
 
 - Armoa Britez Guillermo Javier 
 
     Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Biología, Biología Molecular, Ingeniería de Tejidos, Biomateriales y Electrónica.
 
      (guillermo.armoa@upch.pe)
-
-     ![Marcado 3](/Imagenes/Guillermo_Armoa.jpeg)
-
-
+<div style="text-align:center;">
+    <img src="Imagenes/Guillermo_Armoa.jpeg" width="200px">
+</div>
+<br>
+<br>
 
 - Woll Garcia Alberto Gianfranco 
 
     Estudiante de séptimo ciclo de Ingeniería Biomédica, interesado en el área de Diseño de Circuitos, biotecnología, Ingeniería molecular, Procesamiento de Imágenes y Mecánica de Fluidos. 
     
     (alberto.woll@upch.pe)
-
-    ![Marcado 4](/Imagenes/Alberto_Woll.jpeg)
+    <div style="text-align:center;">
+    <img src="Imagenes/Alberto_Woll.jpeg" width="200px">
+    </div>
     
 
 ## Docentes
