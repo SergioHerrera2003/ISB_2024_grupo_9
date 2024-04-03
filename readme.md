@@ -53,13 +53,20 @@ El objetivo de este proyecto es desarrollar una herramienta de deteción tempran
     <img src="Imagenes/Diagnositc_Actual.jpg" width="500px">
     <p align = "center"> Figure 2. Imágenes encontradas de pacientes con Alzheimer [3]
 
+    ### PROBLEMÁTICA
+    Actualmente, el diagnóstico de esta enfermedad suele basarse en síntomas clínicos y pruebas neuropsicológicas que pueden no ser lo suficientemente sensibles para detectar los cambios tempranos en el cerebro, además que las pruebas invasivas de extracción de líquido cefalorraquídeo (LCR) para el diagnóstico pueden generar ansiedad y riesgos para los pacientes. El diagnóstico por imágenes médicas, como la resonancia magnética (RM), la tomografía computarizada (TC) y la tomografía por emisión de positrones (PET) aunque son altamente efectivos para detectar cambios estructurales y funcionales en el cerebro, pueden ser considerablemente más costosos y menos accesibles que el electroencefalograma (EEG).<br><br>El uso del EEG como herramienta de detección temprana podría proporcionar una solución más accesible, económica y menos invasiva para identificar patrones anómalos en la actividad eléctrica cerebral asociada con el Alzhéimer, lo que permitiría intervenciones más tempranas y potencialmente más efectivas para maximizar el nivel de vida de los pacientes.
+
+
 2. ### Propuesta de Solución
     **Desarrollo de un sistema de análisis automatizado de EEG para el diagnóstico temprano del Alzheimer**
 
     1. Recopilación de datos de EEG: Entrenamiento (Alzheimer) y validación del sistema (Control).
     2. Desarrollo de algoritmos de análisis: Uso de procesamiento de señales.
     3. Validación clínica: Se compararán los resultados del sistema con los diagnósticos clínicos tradicionales y se realizarán análisis de sensibilidad y especificidad.
-<br><br>
+    <br>
+    <p align = "center">
+    <img src="Imagenes/UltraCortex.webp" width="300px">
+    <p align = "center"> Figure 3. DIspositivo ULTRACORTEX "MARK IV" EEG HEADSET [8]
 <details>
 <summary><h3>Referencias Bibliográficas</h3></summary>
 
