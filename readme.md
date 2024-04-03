@@ -1,5 +1,5 @@
 
-# Bienvenidos al repositorio del Grupo 9 en el curso “Introducción a Señales Biomédicas”
+# Bienvenidos al repositorio del Grupo 10 en el curso “Introducción a Señales Biomédicas”
  Realizado por estudiantes de Ingeniería Biomédica de la Universidad Peruana Cayetano Heredia (UPCH) y la Pontificia Universidad Católica del Perú (PUCP), en el semestre 2024.1.
 
 
