@@ -1,4 +1,10 @@
 # LABORATORIO N° 2 – ADQUISICIÓN DE SEÑALES Y GRAFICACIÓN EN ARDUINO
+## Tabla de contenidos:
+
+1. [Objetivos específicos de la práctica](#1-objetivos-específicos-de-la-práctica)
+2. [Materiales y equipo](#2-materiales-y-equipo)
+3. [Procedimiento](#3-procedimiento)
+4. [Entregable](#4-entregable)
 
 ## 1. Objetivos específicos de la práctica
 
@@ -120,3 +126,38 @@ Las señales obtenidas ploteando en el Arduino IDE con las gráficas del oscilos
     <p>Fig 15. Código en Arduino cloud</p>
 </div>
 
+<div align="center">
+  <img src="../../Imagenes/Lab2/Figura16.jpeg" width="400">
+  <p>Fig 16. Gráfica sinusoidal de frecuencia 1 Hz, frecuencia de muestreo 20 Hz</p>
+</div>
+
+<div align="center">
+  <img src="../../Imagenes/Lab2/Figura17.jpeg" width="400">
+  <p>Fig 17. Gráfica cuadrática de frecuencia 1 Hz, frecuencia de muestreo 20 Hz y condensador (al inicio)</p>
+</div>
+
+<div align="center">
+  <img src="../../Imagenes/Lab2/Figura18.jpeg" width="400">
+  <p>Fig 18. Gráfica cuadrática de frecuencia 1 Hz, frecuencia de muestreo 20 Hz y condensador (ya con tiempo)</p>
+</div>
+
+<div align="center">
+   <img src="../../Imagenes/Lab2/Figura19.jpeg" width="400">
+   <p>Fig 19. Gráfica sinusoidal de frecuencia 1 Hz, frecuencia de muestreo 10 Hz</p>
+</div>
+
+<div align="center">
+  <img src="../../Imagenes/Lab2/Figura20.jpeg" width="400">
+  <p>Fig 20. Gráfica sinusoidal de frecuencia 1 Hz, frecuencia de muestreo 2 Hz</p>
+</div>
+
+<div align="center">
+  <img src="../../Imagenes/Lab2/Figura21.jpeg" width="400">
+  <p>Fig 21. Gráfica sinusoidal de frecuencia 500 Hz, frecuencia de muestreo 20 Hz con capacitor</p>
+  
+</div>
+
+<div align="center">
+  <img src="../../Imagenes/Lab2/Figura22.jpeg" width="400">
+  <p>Fig 22. Gráfica sinusoidal de frecuencia 10 Hz, frecuencia de muestreo 20 Hz con capacitor</p>
+</div>
