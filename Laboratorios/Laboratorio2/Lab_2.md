@@ -196,3 +196,5 @@ Las señales obtenidas ploteando en el Arduino IDE con las gráficas del oscilos
 - Comparar con el osciloscopio:
     
     Es importante comparar la señal capturada por el Arduino con la señal observada en un osciloscopio para verificar la precisión y la integridad de la captura de datos. El osciloscopio en el laboratorio nos sirvió de guía para proporcionar una representación visual más precisa de la forma de onda y puede revelar detalles sutiles que pueden perderse en la lectura digital del Arduino, por ejemplo con los datos del voltaje
+
+[Descargar PDF del Laboratorio](../Documentacion/Laboratorios/DESARROLLO_LAB2.pdf)
