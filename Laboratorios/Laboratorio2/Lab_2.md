@@ -75,5 +75,48 @@ Con las conexiones hechas se obtuvo el ploteo de las señales. Inicialmente, se 
 
 
 ## 4. Entregable
+- ### Plotear al menos 3 señales en Arduino IDE provenientes del generador de señales.
 
-## 
+<div align="center">
+  <p>Fig 9. Plot señal sinusoidal</p>
+  <img src="../../Imagenes/Lab2/Figura9.jpeg" width="400">
+</div>
+
+<div align="center">
+  <p>Fig 10. Señal cuadrática</p>
+  <img src="../../Imagenes/Lab2/Figura10.jpeg" width="400">
+</div>
+
+<div align="center">
+  <p>Fig 11. Plot señal triangular</p>
+  <img src="../../Imagenes/Lab2/Figura11.jpeg" width="400">
+</div>
+
+Se plotearon las 3 señales (Fig 9-11) provenientes del generador de señales en el Arduino IDE y se obtuvieron gráficas que representan el tipo de señal generada.
+
+- ### Comparar las señales graficadas del Arduino IDE con las gráficas obtenidas del osciloscopio.
+
+<div align="center">
+  <p>Fig 12. Señal sinusoidal del generador de señales</p>
+  <img src="../../Imagenes/Lab2/Figura12.jpeg" width="400">
+</div>
+
+<div align="center">
+  <p>Fig 13. Señal cuadrática del generador de señales</p>
+  <img src="../../Imagenes/Lab2/Figura13.jpeg" width="400">
+</div>
+
+<div align="center">
+  <p>Fig 14. Señal triangular del generador de señales</p>
+  <img src="../../Imagenes/Lab2/Figura14.jpeg" width="400">
+</div>
+
+Las señales obtenidas ploteando en el Arduino IDE con las gráficas del osciloscopio, se observa que las señales en el Arduino IDE presentan un cierto ruido en las señales comparado a las señales vistas desde el osciloscopio. La diferencia entre estas señales se puede deber a que se utilizó un jumper para establecer la conexión. Durante la experiencia se utilizaron dos jumpers y el ruido disminuyó al conectar una punta de la sonda directamente al protoboard sin utilizar el jumper. Además, se pueden generar interferencias por la presencia de otros equipos electrónicos presentes en la mesa.
+
+- ### Graficar en Arduino cloud.
+
+<div align="center">
+   <img src="../../Imagenes/Lab2/Figura15.jpeg" width="400">
+    <p>Fig 15. Código en Arduino cloud</p>
+</div>
+
