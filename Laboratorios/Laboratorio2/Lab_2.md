@@ -161,3 +161,38 @@ Las señales obtenidas ploteando en el Arduino IDE con las gráficas del oscilos
   <img src="../../Imagenes/Lab2/Figura22.jpeg" width="400">
   <p>Fig 22. Gráfica sinusoidal de frecuencia 10 Hz, frecuencia de muestreo 20 Hz con capacitor</p>
 </div>
+
+### Observaciones e Interpretaciones:
+
+- Condensador en el circuito:
+  
+  El condensador en el circuito estaría actuando como un filtro pasa alta, ya que permite el paso de frecuencias más altas mientras atenúa las frecuencias más bajas. Así afecta la forma en que se detecta y registra la señal en el Arduino por el generador. En el laboratorio contamos con un condensador de valores muy altos que no facilitaron la visualización para ver la frecuencia de corte, ya que era de 16V y 470 uF. Necesitaríamos la resistencia interna y se calcularía: <br>frecuencia de corte = 1/(2 x pi x Resistencia x Capacitancia)
+ 
+
+- Sin con el condensador:
+
+  La señal captada por el Arduino tendrá no presentará ninguna atenuación extra en las frecuencias bajas, entonces se conserva la señal original del generador de ondas.
+
+- Filtro pasa alta frecuencia:
+  
+  Significa que permite el paso de frecuencias altas y atenúa las frecuencias más bajas. Esto puede ser útil para eliminar componentes de baja frecuencia no deseados o ruido de la señal captada por el Arduino.
+
+- Frecuencia:
+  
+  Al variar la frecuencia de la señal de entrada  nos dimos cuenta que esta afectaa la forma en que se captura y registra en el Arduino para la tomas de datos. Frecuencias más altas pueden requerir una frecuencia de muestreo más alta para capturar con precisión la forma de onda completa. Es por eso que requerimos un mayor valor que el doble de la frecuencia máxima para tener una mejor visualización de ploteo.
+
+- Atenuación:
+  
+  La atenuación de la señal ocurre debido a la resistencia interna del generador de ondas, la resistencia de los cables y otras resistencias en el circuito. La presencia del condensador también influye en la atenuación de la señal.
+
+- Ruido del cable:
+  
+  El ruido del cable se visualiza por la interferencia electromagnética ambiental o a la capacitancia entre los cables de señal y tierra. Se manifiesta como fluctuaciones aleatorias en la señal capturada por el Arduino.
+
+- Cables BNC: 
+  
+  La boquilla, la calidad y la longitud de los cables BNC afectan la integridad de la señal capturada por el Arduino. Así inferimos que sin boquilla y con cables de alta calidad se minimiza la atenuación y la interferencia no deseada.
+
+- Comparar con el osciloscopio:
+    
+    Es importante comparar la señal capturada por el Arduino con la señal observada en un osciloscopio para verificar la precisión y la integridad de la captura de datos. El osciloscopio en el laboratorio nos sirvió de guía para proporcionar una representación visual más precisa de la forma de onda y puede revelar detalles sutiles que pueden perderse en la lectura digital del Arduino, por ejemplo con los datos del voltaje
