@@ -58,11 +58,11 @@
 ### 4.1 Señal de Biceps
 - Fotos conexión usada (Electrodos,cuerpo y bitalino).
    <div align="center">
-    <img src="../../Imagenes/Lab3/BicepReposo.jpeg" width="200" height="200">
+    <img src="../../Imagenes/Lab3/BicepReposo.jpeg" width="400" height="400">
    <p>Fig 4. Conexiones del bícep
 <br>
 
-- Videos:
+- Videos (Clik para visualizar):
    - Video de señal en silencio eléctrico o reposo. <br>
    <a href="https://www.youtube.com/watch?v=X4ClBcfxJsI">
     <img src="https://img.youtube.com/vi/X4ClBcfxJsI/mqdefault.jpg" width="400" height="225">
@@ -81,18 +81,45 @@
   </a>
 
 - Ploteo en OpenSignals.
+   <br>
+      <div align="center">
+    <img src="../../Imagenes/Lab3/ReposoBrazo.jpeg" width="400" height="200">
+      <p> Señal en Reposo de Brazo
+   <br>
+   <div align="center">
+    <img src="../../Imagenes/Lab3/MovimientoBrazo.jpeg" width="400" height="200">
+      <p> Señal en Flexión y extensión de Brazo
+   <br>
+   <div align="center">
+    <img src="../../Imagenes/Lab3/OposicionBrazo.jpeg" width="400" height="200">
+      <p> Señal en Oposición de Brazo
+   <br>
 
 - Resumen y explicación de la señal proteada
 
-- Archivos de los datos de las señales
-
+- Archivos de los datos de las señales <br>
+   Descargar Brazo Reposo:    [Documento Reposo Brazo](../../Documentacion/Laboratorios/Lab3/Brazo_reposo.txt)
+   <br>
+   Descargar Brazo Flexión:   [Documento Movimiento Brazo](../../Documentacion/Laboratorios/Lab3/brazo_movimiento.txt)
+   <br>
+   Descargar Brazo Oposición: [Documento Oposición Brazo](../../Documentacion/Laboratorios/Lab3/brazo_oposicion.txt)
 - Ploteo cada señal en (Python)
 
+<div align="center">
+  <img src="../../Imagenes/Lab3/SeñalBicepReposo5s.png" width="300">
+  <p>Ploteo en Python Bícep Reposo <br>
+
+  <img src="../../Imagenes/Lab3/SeñalBicepsFlexionExtension15s.png" width="300">
+  <p>Ploteo en Python Bícep Flexión y extensión <br>
+
+  <img src="../../Imagenes/Lab3/SeñalDedoPulgarOposición.png" width="300">
+  <p>Ploteo en Python Bícep Oposición
+</div>
 
 ### 4.2 Señal de Pulgar
 - Fotos conexión usada.
 
-- Videos:
+- Videos (Clik para visualizar):
    - Video de señal en silencio eléctrico o reposo
    <a href="https://www.youtube.com/watch?v=yWJ9BlEAWvw">
     <img src="https://img.youtube.com/vi/yWJ9BlEAWvw/mqdefault.jpg" width="400" height="225">
@@ -109,12 +136,31 @@
    <a href="https://www.youtube.com/watch?v=VwWszo3aDsk">
     <img src="https://img.youtube.com/vi/VwWszo3aDsk/mqdefault.jpg" width="400" height="225">
    </a>
-- Ploteo en OpenSignals.
 
+- Ploteo en OpenSignals.
+   <br>
+      <div align="center">
+    <img src="../../Imagenes/Lab3/ReposoPulgar.jpeg" width="400" height="200">
+      <p> Señal en Reposo de Pulgar
+   <br>
+   <div align="center">
+    <img src="../../Imagenes/Lab3/MovimientoPulgar.jpeg" width="400" height="200">
+      <p> Señal en Flexión y extensión de Pulgar
+   <br>
+   <div align="center">
+    <img src="../../Imagenes/Lab3/OposicionPulgar.jpeg" width="400" height="200">
+      <p> Señal en Oposición de Pulgar
+   <br>
 - Resumen y explicación de la señal proteada
 
 - Archivos de los datos de las señales
 
+   Descargar Pulgar Reposo:    [Documento Reposo Pulgar](../../Documentacion/Laboratorios/Lab3/reposo_pulgar.txt)
+   <br>
+   Descargar Pulgar Flexión:   [Documento Movimiento Pulgar](../../Documentacion/Laboratorios/Lab3/pulgar.txt)
+   <br>
+   Descargar Pulgar Oposición: [Documento Oposición Pulgar](../../Documentacion/Laboratorios/Lab3/oposicion_pulgar.txt)
+- Ploteo cada señal en (Python)
 - Ploteo de cada señal (Python).
 <div align="center">
   <img src="../../Imagenes/Lab3/SeñalPulgarReposo.png" width="300">
