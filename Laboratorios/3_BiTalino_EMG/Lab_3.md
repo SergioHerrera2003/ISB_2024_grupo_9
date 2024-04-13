@@ -69,11 +69,13 @@
   </a> 
   <br>
    - Video de señal en flexión y extensión.
+   <br>
    <a href="https://www.youtube.com/watch?v=fOo3VtrS6gE">
     <img src="https://img.youtube.com/vi/fOo3VtrS6gE/mqdefault.jpg" width="400" height="225">
   </a>
   <br>
    - Video de señal con fuerza de oposición.
+   <br>
    <a href="https://www.youtube.com/watch?v=ctoRjxKaLMY">
     <img src="https://img.youtube.com/vi/ctoRjxKaLMY/mqdefault.jpg" width="400" height="225">
   </a>
