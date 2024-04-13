@@ -84,15 +84,15 @@
    <br>
       <div align="center">
     <img src="../../Imagenes/Lab3/ReposoBrazo.jpeg" width="400" height="200">
-      <p> Señal en Reposo de Brazo
+      <p> Fig 5. Señal en Reposo de Brazo
    <br>
    <div align="center">
     <img src="../../Imagenes/Lab3/MovimientoBrazo.jpeg" width="400" height="200">
-      <p> Señal en Flexión y extensión de Brazo
+      <p> Fig 6. Señal en Flexión y extensión de Brazo
    <br>
    <div align="center">
     <img src="../../Imagenes/Lab3/OposicionBrazo.jpeg" width="400" height="200">
-      <p> Señal en Oposición de Brazo
+      <p> Fig 7. Señal en Oposición de Brazo
    <br>
 
 - Archivos de los datos de las señales <br>
@@ -105,20 +105,20 @@
 
 <div align="center">
   <img src="../../Imagenes/Lab3/SeñalBicepReposo5s.png" width="300">
-  <p>Ploteo en Python Bícep Reposo <br>
+  <p>Fig 8. Ploteo en Python Bícep Reposo <br>
 
   <img src="../../Imagenes/Lab3/SeñalBicepsFlexionExtension15s.png" width="300">
-  <p>Ploteo en Python Bícep Flexión y extensión <br>
+  <p>Fig 9. Ploteo en Python Bícep Flexión y extensión <br>
 
   <img src="../../Imagenes/Lab3/SeñalDedoPulgarOposición.png" width="300">
-  <p>Ploteo en Python Bícep Oposición
+  <p>Fig 10. Ploteo en Python Bícep Oposición
 </div>
 
 ### 4.2 Señal de Pulgar
 - Fotos conexión usada.
    <div align="center">
     <img src="../../Imagenes/Lab3/PulgarElectrodo.jpeg" width="400" height="250">
-   <p>Fig 4. Conexiones del pulgar
+   <p>Fig 11. Conexiones del pulgar
 <br>
 
 - Videos (Clik para visualizar):
@@ -143,15 +143,15 @@
    <br>
       <div align="center">
     <img src="../../Imagenes/Lab3/ReposoPulgar.jpeg" width="400" height="200">
-      <p> Señal en Reposo de Pulgar
+      <p> Fig 12. Señal en Reposo de Pulgar
    <br>
    <div align="center">
     <img src="../../Imagenes/Lab3/MovimientoPulgar.jpeg" width="400" height="200">
-      <p> Señal en Flexión y extensión de Pulgar
+      <p> Fig 13. Señal en Flexión y extensión de Pulgar
    <br>
    <div align="center">
     <img src="../../Imagenes/Lab3/OposicionPulgar.jpeg" width="400" height="200">
-      <p> Señal en Oposición de Pulgar
+      <p> Fig 14. Señal en Oposición de Pulgar
    <br>
 
 - Archivos de los datos de las señales
@@ -165,13 +165,13 @@
 - Ploteo de cada señal (Python).
 <div align="center">
   <img src="../../Imagenes/Lab3/SeñalPulgarReposo.png" width="300">
-  <p>Ploteo en Python Pulgar Reposo <br>
+  <p>Fig 15. Ploteo en Python Pulgar Reposo <br>
 
   <img src="../../Imagenes/Lab3/SeñalDedoGordo.png" width="300">
-  <p>Ploteo en Python Pulgar Flexión y extensión <br>
+  <p>Fig 16. Ploteo en Python Pulgar Flexión y extensión <br>
 
   <img src="../../Imagenes/Lab3/SeñalDedoPulgarOposición.png" width="300">
-  <p>Ploteo en Python Pulgar Oposición
+  <p>Fig 17. Ploteo en Python Pulgar Oposición
 </div>
 
 
