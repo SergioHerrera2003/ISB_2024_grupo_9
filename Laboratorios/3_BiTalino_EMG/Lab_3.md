@@ -95,10 +95,6 @@
       <p> Señal en Oposición de Brazo
    <br>
 
-- Resumen y explicación de la señal proteada
-
-
-- Archivos de los datos de las señales
 - Archivos de los datos de las señales <br>
    Descargar Brazo Reposo:    [Documento Reposo Brazo](../../Documentacion/Laboratorios/Lab3/Brazo_reposo.txt)
    <br>
@@ -120,6 +116,10 @@
 
 ### 4.2 Señal de Pulgar
 - Fotos conexión usada.
+   <div align="center">
+    <img src="../../Imagenes/Lab3/PulgarElectrodo.jpeg" width="400" height="250">
+   <p>Fig 4. Conexiones del bícep
+<br>
 
 - Videos (Clik para visualizar):
    - Video de señal en silencio eléctrico o reposo
@@ -153,7 +153,6 @@
     <img src="../../Imagenes/Lab3/OposicionPulgar.jpeg" width="400" height="200">
       <p> Señal en Oposición de Pulgar
    <br>
-- Resumen y explicación de la señal proteada
 
 - Archivos de los datos de las señales
 
@@ -162,7 +161,7 @@
    Descargar Pulgar Flexión:   [Documento Movimiento Pulgar](../../Documentacion/Laboratorios/Lab3/pulgar.txt)
    <br>
    Descargar Pulgar Oposición: [Documento Oposición Pulgar](../../Documentacion/Laboratorios/Lab3/oposicion_pulgar.txt)
-- Ploteo cada señal en (Python)
+
 - Ploteo de cada señal (Python).
 <div align="center">
   <img src="../../Imagenes/Lab3/SeñalPulgarReposo.png" width="300">
