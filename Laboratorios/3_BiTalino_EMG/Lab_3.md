@@ -188,3 +188,8 @@ Se realizaron tres tomas de señal distintas: una en reposo, otra durante movimi
    - En la toma de señal en reposo, se identificó una línea de base estable, reflejando el estado de inactividad muscular.
    - Durante los movimientos leves, se registró un incremento, indicando una respuesta fisiológica acorde al esfuerzo realizado.
    - Al aplicar resistencia, se evidenció una mayor actividad muscular, manifestada en picos más pronunciados y una amplitud mayor en la señal registrada. Esto sugiere una respuesta muscular más intensa ante la demanda de fuerza externa.
+
+### Referencias Bibliográficas
+[1]Bbk, “BITalino (r)evolution Board Kit Data Sheet.”
+<br>
+[2] “BITalino (r)evolution User Manual BITalino (r)evolution User Manual.”
