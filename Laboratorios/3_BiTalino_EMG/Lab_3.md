@@ -84,7 +84,18 @@
 
 - Resumen y explicación de la señal proteada
 
+En el laboratorio de Introducción a Señales Biomédicas, se llevó a cabo la medición de la actividad muscular mediante un electromiógrafo equipado con electrodos superficiales. Durante el laboratorio, se identificó una correlación
+positiva entre la fuerza muscular y el voltaje registrado, lo que evidenció un aumento proporcional en el voltaje conforme aumentaba la fuerza muscular. Se mostró la colocación de los electrodos del EMG en el músculo abductor pollicis brevis y el bíceps, permitiendo visualizar tanto el estado relajado como la contracción muscular en distintas condiciones.
+
+Se realizaron tres tomas de señal distintas: una en reposo, otra durante movimientos leves y la última al aplicar resistencia. En las gráficas resultantes, se observaron distintos patrones de actividad muscular:
+
+   - En la toma de señal en reposo, se identificó una línea de base estable, reflejando el estado de inactividad muscular.
+   - Durante los movimientos leves, se registró un incremento, indicando una respuesta fisiológica acorde al esfuerzo realizado.
+   - Al aplicar resistencia, se evidenció una mayor actividad muscular, manifestada en picos más pronunciados y una amplitud mayor en la señal registrada. Esto sugiere una respuesta muscular más intensa ante la demanda de fuerza externa.
+
 - Archivos de los datos de las señales
+
+
 
 - Ploteo cada señal en (Python)
 
