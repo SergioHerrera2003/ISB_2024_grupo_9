@@ -97,11 +97,15 @@
    <a href="https://www.youtube.com/watch?v=yWJ9BlEAWvw">
     <img src="https://img.youtube.com/vi/yWJ9BlEAWvw/mqdefault.jpg" width="400" height="225">
    </a>
+   <br>
    - Video de señal en flexión y extensión.
+   <br>
     <a href="https://www.youtube.com/watch?v=j-K2yEnZCDM">
     <img src="https://img.youtube.com/vi/j-K2yEnZCDM/mqdefault.jpg" width="400" height="225">
    </a>
+   <br>
    - Video de señal con fuerza de oposición.
+   <br>
    <a href="https://www.youtube.com/watch?v=VwWszo3aDsk">
     <img src="https://img.youtube.com/vi/VwWszo3aDsk/mqdefault.jpg" width="400" height="225">
    </a>
