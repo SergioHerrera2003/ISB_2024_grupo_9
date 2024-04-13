@@ -84,14 +84,6 @@
 
 - Resumen y explicación de la señal proteada
 
-En el laboratorio de Introducción a Señales Biomédicas, se llevó a cabo la medición de la actividad muscular mediante un electromiógrafo equipado con electrodos superficiales. Durante el laboratorio, se identificó una correlación
-positiva entre la fuerza muscular y el voltaje registrado, lo que evidenció un aumento proporcional en el voltaje conforme aumentaba la fuerza muscular. Se mostró la colocación de los electrodos del EMG en el músculo abductor pollicis brevis y el bíceps, permitiendo visualizar tanto el estado relajado como la contracción muscular en distintas condiciones.
-
-Se realizaron tres tomas de señal distintas: una en reposo, otra durante movimientos leves y la última al aplicar resistencia. En las gráficas resultantes, se observaron distintos patrones de actividad muscular:
-
-   - En la toma de señal en reposo, se identificó una línea de base estable, reflejando el estado de inactividad muscular.
-   - Durante los movimientos leves, se registró un incremento, indicando una respuesta fisiológica acorde al esfuerzo realizado.
-   - Al aplicar resistencia, se evidenció una mayor actividad muscular, manifestada en picos más pronunciados y una amplitud mayor en la señal registrada. Esto sugiere una respuesta muscular más intensa ante la demanda de fuerza externa.
 
 - Archivos de los datos de las señales
 
@@ -143,4 +135,12 @@ Se realizaron tres tomas de señal distintas: una en reposo, otra durante movimi
 ### Ploteo de la señal del dedo gordo en reposo
 
 ### 4.3 Resumen Laboratorio y Discusión
-En el laboratorio de Introducción a Señales Biomédicas, se realizó la medición de la actividad muscular mediante un electromiógrafo con electrodos superficiales. Se identificó una correlación positiva entre la fuerza muscular y el voltaje registrado, evidenciando un aumento proporcional en el voltaje conforme aumentaba la fuerza muscular. Durante el estudio, se efectuaron tres tomas de señal: en reposo, durante movimientos leves y al aplicar resistencia. En las gráficas resultantes, se observaron distintos patrones de actividad muscular: en reposo se identificó una línea de base estable, durante movimientos leves se registró un incremento correspondiente a la actividad muscular del movimiento ejecutado, y al aplicar resistencia se evidenció una mayor actividad muscular, reflejada en picos más pronunciados y una amplitud mayor. Además, se mostró la colocación de los electrodos del EMG en el músculo abductor pollicis brevis y el bíceps, permitiendo visualizar el estado relajado y la contracción muscular en distintas condiciones.
+
+En el laboratorio de Introducción a Señales Biomédicas, se llevó a cabo la medición de la actividad muscular mediante un electromiógrafo equipado con electrodos superficiales. Durante el laboratorio, se identificó una correlación
+positiva entre la fuerza muscular y el voltaje registrado, lo que evidenció un aumento proporcional en el voltaje conforme aumentaba la fuerza muscular. Se mostró la colocación de los electrodos del EMG en el músculo abductor pollicis brevis y el bíceps, permitiendo visualizar tanto el estado relajado como la contracción muscular en distintas condiciones.
+
+Se realizaron tres tomas de señal distintas: una en reposo, otra durante movimientos leves y la última al aplicar resistencia. En las gráficas resultantes, se observaron distintos patrones de actividad muscular:
+
+   - En la toma de señal en reposo, se identificó una línea de base estable, reflejando el estado de inactividad muscular.
+   - Durante los movimientos leves, se registró un incremento, indicando una respuesta fisiológica acorde al esfuerzo realizado.
+   - Al aplicar resistencia, se evidenció una mayor actividad muscular, manifestada en picos más pronunciados y una amplitud mayor en la señal registrada. Esto sugiere una respuesta muscular más intensa ante la demanda de fuerza externa.
