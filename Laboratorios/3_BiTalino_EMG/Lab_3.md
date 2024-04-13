@@ -118,7 +118,7 @@
 - Fotos conexión usada.
    <div align="center">
     <img src="../../Imagenes/Lab3/PulgarElectrodo.jpeg" width="400" height="250">
-   <p>Fig 4. Conexiones del bícep
+   <p>Fig 4. Conexiones del pulgar
 <br>
 
 - Videos (Clik para visualizar):
