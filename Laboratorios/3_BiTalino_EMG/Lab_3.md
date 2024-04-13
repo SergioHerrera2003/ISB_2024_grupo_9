@@ -24,16 +24,33 @@
 
 ## Procedimiento
 ### 3.1 Instalación de OpenSignals
-- Instalar OpenSignals (r)evolution: [Descarga aquí](https://www.pluxbiosignals.com/collections/bitalino/products/bitalino-revolution-boardkit-ble-bt)
+- Instalar OpenSignals (R)evolution: [Descarga aquí](https://www.pluxbiosignals.com/collections/bitalino/products/bitalino-revolution-boardkit-ble-bt)
 - Descargar la versión de 64 bits.
 ### 3.2 Conexión del BITalino con OpenSignals
 1. Activar el Bluetooth para configurar la tarjeta BITalino.
 2. Conectar la batería a la placa BITalino.
 3. Encender la placa.
+
+   <div align="center">
+    <img src="../../Imagenes/Lab3/Figura1.jpeg" width="200" height="300">
+    <p>Fig 1. Manual de BiTalino
+
 4. Buscar la tarjeta BITalino.
+   <div align="center">
+    <img src="../../Imagenes/Lab3/Figura2.jpeg" width="400" height="200">
+      <p>Fig 2. Pantalla de Inicio OpenSignals
+<br>
+
 5. Agregar el pin “1234” que se muestra en la guía de inicio rápido.
+
 6. Una vez listo, aparecerá de color azul la opción Enable en OpenSignals, lo que indica que el BITalino está listo para usarse.
-7. Conectar los cables a A1, que es el puerto para Electromiografía (EMG).
+
+7. Conectar los cables a A1, que es el puerto para Electromiografía (EMG). 
+   <div align="center">
+    <img src="../../Imagenes/Lab3/Figura3.jpeg" width="400" height="200">
+      <p>Fig 3. Canales del BiTalinmos. Canal A1
+<br>
+
 8. Colocar los electrodos en los cables y posicionarlos en el lugar de la medición.
 
 ### 3.2 Posicionamiento de los electrodos
