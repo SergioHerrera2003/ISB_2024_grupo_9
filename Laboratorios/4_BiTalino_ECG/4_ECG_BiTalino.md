@@ -9,9 +9,10 @@
    - 5.1 [Conexión usada](#51-conexión-usada)
    - 5.2 [Video de la señal y ploteo de la señal en OpenSignal](#52-video-de-la-señal-y-ploteo-de-la-señal-en-opensignal) 
    - 5.3 [Ploteo de la señal en Python](#53-ploteo-de-la-señal-en-python)
-   - 5.4 [Señal de simulación de paro cardiaco - ProSim 4](#)
-   - 5.5[Resumen](#54-resumen) 
-   - 5.6 [Discusiones](#55-discusiones)
+   - 5.4 [Señal de simulación de paro cardiaco - ProSim 4](#54-señal-de-simulación-de-paro-cardiaco---prosim-4)
+   
+   - 5.5 [Ploteo de la señal en Python simulación paro cardiaco - ProSim 4 ](#55-ploteo-de-la-señal-en-python-de-simulación-de-paro-cardiaco---prosim-4) 
+   - 5.6 [Discusiones](#56-discusiones)
 6. [Conclusiones](#conclusiones)
 7. [Referencias](#referencias)
 
@@ -42,7 +43,7 @@ Insuficiencia Cardíaca Congestiva: Es una condición en la que el corazón no p
 **Arritmia Cardíaca:** Es un trastorno en el ritmo cardíaco, donde el corazón puede latir demasiado rápido, demasiado lento o de manera irregular. Esto puede causar mareos, desmayos o incluso ser potencialmente mortal si no se trata adecuadamente.<br>
 **Pericarditis:** Esta es la inflamación del pericardio, una membrana delgada que rodea el corazón. Puede ser aguda o crónica y puede causar dolor en el pecho y dificultad para respirar. [3]
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_1.jpeg" width="400">
+   <img src="../../Imagenes/Lab4/Figura_1.jpeg" width="500">
     <p>Figura 1. Patologías del corazón [3]
 </div>
 
@@ -63,7 +64,7 @@ Se evalúan segmentos e intervalos específicos del ECG, como el intervalo PR (d
 
 La interpretación del ECG implica analizar la forma, la amplitud y la duración de las ondas y segmentos para detectar anomalías cardíacas, como arritmias, isquemia y trastornos de la conducción. [4]
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_2.jpeg" width="400">
+   <img src="../../Imagenes/Lab4/Figura_2.jpeg" width="500">
     <p>Figura 2. Ondas del electrocardiograma [4]
 </div>
 
@@ -105,7 +106,7 @@ La interpretación del ECG implica analizar la forma, la amplitud y la duración
 
 4. Buscar la tarjeta BITalino.
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_5.jpeg" width="400">
+   <img src="../../Imagenes/Lab4/Figura_5.jpeg" width="500">
     <p>Figura 5. Pantalla de Inicio OpenSignals
 </div>
 
@@ -114,14 +115,14 @@ La interpretación del ECG implica analizar la forma, la amplitud y la duración
 7. Conectar los cables a A2, que es el puerto para Electrocardiograma (ECG).
 8. Colocar los electrodos en los cables y posicionarlos en el lugar de la medición.
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_6.jpeg" width="400">
+   <img src="../../Imagenes/Lab4/Figura_6.jpeg" width="500">
     <p>Figura 6. Canales del BiTalino. Usamos A2 [5]
 </div>
 
 ### 4.3 Posicionamiento de los electrodos
 Se utilizó la guía de BITalino “BITalino HOME-GUIDE #2 Electrocardiography (ECG) Exploring Cardiac Signals at the Skin Surface”. Según el protocolo para la derivación I, se colocaron los electrodos en las muñecas y cresta ilíaca como se muestra en la figura 7.
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_7.jpeg" width="400">
+   <img src="../../Imagenes/Lab4/Figura_7.jpeg" width="500">
     <p>Figura 7. Posicionamiento de electrodos para la derivación I: IN+ (rojo) e IN-(negro) en las muñecas, REF (blanco) en la cresta iliaca [5]
 </div>
    
@@ -145,11 +146,11 @@ Se utilizó la guía de BITalino “BITalino HOME-GUIDE #2 Electrocardiography (
 ### 5.1 Conexión usada 
 De acuerdo a la guía mencionada se colocaron los electrodos de la siguiente manera:
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_8.jpeg" width="400">
+   <img src="../../Imagenes/Lab4/Figura_8.jpeg" width="500">
     <p>Figura 8. Posición de los electrodos
 </div>
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_9.jpeg" width="400">
+   <img src="../../Imagenes/Lab4/Figura_9.jpeg" width="500">
     <p>Figura 9. Conexión de los electrodos con el BITalino
 </div>
 
@@ -186,30 +187,30 @@ De acuerdo a la guía mencionada se colocaron los electrodos de la siguiente man
 De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para cada caso descrito. Se observó una mayor frecuencia cardiaca luego de que el usuario realizara el ejercicio a comparación del estado inicial en reposo. 
 - ECG - Reposo
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/5_ECG_RespiraciónNormal_Reposo.png" width="400">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/5_ECG_Reposo_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/5_ECG_RespiraciónNormal_Reposo.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/5_ECG_Reposo_FRECUENCIA.png" width="500">
 </div>
 <p style="text-align: center;"> Gráfica 1. Gráficas de ECG y FFT de Reposo </p>
 
 
 - ECG - Después de la respiraciones profundas
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/6_ECG_DespuesRespiracionesSostenidas.png" width="400">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/6_ECG_DespResp_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/6_ECG_DespuesRespiracionesSostenidas.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/6_ECG_DespResp_FRECUENCIA.png" width="500">
 </div>
 <p style="text-align: center;"> Gráfica 2. Gráficas de ECG y FFT de Respiraciones Profundas </p>
 
 - ECG - Después de Burpees (ejercicio)
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/7_ECG_DespuesBurpees.png" width="400">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/8_ECG_RespDespBurpees_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/7_ECG_DespuesBurpees.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/8_ECG_RespDespBurpees_FRECUENCIA.png" width="500">
 </div>
 <p style="text-align: center;"> Gráfica 3. Gráficas de ECG y FFT Después de Ejercicio </p>
 
 - ECG - Respiraciones después del ejercicio
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/8_ECG_RespiracionesDespuesBurpees.png" width="400">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/8_ECG_RespDespBurpees_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/8_ECG_RespiracionesDespuesBurpees.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/8_ECG_RespDespBurpees_FRECUENCIA.png"width="500">
 </div>
 <p style="text-align: center;"> Gráfica 4. Gráficas de ECG y FFT de Respiración después de Ejercicio </p>
 
@@ -321,42 +322,51 @@ plt.show()
      </a>
    </div>
 
-### 5.5 Ploteo de la señal de simulación de paro cardiaco - ProSim 4 
+### 5.5 Ploteo de la señal  en Python de simulación de paro cardiaco - ProSim 4 
 De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para cada paso. En este caso de simulador de paro cardiaco. 
 
 - ECG - Contracción Ventricular Prematura (CVP)
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" width="500">
 </div>
 <p style="text-align: center;"> Gráfica 5. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
 
 - ECG - Taquicardia Ventricular 160 lpm
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" width="500">
 </div>
-<p style="text-align: center;"> Gráfica 6. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
+<p style="text-align: center;"> Gráfica 6. Gráficas de ECG y FFT de Taquicardia Ventricular </p>
 
 - ECG - Fibrilación Ventricular Severa
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" width="500" >
 </div>
 <p style="text-align: center;"> Gráfica 7. Gráficas de ECG y FFT de Fibrilación Ventricular Severa </p>
 
 - ECG - Asistolia
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" width="400">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" width="500">
 </div>
 <p style="text-align: center;"> Gráfica 8. Gráficas de ECG y FFT de Asistolia </p>
 
-### 5.6 Resumen 
+Todos los códigos en:
+[Códigos py](../../Software/Lab4)
+- Archivos de los datos de las señales txt: <br>
+   [ECG - CVP](../../Documentacion/Laboratorios/Lab4/paso2_prosim.txt)<br>
+   [ECG - Taquicardia](../../Documentacion/Laboratorios/Lab4/paso3_prosim.txt)<br>
+   [ECG - Fibrilación](../../Documentacion/Laboratorios/Lab4/paso4_prosim.txt)<br>
+   [ECG - Asistolia](../../Documentacion/Laboratorios/Lab4/paso5_prosim.txt)
 
+### 5.6 Discusiones
 
-### 5.7 Discusiones
-
+<div align="center">
+   <img src="../../Imagenes/Lab4/Figura_11.jpeg" width="500">
+    <p>Figura 11. ECG y trazado respiratorio profundo.
+</div>
 
 ## Conclusiones 
 
@@ -371,3 +381,8 @@ De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para
 [4] ECG and ECHO Learning. “ECG interpretation: Characteristics of the normal ECG (P-wave, QRS complex, ST segment, T-wave) – Cardiovascular Education”. Cardiovascular Education. Accedido el 21 de abril de 2024. [En línea]. Disponible: https://ecgwaves.com/topic/ecg-normal-p-wave-qrs-complex-st-segment-t-wave-j-point/
 
 [5] “BITalino (r)evolution Lab Guide.” 
+
+[6] ​​C. J. Levin, S. J. Swoap, "The impact of deep breathing and alternate nostril breathing on heart rate variability: a human physiology laboratory," Advances in Physiology Education, vol. 43, no. 3, pp. 270-276, 2019.
+
+[7] E. M. Rad et al., "Exercise-induced electrocardiographic changes after treadmill exercise testing in healthy children: A comprehensive study," Annals of Pediatric Cardiology, vol. 14, no. 4, pp. 449-458, 2021.
+
