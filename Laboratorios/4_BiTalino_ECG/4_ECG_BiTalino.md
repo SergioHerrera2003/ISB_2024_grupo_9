@@ -326,30 +326,35 @@ plt.show()
 De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para cada paso. En este caso de simulador de paro cardiaco. 
 
 - ECG - Contracción Ventricular Prematura (CVP)
-<div align="center;">
+<div style="text-align: center;">
    <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png" >
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" height="300">
+   <br>
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" height="350">
 </div>
+
 <p style="text-align: center;"> Gráfica 5. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
 
 - ECG - Taquicardia Ventricular 160 lpm
-<div align="center;">
+<div style="text-align: center;">
    <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" height="300">
+   <br>
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" height="350">
 </div>
 <p style="text-align: center;"> Gráfica 6. Gráficas de ECG y FFT de Taquicardia Ventricular </p>
 
 - ECG - Fibrilación Ventricular Severa
-<div align="center;">
+<div style="text-align: center;">
    <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png" >
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" height="300" >
+   <br>
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" height="350" >
 </div>
 <p style="text-align: center;"> Gráfica 7. Gráficas de ECG y FFT de Fibrilación Ventricular Severa </p>
 
 - ECG - Asistolia
-<div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" height="400">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" height="400">
+<div style="text-align: center;">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" height="350">
+   <br>
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" height="350">
 </div>
 <p style="text-align: center;"> Gráfica 8. Gráficas de ECG y FFT de Asistolia </p>
 
