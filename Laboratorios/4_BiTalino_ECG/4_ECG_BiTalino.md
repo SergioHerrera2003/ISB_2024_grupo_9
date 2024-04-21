@@ -9,8 +9,9 @@
    - 5.1 [Conexión usada](#51-conexión-usada)
    - 5.2 [Video de la señal y ploteo de la señal en OpenSignal](#52-video-de-la-señal-y-ploteo-de-la-señal-en-opensignal) 
    - 5.3 [Ploteo de la señal en Python](#53-ploteo-de-la-señal-en-python)
-   - 5.4 [Resumen](#54-resumen) 
-   - 5.5 [Discusiones](#55-discusiones)
+   - 5.4 [Señal de simulación de paro cardiaco - ProSim 4](#)
+   - 5.5[Resumen](#54-resumen) 
+   - 5.6 [Discusiones](#55-discusiones)
 6. [Conclusiones](#conclusiones)
 7. [Referencias](#referencias)
 
@@ -284,8 +285,72 @@ plt.xlim([0,200])
 #plt.xticks(np.arange(0,200,10))
 plt.show()
 ```
+### 5.4 Señal de simulación de paro cardiaco - ProSim 4 
+**Conexión usada:** 
+<div align="center">
+   <img src="../../Imagenes/Lab4/Figura_10.jpeg" height="300">
+    <p>Figura 10. Conexión de SimPro con el BITalino
+</div>
+
+**Video de la señal y ploteo de la señal en OpenSignal:**
+1. **Grabación de la Contracción Ventricular Prematura (CVP) - ECG**: La grabación muestra la actividad eléctrica del corazón durante la presencia de una contracción ventricular prematura (CVP), que es un tipo de anomalía cardíaca.
+   <div style="text-align: center;">
+     <a href="https://youtu.be/o_2J0r7f2XY">
+       <img src="https://img.youtube.com/vi/o_2J0r7f2XY/mqdefault.jpg" width="400" height="225">
+     </a>
+   </div>
+
+2. **Grabación de la Taquicardia Ventricular - ECG**: Esta grabación muestra un electrocardiograma que indica taquicardia ventricular, una arritmia cardíaca caracterizada por un ritmo cardíaco rápido y anormal que comienza en los ventrículos del corazón.
+   <div style="text-align: center;">
+     <a href="https://youtu.be/XNoQcYaHo2o">
+       <img src="https://img.youtube.com/vi/XNoQcYaHo2o/mqdefault.jpg" width="400" height="225">
+     </a>
+   </div>
+
+3. **Grabación de la Fibrilación Ventricular Severa - ECG**: Esta grabación muestra un electrocardiograma que indica fibrilación ventricular severa, una arritmia potencialmente mortal caracterizada por contracciones descoordinadas y rápidas de los ventrículos del corazón.
+   <div style="text-align: center;">
+     <a href="https://youtu.be/6HHVxNpfxvw">
+       <img src="https://img.youtube.com/vi/6HHVxNpfxvw/mqdefault.jpg" width="400" height="225">
+     </a>
+   </div>
+
+4. **Grabación de la Asistolia - ECG**: Esta grabación muestra un electrocardiograma que indica asistolia, la ausencia total de actividad eléctrica y contracción muscular en el corazón, una forma extrema de paro cardíaco que requiere reanimación cardiopulmonar inmediata.
+   <div style="text-align: center;">
+     <a href="https://youtu.be/kOsHdmJgdE4">
+       <img src="https://img.youtube.com/vi/kOsHdmJgdE4/mqdefault.jpg" width="400" height="225">
+     </a>
+   </div>
+
 ### 5.5 Ploteo de la señal de simulación de paro cardiaco - ProSim 4 
 De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para cada paso. En este caso de simulador de paro cardiaco. 
+
+- ECG - Contracción Ventricular Prematura (CVP)
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" width="400">
+</div>
+<p style="text-align: center;"> Gráfica 5. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
+
+- ECG - Taquicardia Ventricular 160 lpm
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" width="400">
+</div>
+<p style="text-align: center;"> Gráfica 6. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
+
+- ECG - Fibrilación Ventricular Severa
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" width="400">
+</div>
+<p style="text-align: center;"> Gráfica 7. Gráficas de ECG y FFT de Fibrilación Ventricular Severa </p>
+
+- ECG - Asistolia
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" width="400">
+</div>
+<p style="text-align: center;"> Gráfica 8. Gráficas de ECG y FFT de Asistolia </p>
 
 ### 5.6 Resumen 
 
