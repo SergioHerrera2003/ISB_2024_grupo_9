@@ -327,34 +327,46 @@ De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para
 
 - ECG - Contracción Ventricular Prematura (CVP)
 <div style="text-align: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png" >
-   <br>
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" height="350">
+   <div>  
+      <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png" >
+   </div>
+   <div>
+      <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" height="350">
+   </div>
 </div>
 
 <p style="text-align: center;"> Gráfica 5. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
 
 - ECG - Taquicardia Ventricular 160 lpm
 <div style="text-align: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png">
-   <br>
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" height="350">
+   <div>
+      <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png">
+   </div>
+   <div>
+      <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" height="350">
+   </div>
 </div>
 <p style="text-align: center;"> Gráfica 6. Gráficas de ECG y FFT de Taquicardia Ventricular </p>
 
 - ECG - Fibrilación Ventricular Severa
 <div style="text-align: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png" >
-   <br>
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" height="350" >
+   <div>  
+      <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png" >
+   </div>
+   <div>
+      <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" height="350" >
+   </div>
 </div>
 <p style="text-align: center;"> Gráfica 7. Gráficas de ECG y FFT de Fibrilación Ventricular Severa </p>
 
 - ECG - Asistolia
 <div style="text-align: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" height="350">
-   <br>
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" height="350">
+   <div>
+      <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" height="350">
+   </div>
+   <div>
+      <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" height="350">
+   </div>
 </div>
 <p style="text-align: center;"> Gráfica 8. Gráficas de ECG y FFT de Asistolia </p>
 
