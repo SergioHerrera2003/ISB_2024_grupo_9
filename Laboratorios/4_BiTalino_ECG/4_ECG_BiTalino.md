@@ -328,28 +328,28 @@ De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para
 - ECG - Contracción Ventricular Prematura (CVP)
 <div style="display: flex; justify-content: center;">
    <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png" >
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" height="200">
 </div>
 <p style="text-align: center;"> Gráfica 5. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
 
 - ECG - Taquicardia Ventricular 160 lpm
 <div style="display: flex; justify-content: center;">
    <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" height="200">
 </div>
 <p style="text-align: center;"> Gráfica 6. Gráficas de ECG y FFT de Taquicardia Ventricular </p>
 
 - ECG - Fibrilación Ventricular Severa
 <div style="display: flex; justify-content: center;">
    <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png" >
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png"  >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" height="200" >
 </div>
 <p style="text-align: center;"> Gráfica 7. Gráficas de ECG y FFT de Fibrilación Ventricular Severa </p>
 
 - ECG - Asistolia
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" >
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" height="200">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" height="200">
 </div>
 <p style="text-align: center;"> Gráfica 8. Gráficas de ECG y FFT de Asistolia </p>
 
@@ -378,7 +378,7 @@ En la fase de reposo, se observaron ondas ECG normales del sujeto de prueba. Un 
 Posteriormente se realizaron ejercicios de inhalación y exhalación controladas, se observaron cambios en el ECG asociada con la respiratoria. Durante la exhalación, el intervalo R-R que se observa en la Fig. x se alarga en comparación a la variación del intervalo durante la inhalación. 
 
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_11.jpeg" width="500">
+   <img src="../../Imagenes/Lab4/Figura_11.jpeg" width="600">
     <p>Figura 11. ECG y trazado respiratorio profundo.
 </div>
 Este fenómeno se conoce como arritmia sinusal respiratoria y se debe a la modulación del nodo sinoauricular por el sistema nervioso autónomo. Durante la inhalación, aumenta el tono simpático y disminuye el tono vagal, lo que acelera el ritmo cardíaco. Por otro lado, durante la exhalación, disminuye el tono simpático y aumenta el tono vagal, lo que desacelera el ritmo cardíaco [6]. <br>
