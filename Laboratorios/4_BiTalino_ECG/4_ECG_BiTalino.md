@@ -289,7 +289,7 @@ plt.show()
 ### 5.4 Señal de simulación de paro cardiaco - ProSim 4 
 **Conexión usada:** 
 <div align="center">
-   <img src="../../Imagenes/Lab4/Figura_10.jpeg" height="300">
+   <img src="../../Imagenes/Lab4/Figura_10.jpeg" height="400">
     <p>Figura 10. Conexión de SimPro con el BITalino
 </div>
 
@@ -327,29 +327,29 @@ De acuerdo a la data adquirida de OpenSignals se plotearon las señales ECG para
 
 - ECG - Contracción Ventricular Prematura (CVP)
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png" width="500">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_CVP_PROSIM.png" >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/1_PASO2_FRECUENCIA.png" >
 </div>
 <p style="text-align: center;"> Gráfica 5. Gráficas de ECG y FFT de Contracción Ventricular Prematura </p>
 
 - ECG - Taquicardia Ventricular 160 lpm
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png" width="500">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_TaquicardiaVentricular_PROSIM.png">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/2_PASO3_FRECUENCIA.png" >
 </div>
 <p style="text-align: center;"> Gráfica 6. Gráficas de ECG y FFT de Taquicardia Ventricular </p>
 
 - ECG - Fibrilación Ventricular Severa
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png" width="500">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png" width="500" >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FibrilaciónVentricularSevera_PROSIM.png" >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/3_PASO4_FRECUENCIA.png"  >
 </div>
 <p style="text-align: center;"> Gráfica 7. Gráficas de ECG y FFT de Fibrilación Ventricular Severa </p>
 
 - ECG - Asistolia
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" width="500">
-   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" width="500">
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_Asitolia_PROSIM.png" >
+   <img src="../../Imagenes/Lab4/Ploteos_Py/4_PASO5_FRECUENCIA.png" >
 </div>
 <p style="text-align: center;"> Gráfica 8. Gráficas de ECG y FFT de Asistolia </p>
 
@@ -362,13 +362,42 @@ Todos los códigos en:
    [ECG - Asistolia](../../Documentacion/Laboratorios/Lab4/paso5_prosim.txt)
 
 ### 5.6 Discusiones
+En la primera experiencia, al analizar la señal EKG durante la respiración normal, se observaron aproximadamente 7 pulsaciones en un lapso de 5 segundos, lo que equivale a una frecuencia cardíaca de alrededor de 84 pulsaciones por minuto. Este valor es consistente con una frecuencia cardíaca en reposo típica.
+
+Después del ciclo completo de inhalación y exhalación, la señal EKG mostró aproximadamente 6 pulsaciones en 5 segundos, lo que corresponde a una frecuencia cardíaca de alrededor de 72 pulsaciones por minuto. Esta disminución en la frecuencia cardíaca esta relacionada con una adaptación fisiológica durante la respiración controlada.
+
+En contraste, durante el ploteo de la señal EKG mientras se realizaba ejercicio, se observó un aumento significativo en la frecuencia cardíaca, con alrededor de 11 pulsaciones en 5 segundos, lo que se traduce en una frecuencia cardíaca de aproximadamente 132 pulsaciones por minuto. Este aumento es típico durante el ejercicio físico debido al aumento en la demanda metabólica del cuerpo.
+
+Finalmente, después del ciclo de respiración controlada, la frecuencia cardíaca mostró una disminución notable, con alrededor de 8 pulsaciones en 5 segundos, lo que equivale a una frecuencia cardíaca de aproximadamente 96 pulsaciones por minuto. 
+
+Los resultados obtenidos a través del software del BITalino del experimento realizado para medir el Electrocardiograma (ECG) y utilizando el ProSim 4 de Fluke nos muestran las respuestas fisiológicas del cuerpo, específicamente las señales de los biopotenciales relacionados al sistema circulatorio, ante diferentes estímulos.
+ 
+**Experiencia con el BITalino**<br>
+En la fase de reposo, se observaron ondas ECG normales del sujeto de prueba. Un ecg normal está formado por una onda P, un complejo QRS y una onda T [2]. Estos elementos que se pudieron identificar en este estado. También, se observa una frecuencia cardíaca, con poca variabilidad en la señal. Esto se utilizó para comparar las respuestas del corazón ante los estímulos posteriores [7].
+
+Posteriormente se realizaron ejercicios de inhalación y exhalación controladas, se observaron cambios en el ECG asociada con la respiratoria. Durante la exhalación, el intervalo R-R que se observa en la Fig. x se alarga en comparación a la variación del intervalo durante la inhalación. 
 
 <div align="center">
    <img src="../../Imagenes/Lab4/Figura_11.jpeg" width="500">
     <p>Figura 11. ECG y trazado respiratorio profundo.
 </div>
+Este fenómeno se conoce como arritmia sinusal respiratoria y se debe a la modulación del nodo sinoauricular por el sistema nervioso autónomo. Durante la inhalación, aumenta el tono simpático y disminuye el tono vagal, lo que acelera el ritmo cardíaco. Por otro lado, durante la exhalación, disminuye el tono simpático y aumenta el tono vagal, lo que desacelera el ritmo cardíaco [6]. <br>
+Posteriormente, tras la realización de los Burpees, se registró un aumento en la frecuencia cardíaca en el ECG. Se debe a que el corazón responde a la demanda metabólica de los músculos del cuerpo, por lo que aumenta su actividad [7].
+<br><br>
+
+**Experiencia ProSim 4** <br>
+Durante una Contracción Ventricular Prematura (PVC), se puede observar en el EKG la presencia de complejos QRS prematuros y anormales que aparecen antes de lo esperado en el ciclo cardíaco normal. Estos complejos QRS son más anchos y distintos en comparación con los complejos normales. Se observan 4 PCV en el ploteo de la señal, donde la mayoría estan precedidas por una onda P, pero no continua con una onda T, lo que puede indicar repolarización ventricular anormal.
+
+En el caso de una Taquicardia Ventricular (TV), el EKG muestra una serie continua de complejos QRS anchos y regulares, se tienen alrededor de 53 pulsaciones en una duración de 20 segundos, lo que equivale a una frecuencia cardíaca aproximada de 160 latidos por minuto (lpm). En este paso, los complejos QRS en la TV son característicamente más anchos debido a la activación anormal de los ventrículos.
+
+En el caso de una Fibrilación Ventricular (FV), el ploteo de la señal EKG muestra una actividad eléctrica caótica y desorganizada en los ventrículos, se aprecian una serie líneas o picos trazados de manera caotica y desordenada. No se observan complejos QRS definidos ni patrones claros de ondas P y T.
+
+Finalmente, en el caso de la Asistolia, la señal EKG del ploteo muestra una línea casi plana con ligera presencia de ruido, indicando la ausencia total de actividad eléctrica efectiva en el corazón. Para este último paso, no se aprecian complejos QRS ni actividad eléctrica discernible en el trazado del ploteo.
 
 ## Conclusiones 
+En esta experiencia, se exploró la actividad eléctrica del corazón  mediante la mediciones del ECG en diferentes condiciones, utilizando un BITalino para registrar los datos y el ProSim 4 para simular un infarto. El BITalino es un dispositivo que permite obtener mediciones del ECG mediante su software OpenSignals. Mediante el software, se observaron gráficas del ECG en diferentes situaciones. Durante el reposo, se observaron patrones cardiacos normales, es decir, ritmos regulares y consistentes. Sin embargo, al realizar el ejercicio de respiración, se observó cambios en las señales del ECG, como la variabilidad del segmento R-R, que indica una respuesta fisiológica.
+
+Al simular un infarto en el ProSim 4 de fluke, se pudo observar alteraciones en el ECG que indican daño cardiaco, como la elevación del segmento ST. Se resalta que el ECG puede ser utilizado para la detección de sutiles alteraciones de la actividad cardiaca y la importancia de la simulación para mejorar la comprensión de las patologías relacionadas [8].
 
 
 ## Referencias
@@ -380,9 +409,11 @@ Todos los códigos en:
 
 [4] ECG and ECHO Learning. “ECG interpretation: Characteristics of the normal ECG (P-wave, QRS complex, ST segment, T-wave) – Cardiovascular Education”. Cardiovascular Education. Accedido el 21 de abril de 2024. [En línea]. Disponible: https://ecgwaves.com/topic/ecg-normal-p-wave-qrs-complex-st-segment-t-wave-j-point/
 
-[5] “BITalino (r)evolution Lab Guide.” 
+[5] ““BITalino (r)evolution Lab Guide.””. Support PLUX Biosignals official – Official PLUX support and biosignals knowledge base. Accedido el 21 de abril de 2024. [En línea]. Disponible: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide5_ACC.pdf
 
 [6] ​​C. J. Levin, S. J. Swoap, "The impact of deep breathing and alternate nostril breathing on heart rate variability: a human physiology laboratory," Advances in Physiology Education, vol. 43, no. 3, pp. 270-276, 2019.
 
 [7] E. M. Rad et al., "Exercise-induced electrocardiographic changes after treadmill exercise testing in healthy children: A comprehensive study," Annals of Pediatric Cardiology, vol. 14, no. 4, pp. 449-458, 2021.
+
+[8] Ribeiro, A.H., Ribeiro, M.H., Paixão, G.M.M. et al., "Automatic diagnosis of the 12-lead ECG using a deep neural network," Nat Commun, vol. 11, no. 1, p. 1760, Apr. 2020. [Online]. Available: https://doi.org/10.1038/s41467-020-15432-4.
 
