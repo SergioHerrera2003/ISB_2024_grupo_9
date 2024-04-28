@@ -257,37 +257,6 @@ plt.show()
 </div>
 <p style="text-align: center;">Figura 9. Señal ploteada en estado de activación por ejercicios mentales de matemática en Python y su correspondiente FFT</p>
 
-#### Señal en Python Basal 1 (OpenBCI)
-
-<div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_10.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_10.png" height="300">
-</div>
-<p style="text-align: center;">Figura 10. Señal ploteada en estado de relajación como línea base primera medición en Python con datos externos y su correspondiente FFT</p>
-
-#### Señal en Python Ojos Abiertos y cerrados (OpenBCI)
-
-<div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_11.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_11.png" height="300">
-</div>
-<p style="text-align: center;">Figura 11. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase en Python con datos externos y su correspondiente FFT</p>
-
-#### Señal en Python Basal 2 (OpenBCI)
-
-<div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_12.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_12.png" height="300">
-</div>
-<p style="text-align: center;">Figura 12. Señal ploteada en estado de relajación como línea base segunda medición en Python con datos externos y su correspondiente FFT</p>
-
-#### Señal en Python Ejercicios Mentales (OpenBCI)
-
-<div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_13.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_13.png" height="300">
-</div>
-<p style="text-align: center;">Figura 13. Señal ploteada en estado de activación por ejercicios mentales de matemáticas en Python con datos externos y su correspondiente FFT</p>
 
 
 
