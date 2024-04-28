@@ -95,7 +95,8 @@ Se utilizó como guía para la colocación de electrodos al BITalino “BITalino
 Se presenta las conexión de los electrodos en la cabeza
 
 <div align="center">
-   <img src="../../Imagenes/Lab5/Figura_5.jpeg" height="300">
+   <img src="../../Imagenes/Lab5/Figura_5p1.jpeg" height="300">
+   <img src="../../Imagenes/Lab5/Figura_5p2.jpeg" height="300">
     <p>Figura 5. Foto de la conexión del Electrodos en la cabeza positiva y negativa, con la referencia para el BiTalino
 </div>
 
@@ -128,35 +129,6 @@ Se presenta las conexión de los electrodos en la cabeza
   </a>
 </div>
 
-### Ploteo de la señal en OpenSignals
-- **Señal ploteada Basal 1**
-
-  <div align="center">
-     <img src="../../Imagenes/Lab5/Figura_6.jpeg" height="300">
-      <p>Figura 6. Señal ploteada en estado de relajación como línea base primera medición
-  </div>
-
-- **Señal ploteada Ojos Abiertos y cerrados**
-
-  <div align="center">
-     <img src="../../Imagenes/Lab5/Figura_7.jpeg" height="300">
-      <p>Figura 7. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase
-  </div>
-
-- **Señal ploteada Basal 2**
-
-  <div align="center">
-     <img src="../../Imagenes/Lab5/Figura_8.jpeg" height="300">
-      <p>Figura 8. Señal ploteada en estado de relajación como línea base segunda medición
-  </div>
-
-- **Señal ploteada Ejercicios Mentales**
-
-  <div align="center">
-     <img src="../../Imagenes/Lab5/Figura_9.jpeg" height="300">
-      <p>Figura 9. Señal ploteada en estado de activación por ejercicios mentales de matemática
-  </div>
-
 ### Ploteo de la señal en Python
 En la parte de abajo se encuentran los códigos usados para adquirir estas señales por python, de la misma forma se entrega un único ejemplo de este. <br>
 Código de ejemplo:
@@ -166,59 +138,70 @@ Código de ejemplo:
 ```
 #### Señal en Python Basal 1 (Bitalino)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_10.png" height="300">
-    <p>Figura 10. Señal ploteada en estado de relajación como línea base primera medición en Python
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_6.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_6.png" height="300">
 </div>
+<p style="text-align: center;">Figura 6. Señal ploteada en estado de relajación como línea base primera medición en Python y su correspondiente FFT</p>
+
 
 #### Señal en Python Ojos Abiertos y cerrados (Bitalino)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_11.png" height="300">
-    <p>Figura 11. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase en Python
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_7.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_7.png" height="300">
 </div>
+<p style="text-align: center;">Figura 7. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase en Python y su correspondiente FFT</p>
 
 #### Señal en Python Basal 2 (Bitalino)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_12.png" height="300">
-    <p>Figura 12. Señal ploteada en estado de relajación como línea base segunda medición en Python
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_8.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_8.png" height="300">
 </div>
+<p style="text-align: center;">Figura 8. Señal ploteada en estado de relajación como línea base segunda medición en Python y su correspondiente FFT</p>
 
 #### Señal en Python Ejercicios Mentales (Bitalino)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_13.png" height="300">
-    <p>Figura 13. Señal ploteada en estado de activación por ejercicios mentales de matemática en Python
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_9.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_9.png" height="300">
 </div>
+<p style="text-align: center;">Figura 9. Señal ploteada en estado de activación por ejercicios mentales de matemática en Python y su correspondiente FFT</p>
 
 #### Señal en Python Basal 1 (OpenBCI)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_14.png" height="300">
-    <p>Figura 14. Señal ploteada en estado de relajación como línea base primera medición en Python con datos externos
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_10.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_10.png" height="300">
 </div>
+<p style="text-align: center;">Figura 10. Señal ploteada en estado de relajación como línea base primera medición en Python con datos externos y su correspondiente FFT</p>
 
 #### Señal en Python Ojos Abiertos y cerrados (OpenBCI)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_15.png" height="300">
-    <p>Figura 15. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase en Python con datos externos
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_11.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_11.png" height="300">
 </div>
+<p style="text-align: center;">Figura 11. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase en Python con datos externos y su correspondiente FFT</p>
 
 #### Señal en Python Basal 2 (OpenBCI)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_16.png" height="300">
-    <p>Figura 16. Señal ploteada en estado de relajación como línea base segunda medición en Python con datos externos
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_12.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_12.png" height="300">
 </div>
+<p style="text-align: center;">Figura 12. Señal ploteada en estado de relajación como línea base segunda medición en Python con datos externos y su correspondiente FFT</p>
 
 #### Señal en Python Ejercicios Mentales (OpenBCI)
 
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_17.png" height="300">
-    <p>Figura 17. Señal ploteada en estado de activación por ejercicios mentales de matemáticas en Python con datos externos
+<div style="display: flex; justify-content: center;">
+   <img src="../../Imagenes/Lab5/Figura_13.png" height="300">
+   <img src="ruta_de_tu_imagen_fft_13.png" height="300">
 </div>
+<p style="text-align: center;">Figura 13. Señal ploteada en estado de activación por ejercicios mentales de matemáticas en Python con datos externos y su correspondiente FFT</p>
+
+
 
 ### Archivos de las señales ploteadas 
 - Aquí se presentan los archivos txt de la información para cada señal mostrada: <br>
@@ -229,7 +212,7 @@ Código de ejemplo:
 
 - Así mismo se muestran los archivos python que se usaron
 Todos los códigos en:
-[Códigos EEG .py](../../Software/Lab5)
+[Códigos EEG py](../../Software/Lab5)
 
 
 ## Discusión y conclusiones
@@ -237,10 +220,10 @@ Todos los códigos en:
 
 ## Referencias
 
-[1] J. W. Britton, L. C. Frey, J. L. Hopp, et al., "Electroencephalography (EEG): An Introductory Text and Atlas of Normal and Abnormal Findings in Adults, Children, and Infants," St. Louis E. K., L. C. Frey, Eds. Chicago: American Epilepsy Society, 2016. [Online]. Available: [link](https://www.ncbi.nlm.nih.gov/books/NBK390354/)
+[1] J. W. Britton, L. C. Frey, J. L. Hopp, et al., "Electroencephalography (EEG): An Introductory Text and Atlas of Normal and Abnormal Findings in Adults, Children, and Infants," St. Louis E. K., L. C. Frey, Eds. Chicago: American Epilepsy Society, 2016. [Online]. Available:https://www.ncbi.nlm.nih.gov/books/NBK390354/
 
-[2] A. Rayi and N. Murr, "Electroencephalogram," StatPearls, updated Oct. 3, 2022. [Online]. Available: [link](https://www.ncbi.nlm.nih.gov/books/NBK563295/)
+[2] A. Rayi and N. Murr, "Electroencephalogram," StatPearls, updated Oct. 3, 2022. [Online]. Available: https://www.ncbi.nlm.nih.gov/books/NBK563295/
 
-[3] BiTalino, Ed., Bitalino (r)evolution lab guide, [Online]. Available: [link](https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf). 
+[3] BiTalino, Ed., Bitalino (r)evolution lab guide, [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf. 
 
 [4] Molina del Río, J., Guevara, M.A., Hernández González, M. et al. EEG correlation during the solving of simple and complex logical–mathematical problems. Cogn Affect Behav Neurosci 19, 1036–1046(2019). https://doi.org/10.3758/s13415-019-00703-5 
