@@ -133,14 +133,102 @@ Se presenta las conexión de los electrodos en la cabeza
 En la parte de abajo se encuentran los códigos usados para adquirir estas señales por python, de la misma forma se entrega un único ejemplo de este. <br>
 Código de ejemplo:
 ```python
+#PLOTEO SEÑAL EEG - Reposo 30s ojos cerrados 
+
+#Importamos librerias 
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import re
+
+#Abrimos el archivo txt
+f = open("ojos_cerrados_30seg.txt","r")
+raw_data = f.readline()  # con f.read() leemos todo el contenido
+f.close()
+raw_data
+
+Fs = 1000
+Ts = 1/Fs
+print(f" Fs = {Fs} hz\n Ts = {Ts} s")
+
+#Leer el archivo excluyendo las 2 primeras filas 
+array = np.genfromtxt("./ojos_cerrados_30seg.txt", skip_header = 2)
+#array[filas, columnas]
+canalA4 = array[:,8] #Todas las filas de la columna 6 -> Canal A2 ECG
+#Para conocer el número de filas
+M = canalA4.shape[0] #shape devuelve una tupla con dimensiones del array
+n = np.arange(0,M)
+t = n*Ts #Vector de tiempo
+
+# Ploteamos la lectura
+plt.plot(t, canalA4, label="señal")     
+plt.grid(linestyle=":")
+plt.title("EEG - Señal obtenida en reposo con ojos cerrados ")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud (mV)")
+plt.legend(loc="upper right")
+plt.xlim([0,30])
+plt.show()
+
+#Funcion de transferencia
+VCC = 3.3 # Voltaje de operación
+#(4 primeros canales -> n = 10 bits de resolución)
+#(2 últimos canales -> n = 6 bits de resolución)
+n = 10 #Número de bits del canal 
+G_EEG = 41782 #Ganancia
+EEG_V = (((canalA4/pow(2,n))-0.5)* VCC)/G_EEG
+EEG_uV = EEG_V*pow(10,6)
+
+# Ploteamos la lectura
+plt.plot(t, EEG_uV, label="señal")     
+plt.grid(linestyle=":")
+plt.title("EEG(uV)- Señal obtenida en reposo con ojos cerrados ")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("EEG(uV)")
+plt.legend(loc="upper right")
+plt.xlim([10,30])
+plt.show()
+
+plt.plot(t, EEG_uV, label="señal")     
+plt.grid(linestyle=":")
+plt.title("EEG(uV)- Señal obtenida en reposo con ojos cerrados ")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("EEG(uV)")
+plt.legend(loc="upper right")
+plt.xlim([25,30])
+plt.show()
+
+#Para saber la frecuencia de la señal debemos pasarlo al dominio de la frecuencia
+N = 2**10                                     # 10 bits, 0-1023
+
+signal_fft = np.fft.fft(EEG_uV, N)           # fft magtinud
+signal_fft = np.round(np.abs(signal_fft),3)[0:N//2] # nos quedamos con los componente de la derecha de la FFT
+signal_aux = signal_fft/signal_fft.max()     # hallamos el maximo para pasar la magnitud a escala db
+
+with np.errstate(divide='ignore'):
+    signal_fft_db = 10*np.log10(signal_aux)  # , out=signal_aux, where=signal_aux >= 0 para evitar division por zero
+
+F_list = np.linspace(0,Fs/2, N//2)
+F = np.round(F_list[np.argmax(signal_fft_db)], 1)   # argmax, encuentra el argumento max en un array
+
+plt.plot(F_list, signal_fft_db)  #10 * np.log10(P / Pref) , decibelios
+plt.text(F,0, f"{F}Hz")
+plt.grid(linestyle=":")
+plt.ylabel("Magnitud (db)")
+plt.xlabel("Frecuencia (Hz)")
+plt.title("FFT en el decibelios")
+plt.xlim([0,200])
+#plt.xticks(np.arange(0,200,10))
+plt.show()
 
 
 ```
 #### Señal en Python Basal 1 (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_6.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_6.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_6p1.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_6p2.png"" height="300">
 </div>
 <p style="text-align: center;">Figura 6. Señal ploteada en estado de relajación como línea base primera medición en Python y su correspondiente FFT</p>
 
@@ -148,24 +236,24 @@ Código de ejemplo:
 #### Señal en Python Ojos Abiertos y cerrados (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_7.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_7.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_7p1.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_7p2.png" height="300">
 </div>
 <p style="text-align: center;">Figura 7. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase en Python y su correspondiente FFT</p>
 
 #### Señal en Python Basal 2 (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_8.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_8.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_8p1.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_8p2.png" height="300">
 </div>
 <p style="text-align: center;">Figura 8. Señal ploteada en estado de relajación como línea base segunda medición en Python y su correspondiente FFT</p>
 
 #### Señal en Python Ejercicios Mentales (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_9.png" height="300">
-   <img src="ruta_de_tu_imagen_fft_9.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_9p1.png" height="300">
+   <img src="../../Imagenes/Lab5/Figura_9p2.png" height="300">
 </div>
 <p style="text-align: center;">Figura 9. Señal ploteada en estado de activación por ejercicios mentales de matemática en Python y su correspondiente FFT</p>
 
@@ -222,11 +310,26 @@ Todos los códigos en: <br>
 
 
 ## Discusión y conclusiones
-En la señal durante el estado Basal 1, es decir un estado de relajación, se observa oscilaciones tipo alpha, ya que se caracteriza por una actividad de frecuencia media (8-13 Hz) que generalmente indica vigilia relajada en adultos sanos. Este tipo de onda es recurrente durante periodos de reposo en personas con los ojos cerrados y se relaciona con inactividad cognitiva y amplitudes mayores en las áreas occipitales. [5]
+El cerebro humano se compone de cuatro secciones principales llamadas lóbulos: el frontal (anaranjado), el temporal (en verde), el parietal (en azul) y el occipital (en amarillo), como se muestra en la Figura 13. Estos  lóbulos han sido subdivididos y están asociados con funciones específicas del cerebro. Para propósitos de este laboratorio, nuestra área de enfoque es el lóbulo frontal, el cual despliega un papel fundamental en el control de movimientos voluntarios, la toma de decisiones, la ejecución de procesos cognitivos como la planificación y la atención, y se considera el núcleo de nuestra personalidad.
+<div align="center">
+   <img src="../../Imagenes/Lab5/Figura_14.jpeg" height="300">
+    <p>Figura 14: Bandas de frecuencia del EEG, ocurrencia y tareas para desencadenar la potencia de la banda. [3]
+</div>
 
-En la señal durante el estado Basal 2, es decir en el estado de ojos cerrados y abiertos durante 5 segundos, se puede observar dos fases. Durante la fase de ojos cerrados, se espera una mayor presencia de ritmos alfa debido a la relajación y falta de estimulación visual. En cambio, durante la fase de los ojos abiertos y el mismo proceso de contabilizar 5 segundos, se observa una disminución en la actividad alfa y posiblemente un aumento en la actividad beta, ya que las frecuencias son entre medias y altas (13 - 30 Hz), que según la bibliografía, están relacionadas con varios estados como concentración activa, participación en la tarea, emoción, excitación, atención y vigilancia.[5][6]
 
-Por último en la señal registrada durante los ejercicios mentales y preguntas, en este ejercicios cada pregunta es más compleja que la anterior, es por ello, que existe una modulación en la actividad cerebral en respuesta a cada una de las preguntas. Dependiendo de la naturaleza de los ejercicios mentales o del grado de complejidad, se observa un aumento en la actividad de frecuencia cada vez más altas oscilando entre ondas betas (13 - 30 Hz) y gamma (30 - 100 Hz), puesto que el voluntario requiere de respuestas y procesos cognitivos ágiles y rápidos,, y en ciertas preguntas gestionar la memoria. [5][6]	
+Observemos teóricamente la siguiente figura del BITalino Home Guide[3]
+<div align="center">
+   <img src="../../Imagenes/Lab5/Figura_15.jpeg" height="300">
+    <p>Figura 14: Bandas de frecuencia del EEG, ocurrencia y tareas para desencadenar la potencia de la banda. [3]
+</div>
+
+Las bandas de oscilación cerebral tienen distintas frecuencias, funciones asociadas y voltajes característicos. Las ondas delta, con frecuencias de 0-4 Hz, están presentes en el sueño profundo y tienen voltajes relativamente altos. Las theta, entre 4-8 Hz, están relacionadas con tareas cognitivas y tienen voltajes moderados, siendo más fuertes en el lado derecho del cerebro. Las ondas alfa, entre 8-12 Hz, aumentan durante la relajación y la meditación, con voltajes más bajos en comparación con las ondas delta y theta. Por último, las ondas beta, entre 12 y 25 Hz, están asociadas con el pensamiento activo y la concentración, con voltajes también moderados. [3]
+
+En la señal durante el estado Basal 1, es decir un estado de relajación, se observa **oscilaciones tipo alpha**, ya que se caracteriza por una actividad de frecuencia media (8-13 Hz) que generalmente indica vigilia relajada en adultos sanos. Este tipo de onda es recurrente durante periodos de reposo en personas con los ojos cerrados y se relaciona con inactividad cognitiva y amplitudes mayores en las áreas occipitales. [5]
+
+En la señal durante el estado Basal 2, es decir en el estado de ojos cerrados y abiertos durante 5 segundos, se puede observar dos fases. Durante la fase de ojos cerrados, se espera una mayor presencia de **ritmos alfa** debido a la relajación y falta de estimulación visual. En cambio, durante la fase de los ojos abiertos y el mismo proceso de contabilizar 5 segundos, se observa una disminución en la actividad alfa y posiblemente un aumento en la **actividad beta**, ya que las frecuencias son entre medias y altas (13 - 30 Hz), que según la bibliografía, están relacionadas con varios estados como concentración activa, participación en la tarea, emoción, excitación, atención y vigilancia.[5][6]
+
+Por último en la señal registrada durante los ejercicios mentales y preguntas, en este ejercicios cada pregunta es más compleja que la anterior, es por ello, que existe una modulación en la actividad cerebral en respuesta a cada una de las preguntas. Dependiendo de la naturaleza de los ejercicios mentales o del grado de complejidad, se observa un aumento en la actividad de frecuencia cada vez más altas oscilando entre **ondas betas (13 - 30 Hz) y gamma (30 - 100 Hz)**, puesto que el voluntario requiere de respuestas y procesos cognitivos ágiles y rápidos,, y en ciertas preguntas gestionar la memoria. [5][6]
 
 ## Referencias
 
