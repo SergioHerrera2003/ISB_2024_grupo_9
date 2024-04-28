@@ -103,29 +103,29 @@ Se presenta las conexión de los electrodos en la cabeza
 ### Video de señal con Bitalino
 - **Línea de Base (en relajación y respirando):** El sujeto de prueba mantuvo una respiración normal y tranquila, con baja interferencias y sin movimientos.
 <div style="text-align: center;">
-  <a href="link">
-    <img src="link" width="400" height="225">
+  <a href="https://youtube.com/shorts/wIw47Hbf4Bk?feature=share">
+    <img src="https://img.youtube.com/vi/wIw47Hbf4Bk/0.jpg" height="300">
   </a>
 </div>
 
 - **Ciclo de Ojos Abiertos - Ojos Cerrados:** El sujeto de prueba empezó con los ojos abiertos durante 5 segundos y luego los cerro durante otros 5 segundos en un ciclo.
 <div style="text-align: center;">
-  <a href="link">
-    <img src="link" width="400" height="225">
+  <a href="https://youtube.com/shorts/ER90EbJKS50?feature=share">
+    <img src="https://img.youtube.com/vi/ER90EbJKS50/0.jpg" height="300">
   </a>
 </div>
 
 - **Segunda Línea de Base:** El sujeto de prueba mantuvo una respiración normal y tranquila, con baja interferencias y sin movimientos por segunda vez.
 <div style="text-align: center;">
-  <a href="link">
-    <img src="link" width="400" height="225">
+  <a href="https://www.youtube.com/shorts/1iEKcywvsMk">
+    <img src="https://img.youtube.com/vi/1iEKcywvsMk/0.jpg"  height="300">
   </a>
 </div>
 
 - **Resolviendo mentalmente ejercicios:** El sujeto de prueba tuvo 12 segundos para pensar en distintos problemas matemáticos 3 Sencillos y 3 Complicados [4]
 <div style="text-align: center;">
-  <a href="link">
-    <img src="link" width="400" height="225">
+  <a href="https://www.youtube.com/watch?v=FIfHXdRAVl4">
+    <img src="https://img.youtube.com/vi/FIfHXdRAVl4/0.jpg" height="300">
   </a>
 </div>
 
