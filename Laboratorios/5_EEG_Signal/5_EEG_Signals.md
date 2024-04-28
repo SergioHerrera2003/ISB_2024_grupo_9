@@ -205,18 +205,28 @@ Código de ejemplo:
 
 ### Archivos de las señales ploteadas 
 - Aquí se presentan los archivos txt de la información para cada señal mostrada: <br>
-   [Estado Basal 1](../../Documentacion/Laboratorios/Lab5)<br>
-   [Ojos Abiertos - Cerrados](../../Documentacion/Laboratorios/Lab5)<br>
-   [Estado Basal 2](../../Documentacion/Laboratorios/Lab5)<br>
-   [Ejercicios mentales](../../Documentacion/Laboratorios/Lab5)
+    - Para el BiTalino <br>
+   [Estado Basal 1 BiTalino](../../Documentacion/Laboratorios/Lab5/estado_basal_1.txt)<br>
+   [Ojos Abiertos - Cerrados BiTalino](../../Documentacion/Laboratorios/Lab5/ciclo_ojos_abiertos_cerrados.txt)<br>
+   [Estado Basal 2 BiTalino](../../Documentacion/Laboratorios/Lab5/estado_basal_2.txt)<br>
+   [Ejercicios mentales BiTalino](../../Documentacion/Laboratorios/Lab5/respondiendo_preguntas_12seg.txt)
+   - Para el OpenBCI <br>
+   [Estado Basal 1 BiTalino](../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-Basal1.txt)<br>
+   [Ojos Abiertos - Cerrados BiTalino](../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-ojos%20abiertos_cerrados.txt)<br>
+   [Estado Basal 2 BiTalino](../../Documentacion/Laboratorios/Lab5/estado_basal_2.txt)<br>
+   [Ejercicios mentales BiTalino](../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-ejercicios_mentales.txt)
 
 - Así mismo se muestran los archivos python que se usaron
-Todos los códigos en:
+Todos los códigos en: <br>
 [Códigos EEG py](../../Software/Lab5)
 
 
 ## Discusión y conclusiones
+En la señal durante el estado Basal 1, es decir un estado de relajación, se observa oscilaciones tipo alpha, ya que se caracteriza por una actividad de frecuencia media (8-13 Hz) que generalmente indica vigilia relajada en adultos sanos. Este tipo de onda es recurrente durante periodos de reposo en personas con los ojos cerrados y se relaciona con inactividad cognitiva y amplitudes mayores en las áreas occipitales. [5]
 
+En la señal durante el estado Basal 2, es decir en el estado de ojos cerrados y abiertos durante 5 segundos, se puede observar dos fases. Durante la fase de ojos cerrados, se espera una mayor presencia de ritmos alfa debido a la relajación y falta de estimulación visual. En cambio, durante la fase de los ojos abiertos y el mismo proceso de contabilizar 5 segundos, se observa una disminución en la actividad alfa y posiblemente un aumento en la actividad beta, ya que las frecuencias son entre medias y altas (13 - 30 Hz), que según la bibliografía, están relacionadas con varios estados como concentración activa, participación en la tarea, emoción, excitación, atención y vigilancia.[5][6]
+
+Por último en la señal registrada durante los ejercicios mentales y preguntas, en este ejercicios cada pregunta es más compleja que la anterior, es por ello, que existe una modulación en la actividad cerebral en respuesta a cada una de las preguntas. Dependiendo de la naturaleza de los ejercicios mentales o del grado de complejidad, se observa un aumento en la actividad de frecuencia cada vez más altas oscilando entre ondas betas (13 - 30 Hz) y gamma (30 - 100 Hz), puesto que el voluntario requiere de respuestas y procesos cognitivos ágiles y rápidos,, y en ciertas preguntas gestionar la memoria. [5][6]	
 
 ## Referencias
 
@@ -227,3 +237,7 @@ Todos los códigos en:
 [3] BiTalino, Ed., Bitalino (r)evolution lab guide, [Online]. Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide3_EEG.pdf. 
 
 [4] Molina del Río, J., Guevara, M.A., Hernández González, M. et al. EEG correlation during the solving of simple and complex logical–mathematical problems. Cogn Affect Behav Neurosci 19, 1036–1046(2019). https://doi.org/10.3758/s13415-019-00703-5 
+
+[5] G. R. Müller-Putz, "Electroencephalography," in Brain-computer interfaces, N. F. Ramsey and J. del R. Millán, Eds. Elsevier, 2020, pp. 249–262. [Online]. Available: https://doi.org/10.1016/B978-0-444-63934-9.00018-4
+
+[6] A. A. Peláez Suárez et al., "EEG-Derived Functional Connectivity Patterns Associated with Mild Cognitive Impairment in Parkinson's Disease," Behav. Sci., vol. 11, no. 3, p. 40, 2021. [Online]. Available: https://doi.org/10.3390/bs11030040

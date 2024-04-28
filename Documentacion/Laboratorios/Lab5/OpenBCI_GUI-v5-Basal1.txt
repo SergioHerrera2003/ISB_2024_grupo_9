@@ -1,0 +1,9 @@
+[2024-04-26 12:15:15.708] [board_logger] [info] incoming json: {"ip_address":"","mac_address":"","serial_port":"COM7","ip_port":6677,"ip_protocol":0,"other_info":"","timeout":0,"serial_number":"","file":""}
+[2024-04-26 12:15:15.708] [board_logger] [trace] Board object created 0
+[2024-04-26 12:15:15.708] [board_logger] [info] openning port \\.\COM7
+[2024-04-26 12:15:15.725] [board_logger] [trace] port \\.\COM7 is open
+[2024-04-26 12:15:15.726] [board_logger] [trace] set port settings
+[2024-04-26 12:15:15.726] [board_logger] [debug] sending v to the board
+[2024-04-26 12:15:16.880] [board_logger] [debug] sending d to the board
+[2024-04-26 12:15:18.081] [board_logger] [debug] sending c to the board
+[2024-04-26 12:15:19.278] [board_logger] [warning] If you change gain you may need to rescale data, in data returned by BrainFlow we use gain 24 to convert int24 to uV
