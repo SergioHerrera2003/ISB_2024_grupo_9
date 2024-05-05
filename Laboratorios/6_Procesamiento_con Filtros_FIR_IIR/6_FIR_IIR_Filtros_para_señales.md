@@ -60,8 +60,8 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 | Campo              | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR |
 |--------------------|-------------------------|-------------------------------|-------------------------------|
 | Descanso - Basal  | <img src="../../Imagenes/Lab6/EMG_brazo reposo cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo reposo IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo reposo FIR.jpeg" height="200">
-| Contracción débil | <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200">|
-| Contracción fuerte| <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200"> |
+| Contracción débil | <img src="../../Imagenes/Lab6/EMG_Brazo movimiento cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo movimiento IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo movimiento FIR.jpeg" height="200">|
+| Contracción fuerte| <img src="../../Imagenes/Lab6/EMG_brazo oposición cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo oposicion IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo oposicion FIR.jpeg" height="200"> |
 #### Códigos
 - [Descanso - Basal](../../Software/Lab6/brazo_reposo.py)
 - [Contracción débil](../../Software/Lab6/brazo_movimiento.py)
