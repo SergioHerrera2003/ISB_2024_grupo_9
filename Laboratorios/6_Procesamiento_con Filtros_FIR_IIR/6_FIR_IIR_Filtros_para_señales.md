@@ -81,9 +81,9 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 ### Tabla EEG
 | Campo              | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR |
 |--------------------|-------------------------|-------------------------------|-------------------------------|
-| Basal   | <img src="../../Imagenes/Lab6/Estado_basal_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/Estado_basal_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">
-| Ojos abiertos- cerrados  | <img src="../../Imagenes/Lab6/Ojos_cerrados_abiertos_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/Ojos_cerrados_abiertos_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">|
-| Ejercicios Mentales   | <img src="../../Imagenes/Lab6/Ejercicio_mental_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/Ejercicio_mental_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200"> |
+| Basal   | <img src="../../Imagenes/Lab6/EEG_estado basal cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_estado basal IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_estado basal FIR.jpeg" height="200">
+| Ojos abiertos- cerrados  | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos FIR.jpeg" height="200">|
+| Ejercicios Mentales   | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos FIR.jpeg" height="200"> |
 
 #### Códigos
 - [Basal](../../Software/Lab6/Estado_basal_IIR.py)
@@ -91,6 +91,11 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 - [Ejercicios Mentales](../../Software/Lab6/ejercicio_mental_IIR.py)
 
 ## Discusión
+Los filtros FIR son una clase esencial de filtros digitales que se caracterizan por tener una respuesta al impulso de duración finita. Esto significa que su salida depende únicamente de una suma ponderada de valores de entrada anteriores, sin considerar valores previos de salida, a diferencia de los filtros IIR. Además, los filtros FIR son siempre estables y relativamente fáciles de diseñar e implementar en hardware digital. Sin embargo, a menudo requieren un orden de filtro más alto que los filtros IIR para lograr un rendimiento similar, lo que puede resultar en un mayor retardo y una mayor complejidad computacional. [5]
+
+En las gráficas de ECG, se observa el filtrado de la señal mediante dos tipos de filtros Chebyshev con los que se pudo obtener un mejor resultado, comparado con el filtro FIR implementado. Según los hallazgos de un estudio los filtros IIR [6], especialmente el filtro Chebyshev tipo II, son más efectivos y eficientes que los filtros FIR para eliminar el ruido de las señales de ECG, esto concuerda con lo obtenido con en las gráficas.
+
+Los filtros FIR son estables y tienen una respuesta de fase lineal, no pueden suprimir el ruido de manera efectiva, incluso con un orden de filtro alto de 50. Sin embargo, se sugiere combinar ambos tipos de filtros con otras técnicas avanzadas de eliminación de ruido para manejar mejor los ruidos con espectros superpuestos [6].
 
 ## Bibliografía
 
@@ -101,3 +106,7 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 [3] Ozpolat, E., Karakaya, B., Kaya, T., & Gulten, A. (2016). FPGA-based digital Filter Design for Biomedical Signal. 2016 XII International Conference on Perspective Technologies and Methods in MEMS Design (MEMSTECH). doi:10.1109/memstech.2016.7507523 
 
 [4] L. Dezhi, Z. Xintong and G. Xiaozhong, "Research on Multi-feature Extraction Method in EEG Signal of Motor Imagination," 2020 International Conference on Virtual Reality and Intelligent Systems (ICVRIS), Zhangjiajie, China, 2020, pp. 462-465, doi: 10.1109/ICVRIS51417.2020.00116.
+
+[5] MathWorks. "FIR Filter Design." MATLAB Documentation. https://www.mathworks.com/help/signal/ug/fir-filter-design.html
+
+[6] . M. Chieng, Y. W. Hau, and Z. Omar, "The Study and Comparison between Various Digital Filters for ECG De-noising," in 2018 IEEE-EMBS Conference on Biomedical Engineering and Sciences (IECBES), 2018, doi: 10.1109/iecbes.2018.8626661.
