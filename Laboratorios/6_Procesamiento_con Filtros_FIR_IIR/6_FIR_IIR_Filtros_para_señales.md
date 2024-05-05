@@ -59,9 +59,9 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 ### Tabla EMG
 | Campo              | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR |
 |--------------------|-------------------------|-------------------------------|-------------------------------|
-| Descanso - Basal  | <img src="../../Imagenes/Lab6/brazo_reposo_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/brazo_reposo_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">
-| Contracción débil | <img src="../../Imagenes/Lab6/brazo_movimiento_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/brazo_movimiento_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">|
-| Contracción fuerte| <img src="../../Imagenes/Lab6/brazo_oposicion_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/brazo_oposicion_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200"> |
+| Descanso - Basal  | <img src="../../Imagenes/Lab6/EMG_brazo reposo cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo reposo IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo reposo FIR.jpeg" height="200">
+| Contracción débil | <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200">|
+| Contracción fuerte| <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200"> | <img src="../../Imagenes/Lab6" height="200"> |
 #### Códigos
 - [Descanso - Basal](../../Software/Lab6/brazo_reposo.py)
 - [Contracción débil](../../Software/Lab6/brazo_movimiento.py)
@@ -83,7 +83,7 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 |--------------------|-------------------------|-------------------------------|-------------------------------|
 | Basal   | <img src="../../Imagenes/Lab6/EEG_estado basal cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_estado basal IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_estado basal FIR.jpeg" height="200">
 | Ojos abiertos- cerrados  | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos FIR.jpeg" height="200">|
-| Ejercicios Mentales   | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos FIR.jpeg" height="200"> |
+| Ejercicios Mentales   | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales FIR.jpeg" height="200"> |
 
 #### Códigos
 - [Basal](../../Software/Lab6/Estado_basal_IIR.py)
