@@ -56,39 +56,39 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 - Tipo de filtro: Paso banda para ondas alfa. 
 
 ## Resultados
-
-- Diagrama de bode
-- Diagrama de fase
-- Diagrama de ceros y polos
-- FFT -> verificar que no haya 60Hz - 120 Hz NOTCH 
-- Filtro pasa baja alta (En base a la señal) literatura manual rango de operación 
-- FIR 
-- IRR
-
 ### Tabla EMG
 | Campo              | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR |
 |--------------------|-------------------------|-------------------------------|-------------------------------|
-| Descanso - Basal  | ![Imagen Basal](ruta_a_la_imagen) | ![Imagen Basal IIR](ruta_a_la_imagen) | ![Imagen Basal FIR](ruta_a_la_imagen) |
-| Contracción débil | ![Imagen Contracción Débil](ruta_a_la_imagen) | ![Imagen Contracción Débil IIR](ruta_a_la_imagen) | ![Imagen Contracción Débil FIR](ruta_a_la_imagen) |
-| Contracción fuerte| ![Imagen Contracción Fuerte](ruta_a_la_imagen) | ![Imagen Contracción Fuerte IIR](ruta_a_la_imagen) | ![Imagen Contracción Fuerte FIR](ruta_a_la_imagen) |
-
-
+| Descanso - Basal  | <img src="../../Imagenes/Lab6/brazo_reposo_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/brazo_reposo_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">
+| Contracción débil | <img src="../../Imagenes/Lab6/brazo_movimiento_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/brazo_movimiento_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">|
+| Contracción fuerte| <img src="../../Imagenes/Lab6/brazo_oposicion_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/brazo_oposicion_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200"> |
+#### Códigos
+- [Descanso - Basal](../../Software/Lab6/brazo_reposo.py)
+- [Contracción débil](../../Software/Lab6/brazo_movimiento.py)
+- [Contracción fuerte](../../Software/Lab6/brazo_oposicion.py)
 
 ### Tabla ECG
 | Campo          | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR | 
 |----------------|-------------------------|-------------------------------|-------------------------------|
-| Basal          | ![Imagen Basal](ruta_a_la_imagen) | ![Imagen Basal IIR](ruta_a_la_imagen) | ![Imagen Basal FIR](ruta_a_la_imagen) |
-| Post Ejercicio | ![Imagen Post Ejercicio](ruta_a_la_imagen) | ![Imagen Post Ejercicio IIR](ruta_a_la_imagen) | ![Imagen Post Ejercicio FIR](ruta_a_la_imagen) |
-| Respiración - Post Ejercicio | ![Imagen Respiración Post Ejercicio](ruta_a_la_imagen) | ![Imagen Respiración Post Ejercicio IIR](ruta_a_la_imagen) | ![Imagen Respiración Post Ejercicio FIR](ruta_a_la_imagen) |
-
+| Basal          | <img src="../../Imagenes/Lab6/ECG_original_respiracion_normal.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_IIR.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_normal_FIR.png" height="200"> |
+| Post Ejercicio | <img src="../../Imagenes/Lab6/ECG_original_despues_ejercicio.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_despues_ejercicio_IIR.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_despues_ejercicio_FIR.png" height="200"> |
+| Respiración - Post Ejercicio | <img src="../../Imagenes/Lab6/ECG_original_respiracion_despues_ejercicio.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_IIR.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_FIR.png" height="200"> |
+#### Códigos
+- [Basal](../../Software/Lab6/ECG_respiracion_normal_filter.ipynb)
+- [Post Ejercicio](../../Software/Lab6/ECG_despues_ejercicio_filters.ipynb)
+- [Respiración -Post Ejercicio](../../Software/Lab6/ECG3_respiracion_despues_ejercicio_filter.ipynb)
 
 ### Tabla EEG
-| Campo                    | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR | Basal |
-|--------------------------|-------------------------|-------------------------------|-------------------------------|-------|
-| Basal                    | ![Imagen Basal](ruta_a_la_imagen) | ![Imagen Basal IIR](ruta_a_la_imagen) | ![Imagen Basal FIR](ruta_a_la_imagen) | ![Imagen Basal](ruta_a_la_imagen) |
-| Ojos abiertos- cerrados  | ![Imagen Ojos abiertos- cerrados](ruta_a_la_imagen) | ![Imagen Ojos abiertos- cerrados IIR](ruta_a_la_imagen) | ![Imagen Ojos abiertos- cerrados FIR](ruta_a_la_imagen) | ![Imagen Ojos abiertos- cerrados Basal](ruta_a_la_imagen) |
-| Ejercicios Mentales      | ![Imagen Ejercicios Mentales](ruta_a_la_imagen) | ![Imagen Ejercicios Mentales IIR](ruta_a_la_imagen) | ![Imagen Ejercicios Mentales FIR](ruta_a_la_imagen) | ![Imagen Ejercicios Mentales Basal](ruta_a_la_imagen) |
+| Campo              | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR |
+|--------------------|-------------------------|-------------------------------|-------------------------------|
+| Basal   | <img src="../../Imagenes/Lab6/Estado_basal_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/Estado_basal_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">
+| Ojos abiertos- cerrados  | <img src="../../Imagenes/Lab6/Ojos_cerrados_abiertos_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/Ojos_cerrados_abiertos_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200">|
+| Ejercicios Mentales   | <img src="../../Imagenes/Lab6/Ejercicio_mental_cruda.png" height="200"> | <img src="../../Imagenes/Lab6/Ejercicio_mental_IIR.png" height="200"> | <img src="../../Imagenes/Lab6" height="200"> |
 
+#### Códigos
+- [Basal](../../Software/Lab6/Estado_basal_IIR.py)
+- [Ojos abierto - cerrados](../../Software/Lab6/ciclo_ojos_abiertos_cerrados_IIR.py)
+- [Ejercicios Mentales](../../Software/Lab6/ejercicio_mental_IIR.py)
 
 ## Discusión
 
