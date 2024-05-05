@@ -97,6 +97,11 @@ En las gráficas de ECG, se observa el filtrado de la señal mediante dos tipos 
 
 Los filtros FIR son estables y tienen una respuesta de fase lineal, no pueden suprimir el ruido de manera efectiva, incluso con un orden de filtro alto de 50. Sin embargo, se sugiere combinar ambos tipos de filtros con otras técnicas avanzadas de eliminación de ruido para manejar mejor los ruidos con espectros superpuestos [6].
 
+La principal razón por la cual se aplican los filtros FIR e IRR es para obtener una señal EEG sin artefactos que interfieran con su posterior análisis. Los principales artefactos se originan por ruido ambiental, errores experimentales y artefactos fisiológicos [7], en este caso el cráneo produce la mayor cantidad de artefactos. Existen artefactos ambientales que pueden ser eliminados por mediante filtros ya que su frecuencia no coincide con la de la señal obtenida, a diferencia de los artefactos fisiológicos en donde se debe tener mayor cuidado.
+
+Estudio indica cómo la transformación de EEG, la ventana de tiempo, las opciones de filtro pueden afectar fuertemente la densidad espectral de potencia y las cantidades de fase, por lo que sugieren la necesidad de un procesamiento de EEG estándar.  Según la literatura evaluada, todas las señales de los conjuntos de datos se filtraron con un filtro pasa banda dentro de 2 – 80 Hz usando el filtro FIR con ventana de Hamming. [8]
+
+
 ## Bibliografía
 
 [1] W. J. Tompkins, "Introduction to Computers in Medicine," en "Procesamiento Digital de Señales Biomédicas," Prentice Hall, Upper Saddle River, NJ, 2000, pp. 1-23. 
@@ -110,3 +115,7 @@ Los filtros FIR son estables y tienen una respuesta de fase lineal, no pueden su
 [5] MathWorks. "FIR Filter Design." MATLAB Documentation. https://www.mathworks.com/help/signal/ug/fir-filter-design.html
 
 [6] . M. Chieng, Y. W. Hau, and Z. Omar, "The Study and Comparison between Various Digital Filters for ECG De-noising," in 2018 IEEE-EMBS Conference on Biomedical Engineering and Sciences (IECBES), 2018, doi: 10.1109/iecbes.2018.8626661.
+
+[7] Sensores | Texto completo gratuito | Eliminación de artefactos de las señales EEG: una revisión. [cited 2024 May 4]; Available from: https://www.mdpi.com/1424-8220/19/5/987
+
+[8] Alam R-U, Zhao H, Goodwin A, Kavehei O, McEwan A. Differences in Power Spectral Densities and Phase Quantities Due to Processing of EEG Signals. 2020 Nov 4;20(21):6285.
