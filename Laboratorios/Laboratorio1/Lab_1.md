@@ -1,1 +1,0 @@
-### Nuestro entregable N° 1 está presente en readme de nuestra página raíz, donde se puede ver la realización del repositorio
