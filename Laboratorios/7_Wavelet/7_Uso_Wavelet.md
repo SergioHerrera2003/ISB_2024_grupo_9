@@ -133,13 +133,13 @@ Además, el enfoque basado en wavelets mejora la relación señal-ruido, este m�
 
 [3]. F. Abramovich, T. C. Bailey, and T. Sapatinas, ‘Wavelet analysis and its statistical applications’, Journal of the Royal Statistical Society: Series D (The Statistician), vol. 49, no. 1, pp. 1–29, 2000.
 
-[4] Aljebory, Karim & Jwmah, Yashar & Mohammed, Thabit. (2024). Classification of EMG Signals Using DWT Features and ANN Classifier. 51. 23-32. [PDF](https://www.iaeng.org/IJCS/issues_v51/issue_1/IJCS_51_1_04.pdf) 
+[4] Aljebory, Karim & Jwmah, Yashar & Mohammed, Thabit. (2024). Classification of EMG Signals Using DWT Features and ANN Classifier. 51. 23-32. [PDF web](https://www.iaeng.org/IJCS/issues_v51/issue_1/IJCS_51_1_04.pdf) or [PDF](../../Documentacion/Laboratorios/Lab7_DWT/Classification%20of%20EMG%20Signals_Using%20DWT%20Features%20and%20ANN%20Classifier.pdf)
 
-[5] M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing noise, artifacts and Interference in Single-Channel EMG Signals: a review,” Sensors, vol. 23, no. 6, p. 2927, Mar. 2023, [doi: 10.3390/s23062927](https://doi.org/10.3390/s23062927).
+[5] M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing noise, artifacts and Interference in Single-Channel EMG Signals: a review,” Sensors, vol. 23, no. 6, p. 2927, Mar. 2023, [doi: 10.3390/s23062927](https://doi.org/10.3390/s23062927). or [PDF](../../Documentacion/Laboratorios/Lab7_DWT/EMG_Wavelet_Paper2.pdf)
 
 [6] M. Sharma, V. Patel, J. Tiwari, and U. R. Acharya, ‘Automated characterization of cyclic alternating pattern using wavelet-based features and ensemble learning techniques with EEG signals’, Diagnostics (Basel), vol. 11, no. 8, p. 1380, 2021.
 
-[7] S. Mohammady, Wavelet Theory. 2021, pp. 105–101.
+[7] S. Mohammady, Wavelet Theory. 2021, pp. 105–101. [PDF](../../Documentacion/Laboratorios/Lab7_DWT/Wavelet_Theory.pdf)
 
 [8] Selcan Kaplan Berkaya, et al. "A survey on ECG analysis," Biomedical Signal Processing and Control, vol. 43, pp. 216-235, 2018.
 
