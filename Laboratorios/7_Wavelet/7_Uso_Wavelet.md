@@ -1,4 +1,4 @@
-# LABORATORIO Nº 6 - FILTROS IIR Y FIR
+# LABORATORIO Nº 7 - Transformada Wavelet
 
 ## Introducción
 La transformada wavelet (WT) se ha establecido como la solución más avanzada para las limitaciones de la transformada de Fourier. Las funciones wavelet están localizadas tanto en el espacio como en los dominios de frecuencia y suelen representar la escala de tiempo. En el ámbito de las señales biomédicas, la mayoría de las características estadísticas no son estacionarias (Attikiouzel, 1999).
@@ -26,6 +26,7 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
 - **Descomposición de la señal:**
 
     - La señal EMG se pasa a través de filtros pasa alto y pasa bajo secuencialmente para obtener coeficientes de detalle y aproximación en cada nivel de descomposición. Esto se repite hasta alcanzar el nivel deseado de descomposición. Para el análisis en el documento, se establece un nivel de descomposición de hasta 8, generando subconjuntos de coeficientes de detalle (cd1, cd2, cd3, cd4, cd5, cd6, cd7, cd8) y un coeficiente de aproximación. [sergio1]
+
     - Para el umbral, nos basamos en una fórmula que también se realiza en otros papers para la Transformada de Wavelet [sergio2]. Así pues nos deja completar el cálculo para efectuar este filtro a la señal original.
 
     <div align="center">
@@ -45,7 +46,7 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
 
 - **Filtro Pasabanda IIR Butterworth:** 
     - Se recomienda en la bibliografía un filtro pasabanda IIR Butterworth con frecuencia de corte de 0.5 Hz a 35 Hz para eliminar el ruido no deseado de la señal.
-    
+
 - **Ventana de señal:** 
     - Se utilizó una ventana de 21 s para el procesamiento de la señal, según las recomendaciones de la bibliografía.
 
