@@ -37,22 +37,22 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
 ### Para señales ECG:
 - **Filtrado con Wavelet tipo db4:**
   - Se recomienda utilizar una wavelet tipo db4 para eliminar los componentes de alta frecuencia de la señal.
-  - Se utilizan 8 niveles de descomposición para asegurar una eliminación efectiva de las frecuencias no deseadas.
-  - Se aplica una ventana de 5 segundos para el procesamiento de la señal en cada nivel de descomposición.
-  - Posteriormente, se realiza un filtrado de media móvil para eliminar los ruidos de bajas frecuencias y suavizar la señal.
+  - Se utilizan 8 niveles de descomposición para asegurar una eliminación efectiva de las frecuencias no deseadas. [6]
+  - Se aplica una ventana de 5 segundos para el procesamiento de la señal en cada nivel de descomposición. [6]
+  - Posteriormente, se realiza un filtrado de media móvil para eliminar los ruidos de bajas frecuencias y suavizar la señal. [6]
 
 
 ### Para señales EEG:
 
 - **Preprocesamiento:**
-    - Para la etapa de preprocesamiento se recomienda emplear un filtro pasabanda utilizando la respuesta al impulso infinita (IIR) de tipo Butterworth y orden 4. Las frecuencias de corte inferior y superior se han ajustado a 0,5 Hz y 35 Hz. Todo esto debido a que las señales de EEG contienen la mayor parte de la información valiosa en el rango de frecuencia por debajo de 35 Hz, por esta razón es necesario preprocesar la señal respectiva para eliminar los artefactos de ruido y preservar solo la información necesaria. [6]
+    - Para la etapa de preprocesamiento se recomienda emplear un filtro pasabanda utilizando la respuesta al impulso infinita (IIR) de tipo Butterworth y orden 4. Las frecuencias de corte inferior y superior se han ajustado a 0,5 Hz y 35 Hz. Todo esto debido a que las señales de EEG contienen la mayor parte de la información valiosa en el rango de frecuencia por debajo de 35 Hz, por esta razón es necesario preprocesar la señal respectiva para eliminar los artefactos de ruido y preservar solo la información necesaria. [7]
 
 -  **Descomposición de la señal:**
     - Tipo de wavelet según la bibliografía: db4
     - Se dividió en 5 niveles de descomposición
 
 - **Número de niveles de descomposición:**
-    - Se emplearon 5 niveles de descomposición de Wavelet como sugiere la literatura [7].
+    - Se emplearon 5 niveles de descomposición de Wavelet como sugiere la literatura [8].
     - Para la obtención del umbral global (Global Threshold) se aplicó la fórmula que se muestra a continuación: 
 
     TG =  σ * raiz(2 * log(N)) 
@@ -64,8 +64,8 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
         - w = coeficientes de wavelet (coef[-1] -> último coeficiente)
         - σ = varianza del ruido 
 
-    - Para la eliminación de señales no deseadas se usaron técnicas de umbralización. El método de umbralización suave adaptativa permite eliminar el ruido presente en los coeficientes de detalle, que representan a las frecuencias más altas de la señal. El coeficiente de aproximación captura la estructura global de la señal, por lo cual no se le aplica este suavizado. [6]
-    - Se tuvieron en cuenta distintas configuraciones en cuanto a la etapa de preprocesamiento, niveles de descomposición, familia wavelet y longitud de ventana que se recomendaban en la literatura. [6] [7]
+    - Para la eliminación de señales no deseadas se usaron técnicas de umbralización. El método de umbralización suave adaptativa permite eliminar el ruido presente en los coeficientes de detalle, que representan a las frecuencias más altas de la señal. El coeficiente de aproximación captura la estructura global de la señal, por lo cual no se le aplica este suavizado. [7]
+    - Se tuvieron en cuenta distintas configuraciones en cuanto a la etapa de preprocesamiento, niveles de descomposición, familia wavelet y longitud de ventana que se recomendaban en la literatura. [7] [8]
 
 ## Resultados
 ### Tabla EMG:
@@ -101,9 +101,9 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
 
 
 #### Códigos
-- [Basal](../../Software/Lab7)
-- [Ojos abierto - cerrados](../../Software/Lab7)
-- [Ejercicios Mentales](../../Software/Lab7)
+- [Basal](../../Software/Lab7/estado_basal_wavelet.py)
+- [Ojos abierto - cerrados](../../Software/Lab7/ojos_cerrados_wavelet.py)
+- [Ejercicios Mentales](../../Software/Lab7/ejercicios_mentales_wavelet.py)
 
 ## Discusión y Conclusiones
 
@@ -118,11 +118,11 @@ En general, basado en los resultados obtenidos, se evidencia que el proceso de d
 
 En conclusión, este laboratorio nos enseñó a destacar el potencial de la DWT como una herramienta de análisis de señales sEMG para aplicaciones de movimiento del brazo.
 ### Para Señales ECG:
-En ingeniería biomédica, el electrocardiograma (ECG) es una herramienta crucial para monitorear las señales del corazón [8]. Sin embargo, las señales de ECG a menudo contienen ruido, lo que complica su análisis. La transformada wavelet es una herramienta para procesamiento de señales biomédicas, debido a que proporciona información tanto en el dominio del tiempo como en el de la frecuencia, por lo que es ideal para analizar señales no estacionarias como el ECG. La transformada wavelet se utiliza para reducir el ruido en las señales de ECG y mejorar la detección de eventos cardíacos clave como los complejos QRS, las ondas P y las ondas T [9].
+En ingeniería biomédica, el electrocardiograma (ECG) es una herramienta crucial para monitorear las señales del corazón [9]. Sin embargo, las señales de ECG a menudo contienen ruido, lo que complica su análisis. La transformada wavelet es una herramienta para procesamiento de señales biomédicas, debido a que proporciona información tanto en el dominio del tiempo como en el de la frecuencia, por lo que es ideal para analizar señales no estacionarias como el ECG. La transformada wavelet se utiliza para reducir el ruido en las señales de ECG y mejorar la detección de eventos cardíacos clave como los complejos QRS, las ondas P y las ondas T [10].
 
-Se observa que, con la aplicación de la transformada wavelet, las señales de ECG mejoraron en la claridad de la señal. Al seleccionar funciones wavelet y niveles de descomposición de acuerdo a [10], aislamos y eliminamos el ruido mientras preservábamos las características cardíacas esenciales. Esto mejoró la visibilidad de los complejos QRS, las ondas P y las ondas T, facilitando una interpretación más precisa. Comparando con el resultado obtenido en con el método aplicado anteriormente en laboratorio de filtros FIR e IR, se obtuvieron mejores resultados.
+Se observa que, con la aplicación de la transformada wavelet, las señales de ECG mejoraron en la claridad de la señal. Al seleccionar funciones wavelet y niveles de descomposición de acuerdo a [11], aislamos y eliminamos el ruido mientras preservábamos las características cardíacas esenciales. Esto mejoró la visibilidad de los complejos QRS, las ondas P y las ondas T, facilitando una interpretación más precisa. Comparando con el resultado obtenido en con el método aplicado anteriormente en laboratorio de filtros FIR e IR, se obtuvieron mejores resultados.
 
-Además, el enfoque basado en wavelets mejora la relación señal-ruido, este método podría aumentar la precisión de los sistemas de análisis automático de ECG, llevando a mejores resultados diagnósticos [11]. Los resultados apoyan el uso y desarrollo continuado de técnicas wavelet en el procesamiento de señales biomédicas, especialmente para aplicaciones que requieren un análisis temporal y espectral preciso.
+Además, el enfoque basado en wavelets mejora la relación señal-ruido, este método podría aumentar la precisión de los sistemas de análisis automático de ECG, llevando a mejores resultados diagnósticos [12]. Los resultados apoyan el uso y desarrollo continuado de técnicas wavelet en el procesamiento de señales biomédicas, especialmente para aplicaciones que requieren un análisis temporal y espectral preciso.
 ### Para Señales EEG:
 
 ## Bibliografía
@@ -137,14 +137,16 @@ Además, el enfoque basado en wavelets mejora la relación señal-ruido, este m�
 
 [5] M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing noise, artifacts and Interference in Single-Channel EMG Signals: a review,” Sensors, vol. 23, no. 6, p. 2927, Mar. 2023, [doi: 10.3390/s23062927](https://doi.org/10.3390/s23062927). or [PDF](../../Documentacion/Laboratorios/Lab7_DWT/EMG_Wavelet_Paper2.pdf)
 
-[6] M. Sharma, V. Patel, J. Tiwari, and U. R. Acharya, ‘Automated characterization of cyclic alternating pattern using wavelet-based features and ensemble learning techniques with EEG signals’, Diagnostics (Basel), vol. 11, no. 8, p. 1380, 2021.
+[6] R. Singh, R. Mehta, and N. Rajpal, ‘Efficient wavelet families for ECG classification using neural classifiers’, Procedia Comput. Sci., vol. 132, pp. 11–21, 2018.
 
-[7] S. Mohammady, Wavelet Theory. 2021, pp. 105–101. [PDF](../../Documentacion/Laboratorios/Lab7_DWT/Wavelet_Theory.pdf)
+[7] M. Sharma, V. Patel, J. Tiwari, and U. R. Acharya, ‘Automated characterization of cyclic alternating pattern using wavelet-based features and ensemble learning techniques with EEG signals’, Diagnostics (Basel), vol. 11, no. 8, p. 1380, 2021.
 
-[8] Selcan Kaplan Berkaya, et al. "A survey on ECG analysis," Biomedical Signal Processing and Control, vol. 43, pp. 216-235, 2018.
+[8] S. Mohammady, Wavelet Theory. 2021, pp. 105–101. [PDF](../../Documentacion/Laboratorios/Lab7_DWT/Wavelet_Theory.pdf)
 
-[9] S. Goel, P. Tomar, and G. Kaur, "An optimal wavelet approach for ECG noise cancellation," International Journal of Bio-Science and Bio-Technology, vol. 8, no. 4, pp. 39-52, 2016.
+[9] Selcan Kaplan Berkaya, et al. "A survey on ECG analysis," Biomedical Signal Processing and Control, vol. 43, pp. 216-235, 2018.
 
-[10] P. M. Shemi and E. M. Shareena, "Analysis of ECG signal denoising using discrete wavelet transform," in 2016 IEEE International Conference on Engineering and Technology (ICETECH), Coimbatore, India, 2016, pp. 713-718.
+[10] S. Goel, P. Tomar, and G. Kaur, "An optimal wavelet approach for ECG noise cancellation," International Journal of Bio-Science and Bio-Technology, vol. 8, no. 4, pp. 39-52, 2016.
 
-[11] M. E. Alexander, R. Baumgartner, A. R. Summers, C. Windischberger, M. Klarhoefer, E. Moser, and R. L. Somorjai, "A wavelet-based method for improving signal-to-noise ratio and contrast in MR images," Magnetic Resonance Imaging, vol. 18, no. 2, pp. 169-180, 2000, doi: 10.1016/S0730-725X(99)00128-9. [Online]. Available: [https://www.sciencedirect.com/science/article/pii/S0730725X99001289](https://www.sciencedirect.com/science/article/pii/S0730725X99001289)
+[11] P. M. Shemi and E. M. Shareena, "Analysis of ECG signal denoising using discrete wavelet transform," in 2016 IEEE International Conference on Engineering and Technology (ICETECH), Coimbatore, India, 2016, pp. 713-718.
+
+[12] M. E. Alexander, R. Baumgartner, A. R. Summers, C. Windischberger, M. Klarhoefer, E. Moser, and R. L. Somorjai, "A wavelet-based method for improving signal-to-noise ratio and contrast in MR images," Magnetic Resonance Imaging, vol. 18, no. 2, pp. 169-180, 2000, doi: 10.1016/S0730-725X(99)00128-9. [Online]. Available: [https://www.sciencedirect.com/science/article/pii/S0730725X99001289](https://www.sciencedirect.com/science/article/pii/S0730725X99001289)
