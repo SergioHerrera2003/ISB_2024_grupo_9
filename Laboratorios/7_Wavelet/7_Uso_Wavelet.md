@@ -83,14 +83,14 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
 ### Tabla ECG:
 | Campo              | Señal Cruda             | Señal filtrada con DWT       |
 |--------------------|-------------------------|-------------------------------|
-| Descanso - Basal  | <img src="../../Imagenes/Lab7" height="200"> | <img src="../../Imagenes/Lab7" height="200"> |
-| Post Ejercicio | <img src="../../Imagenes/Lab7" height="200"> | <img src="../../Imagenes/Lab7" height="200"> |
-| Recuperación| <img src="../../Imagenes/Lab7" height="200"> | <img src="../../Imagenes/Lab7" height="200"> |
+| Descanso - Basal  | <img src="../../Imagenes/Lab7/ECG_Basal.jpeg" height="200"> | <img src="../../Imagenes/Lab7/ECG_Basal_DWT.jpeg" height="200"> |
+| Post Ejercicio | <img src="../../Imagenes/Lab7/ECG_Ejercicio.jpeg" height="200"> | <img src="../../Imagenes/Lab7/ECG_Ejercicio_DWT.jpeg" height="200"> |
+| Recuperación| <img src="../../Imagenes/Lab7/ECG_Recuperacion.jpeg" height="200"> | <img src="../../Imagenes/Lab7/ECG_Recuperacion_DWT.jpeg" height="200"> |
 
 #### Códigos
-- [Basal](../../Software/Lab7)
-- [Post Ejercicio](../../Software/Lab7)
-- [Recuperación](../../Software/Lab7)
+- [Basal](../../Software/Lab7/ECG_Basal.ipynb)
+- [Post Ejercicio](../../Software/Lab7/ECG_Ejercicio.ipynb)
+- [Recuperación](../../Software/Lab7/ECG_recuperacion.ipynb)
 
 ### Tabla EEG:
 | Campo              | Señal Cruda             | Señal filtrada con DWT       |
