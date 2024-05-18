@@ -56,15 +56,16 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
     - Para la obtención del umbral global (Global Threshold) se aplicó la fórmula que se muestra a continuación: 
 
     TG =  σ * raiz(2 * log(N)) 
+
     σ = mediana(|w|) / 0.6745 
 
-    Donde: 
-    - N = longitud de la señal 
-    - w = coeficientes de wavelet (coef[-1] -> último coeficiente)
-    - σ = varianza del ruido 
+    - Donde: 
+        - N = longitud de la señal 
+        - w = coeficientes de wavelet (coef[-1] -> último coeficiente)
+        - σ = varianza del ruido 
 
-    - Para la eliminación de señales no deseadas se usaron técnicas de umbralización. El método de umbralización suave adaptativa permite eliminar el ruido presente en los coeficientes de detalle, que representan a las frecuencias más altas de la señal. El coeficiente de aproximación captura la estructura global de la señal, por lo cual no se le aplica este suavizado.
-    - Se tuvieron en cuenta distintas configuraciones en cuanto a la etapa de preprocesamiento, niveles de descomposición, familia wavelet y longitud de ventana que se recomendaban en la literatura.
+    - Para la eliminación de señales no deseadas se usaron técnicas de umbralización. El método de umbralización suave adaptativa permite eliminar el ruido presente en los coeficientes de detalle, que representan a las frecuencias más altas de la señal. El coeficiente de aproximación captura la estructura global de la señal, por lo cual no se le aplica este suavizado. [6]
+    - Se tuvieron en cuenta distintas configuraciones en cuanto a la etapa de preprocesamiento, niveles de descomposición, familia wavelet y longitud de ventana que se recomendaban en la literatura. [6] [7]
 
 ## Resultados
 ### Tabla EMG:
@@ -95,7 +96,7 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
 | Campo              | Señal Cruda             | Señal filtrada con DWT       |
 |--------------------|-------------------------|-------------------------------|
 | Basal  | <img src="../../Imagenes/Lab7/EEG_estado_basal_original.png" height="200"> | <img src="../../Imagenes/Lab7/EEG_estado_basal_wavelet.png" height="200"> |
-| Ojos abiertos - cerrados | <img src="../../Imagenes/Lab7/EEG_ojos_cerrados_wavelet.png" height="200"> | <img src="../../Imagenes/Lab7/EEG_ojos_cerrados_wavelet.png" height="200"> |
+| Ojos abiertos - cerrados | <img src="../../Imagenes/Lab7/EGG_ojos_cerrados_original.png" height="200"> | <img src="../../Imagenes/Lab7/EEG_ojos_cerrados_wavelet.png" height="200"> |
 | Ejercicios Mentales| <img src="../../Imagenes/Lab7/EEG_ejercicios_mentales_original.png" height="200"> | <img src="../../Imagenes/Lab7/EEG_ejercicios_mentales_wavelet.png" height="200"> |
 
 
