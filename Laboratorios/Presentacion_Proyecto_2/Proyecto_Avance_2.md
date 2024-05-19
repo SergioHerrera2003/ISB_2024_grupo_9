@@ -22,10 +22,4 @@ Puedes ver nuestro avance en este video de YouTube:
 
 [![Avance 2 en YouTube](https://img.youtube.com/vi/GBIu_sNAJUE/maxresdefault.jpg)](https://www.youtube.com/watch?v=GBIu_sNAJUE)
 
-## Video Local
-
-También tenemos un video local que muestra nuestro avance. Puedes verlo a continuación:
-
-<video src="../../Imagenes/Video_Proyecto.mp4" controls></video>
-
 Link: [https://youtu.be/GBIu_sNAJUE](https://youtu.be/GBIu_sNAJUE)
