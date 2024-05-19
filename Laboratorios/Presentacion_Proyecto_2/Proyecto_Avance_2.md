@@ -1,4 +1,4 @@
-# Título de Presentación del Proyecto - Avance 2
+# Presentación del Proyecto - Avance 2
 
 En esta presentación, vamos a compartir el avance 2 de nuestro proyecto:
 
@@ -10,9 +10,9 @@ En esta presentación, vamos a compartir el avance 2 de nuestro proyecto:
 
 En esta etapa del proyecto, hemos avanzado:
 
-- [x] Planteamiento del Problema
-- [x] Propuesta de Solución.
-- [x] Metodologíoa.
+- [1] Planteamiento del Problema
+- [2] Propuesta de Solución.
+- [3] Metodologíoa.
 
 ¡Estamos emocionados de compartir nuestros progresos!
 
@@ -20,10 +20,10 @@ En esta etapa del proyecto, hemos avanzado:
 
 Puedes ver nuestro avance en este video de YouTube:
 
-[![Avance 2 en YouTube](https://img.youtube.com/vi/TU_ID_DEL_VIDEO/maxresdefault.jpg)](https://www.youtube.com/watch?v=TU_ID_DEL_VIDEO)
+[![Avance 2 en YouTube](https://img.youtube.com/vi/GBIu_sNAJUE/maxresdefault.jpg)](https://www.youtube.com/watch?v=T[https://youtu.be/GBIu_sNAJUE])
 
 ## Video Local
 
 También tenemos un video local que muestra nuestro avance. Puedes verlo a continuación:
 
-![Video Local](ruta/a/tu/video.mp4)
+![Video Local](../../Imagenes/Video_Proyecto.mp4)
