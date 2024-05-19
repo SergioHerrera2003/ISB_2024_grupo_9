@@ -8,11 +8,11 @@ En esta presentación, vamos a compartir el avance 2 de nuestro proyecto:
 
 ## Avance 2
 
-En esta etapa del proyecto, hemos avanzado:
+En esta etapa del proyecto, hemos avanzado en:
 
 - [1] Planteamiento del Problema
-- [2] Propuesta de Solución.
-- [3] Metodologíoa.
+- [2] Propuesta de Solución
+- [3] Metodología
 
 ¡Estamos emocionados de compartir nuestros progresos!
 
@@ -20,10 +20,12 @@ En esta etapa del proyecto, hemos avanzado:
 
 Puedes ver nuestro avance en este video de YouTube:
 
-[![Avance 2 en YouTube](https://img.youtube.com/vi/GBIu_sNAJUE/maxresdefault.jpg)](https://www.youtube.com/watch?v=T[https://youtu.be/GBIu_sNAJUE])
+[![Avance 2 en YouTube](https://img.youtube.com/vi/GBIu_sNAJUE/maxresdefault.jpg)](https://www.youtube.com/watch?v=GBIu_sNAJUE)
 
 ## Video Local
 
 También tenemos un video local que muestra nuestro avance. Puedes verlo a continuación:
 
-![Video Local](../../Imagenes/Video_Proyecto.mp4)
+<video src="../../Imagenes/Video_Proyecto.mp4" controls></video>
+
+Link: [https://youtu.be/GBIu_sNAJUE](https://youtu.be/GBIu_sNAJUE)
