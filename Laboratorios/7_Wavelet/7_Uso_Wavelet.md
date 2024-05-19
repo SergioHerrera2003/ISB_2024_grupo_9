@@ -47,12 +47,17 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
 - **Preprocesamiento:**
     - Para la etapa de preprocesamiento se recomienda emplear un filtro pasabanda utilizando la respuesta al impulso infinita (IIR) de tipo Butterworth y orden 4. Las frecuencias de corte inferior y superior se han ajustado a 0,5 Hz y 35 Hz. Todo esto debido a que las señales de EEG contienen la mayor parte de la información valiosa en el rango de frecuencia por debajo de 35 Hz, por esta razón es necesario preprocesar la señal respectiva para eliminar los artefactos de ruido y preservar solo la información necesaria. [7]
 
--  **Descomposición de la señal:**
-    - Tipo de wavelet según la bibliografía: db4
-    - Se dividió en 5 niveles de descomposición
+-  **Descomposición de la señal y DWT**
+  
+La descomposición de la señal se llevó a cabo utilizando el tipo de wavelet "db4", según lo especificado en la bibliografía. La señal se dividió en 5 niveles de descomposición para su análisis.
+
+Aunque no encontramos literatura explícita que recomiende el uso de la familia de wavelets "db4" en estudios que analicen la señal EEG en condiciones de ojos cerrados, estado basal y ejercicios mentales, nos basamos en la familia de wavelets utilizada en otros estudios similares. Por ejemplo, en el estudio titulado "Wavelet-based EEG processing for computer-aided seizure detection and epilepsy diagnosis", se menciona que se obtuvo la mayor precisión de clasificación utilizando la wavelet "db4". Además, se observa que "db4" es ampliamente utilizada no solo para la detección de convulsiones, sino también para el diagnóstico de epilepsia, Alzheimer y posiblemente otras enfermedades mentales.
+
+Dada su eficacia demostrada en múltiples contextos de análisis EEG, incluyendo la detección de eventos anómalos y el diagnóstico de condiciones neurológicas, la familia de wavelets "db4" es considerada como una opción sólida y versátil en la investigación y práctica clínica. Por tanto, al utilizar EEG como herramienta de análisis, la elección de la wavelet "db4" se respalda tanto por su desempeño como por su amplia aceptación en la comunidad científica. [13]
+
 
 - **Número de niveles de descomposición:**
-    - Se emplearon 5 niveles de descomposición de Wavelet como sugiere la literatura [8].
+    - Además, según la bibliografía la decisión de dividir la señal en 5 niveles de descomposición se fundamenta en la necesidad de capturar tanto los componentes de baja frecuencia como los de alta frecuencia de la señal EEG. [7][8].
     - Para la obtención del umbral global (Global Threshold) se aplicó la fórmula que se muestra a continuación: 
 
     TG =  σ * raiz(2 * log(N)) 
@@ -117,13 +122,19 @@ En el caso del movimiento de oposición del brazo con mayor fuerza, la aplicaci�
 En general, basado en los resultados obtenidos, se evidencia que el proceso de descomposición de la señal mediante la DWT proporciona información detallada sobre la actividad muscular durante diferentes tipos de movimientos del brazo. La capacidad de la DWT para identificar patrones y tendencias en las señales sEMG puede ser de gran utilidad en aplicaciones de rehabilitación y control de prótesis. [4].
 
 En conclusión, este laboratorio nos enseñó a destacar el potencial de la DWT como una herramienta de análisis de señales sEMG para aplicaciones de movimiento del brazo.
+
 ### Para Señales ECG:
 En ingeniería biomédica, el electrocardiograma (ECG) es una herramienta crucial para monitorear las señales del corazón [9]. Sin embargo, las señales de ECG a menudo contienen ruido, lo que complica su análisis. La transformada wavelet es una herramienta para procesamiento de señales biomédicas, debido a que proporciona información tanto en el dominio del tiempo como en el de la frecuencia, por lo que es ideal para analizar señales no estacionarias como el ECG. La transformada wavelet se utiliza para reducir el ruido en las señales de ECG y mejorar la detección de eventos cardíacos clave como los complejos QRS, las ondas P y las ondas T [10].
 
 Se observa que, con la aplicación de la transformada wavelet, las señales de ECG mejoraron en la claridad de la señal. Al seleccionar funciones wavelet y niveles de descomposición de acuerdo a [11], aislamos y eliminamos el ruido mientras preservábamos las características cardíacas esenciales. Esto mejoró la visibilidad de los complejos QRS, las ondas P y las ondas T, facilitando una interpretación más precisa. Comparando con el resultado obtenido en con el método aplicado anteriormente en laboratorio de filtros FIR e IR, se obtuvieron mejores resultados.
 
 Además, el enfoque basado en wavelets mejora la relación señal-ruido, este método podría aumentar la precisión de los sistemas de análisis automático de ECG, llevando a mejores resultados diagnósticos [12]. Los resultados apoyan el uso y desarrollo continuado de técnicas wavelet en el procesamiento de señales biomédicas, especialmente para aplicaciones que requieren un análisis temporal y espectral preciso.
+
 ### Para Señales EEG:
+La eliminación de artefactos puede realizarse siguiendo dos metodologías. La primera, se basa en aplicar DWT a la señal EEG y eliminar los coeficientes que están por encima de un umbral establecido para al final reconstruir la señal utilizando DWT inverso. La segunda opción, es aplicar un suavizado de coeficientes siguiente un umbral (threshold), los dos umbrales más utilizados con wavelets son el umbral global y el umbral de desviación estándar (STD)  [14]. Además, una tercera opción es utilizar el algoritmo de eliminación automática y sintonizable de artefactos (ATAR) que funciona mejor que ICA, se basa en la descomposición de paquetes Wavelets, proporciona parámetros de ajuste y diferentes modo de operación que le permiten controlar la agresividad del algoritmo ICA. [15]  
+
+La adquisición de las señales EEG, se realizó siguiendo un protocolo de preguntas [16] y mediante ciclos de ojos abiertos y cerrados. Del estudio del que se basó el protocolo de preguntas, se obtuvo una potencia absoluta más alta de theta y alfa cuando los participantes resolvían problemas más complejos, lo cual demostró el requerimiento de la activación prefrontal. Asimismo, en un estudio utilizaron los datos EEG para predecir el estado de los ojos (abiertos o cerrados), debido a que se puede analizar las características de la señal EEG a diferentes frecuencias emplearon la transformada de Wavelet para la extracción de estas características. [17]
+
 
 ## Bibliografía
 
@@ -150,3 +161,14 @@ Además, el enfoque basado en wavelets mejora la relación señal-ruido, este m�
 [11] P. M. Shemi and E. M. Shareena, "Analysis of ECG signal denoising using discrete wavelet transform," in 2016 IEEE International Conference on Engineering and Technology (ICETECH), Coimbatore, India, 2016, pp. 713-718.
 
 [12] M. E. Alexander, R. Baumgartner, A. R. Summers, C. Windischberger, M. Klarhoefer, E. Moser, and R. L. Somorjai, "A wavelet-based method for improving signal-to-noise ratio and contrast in MR images," Magnetic Resonance Imaging, vol. 18, no. 2, pp. 169-180, 2000, doi: 10.1016/S0730-725X(99)00128-9. [Online]. Available: [https://www.sciencedirect.com/science/article/pii/S0730725X99001289](https://www.sciencedirect.com/science/article/pii/S0730725X99001289)
+
+[13] O. Faust, U. R. Acharya, H. Adeli, and A. Adeli, ‘Wavelet-based EEG processing for computer-aided seizure detection and epilepsy diagnosis’, Seizure, vol. 26, pp. 56–64, 2015.
+
+[14] S. Mohammady, Wavelet Theory. 2021, pp. 105–101.
+
+[15] N. Bajaj, J. Requena Carrión, F. Bellotti, R. Berta, and A. De Gloria, “Automatic and tunable algorithm for EEG artifact removal using wavelet decomposition with applications in predictive modeling during auditory tasks,” vol. 55. Elsevier BV, 01-Jan-2020.
+
+[16] “EEG correlation during the solving of simple and complex logical–mathematical problems | Cognitive, Affective, & Behavioral Neuroscience” [Online]. Available: https://link.springer.com/article/10.3758/s13415-019-00703-5. [Accessed: 17-May-2024]
+
+[17] P. Ma and Q. Gao, “EEG Signal and Feature Interaction Modeling-Based Eye Behavior Prediction Research,” vol. 2020, p. 2801015, May 2020, doi: 10.1155/2020/2801015. [Online]. Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7246416/. [Accessed: 17-May-2024]
+
