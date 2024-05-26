@@ -128,7 +128,11 @@ Transformada Wavelet Continua (CWT): Se extrajeron tres características a parti
 </div>
 
 ## Discusión de resultados
-No fue necesario normalizar la señal ya que provienen del mismo sujeto a evaluar.
+Al analizar las señales de electromiografía (EMG) obtenidas durante el reposo y la oposición al movimiento, se observó una diferencia significativa en la actividad muscular registrada. Durante el reposo, como era de esperar, la señal basal mostró una activación mínima, lo cual es consistente con el estado de inactividad muscular. En contraste, durante la oposición al movimiento, se observaron múltiples picos de activación de fuerza en la señal de EMG. Estos picos indican la actividad muscular necesaria para realizar el movimiento contrario y son consistentes con la respuesta esperada durante la contracción muscular.
+
+La ausencia de la necesidad de normalizar la señal de EMG se debe a que todas las mediciones provienen del mismo sujeto en evaluación y bajo condiciones consistentes, lo que minimiza la variabilidad interindividual y facilita la comparación directa entre las señales.
+
+La importancia de analizar las características extraídas tanto en el dominio del tiempo como en el de la frecuencia radica en su capacidad para proporcionar información detallada sobre la actividad muscular. En el dominio del tiempo, características como la raíz cuadrática media (RMS), el valor absoluto medio (MAV), la varianza (VAR), la longitud de la forma de onda (WL) y la EMG integrada (IEMG) ofrecen una comprensión de la amplitud y la forma de la señal de EMG en diferentes momentos durante el movimiento. Por otro lado, en el dominio de la frecuencia, características como la frecuencia mediana (MF) y la frecuencia media (MNF) pueden revelar información sobre la distribución espectral de la señal, lo que puede ser útil para identificar patrones específicos de activación muscular y diferenciar entre distintos tipos de movimientos.
 
 ### 5.1 Selección del mejor filtro 
 Tras una inspección visual de todos los filtros evaluados, se concluye que el filtrado N° 4 se destaca como el más efectivo. Este filtro consta de un filtro Butterworth pasabanda con frecuencias de corte inferior y superior de 20 Hz y 350 Hz de orden 2, complementado con un filtro Notch a 50 Hz. [8]
