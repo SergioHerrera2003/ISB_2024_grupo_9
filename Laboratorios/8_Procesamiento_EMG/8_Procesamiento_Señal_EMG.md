@@ -58,13 +58,13 @@ Se siguió la metodología utilizada en 3 investigaciones con EMG en la activaci
 
 **1. Para señal de Reposo**
 <div align="center">
-    <img src="../../Imagenes/Lab8/FiltrosReposo.jpeg" height="300">
+    <img src="../../Imagenes/Lab8/FiltrosReposo.jpeg" height="400">
         <p>Figura 1. Prueba de Filtros en Reposo
 </div>
 
 **2. Para señal de Oposición**
 <div align="center">
-    <img src="../../Imagenes/Lab8/FiltrosOposicion.jpeg" height="300">
+    <img src="../../Imagenes/Lab8/FiltrosOposicion.jpeg" height="400">
         <p>Figura 2. Prueba de Filtros en Oposición
 </div>
 
@@ -72,7 +72,7 @@ Se siguió la metodología utilizada en 3 investigaciones con EMG en la activaci
 
 Como se discutió del filtro seleccionado es el del 4to estudio
 <div align="center">
-    <img src="../../Imagenes/Lab8/DiagramaBode.jpeg" height="200">
+    <img src="../../Imagenes/Lab8/DiagramaBode.jpeg" height="400">
         <p>Figura 3. Diagrama de Bode
     </div>
 
@@ -102,18 +102,28 @@ Transformada Wavelet Continua (CWT): Se extrajeron tres características a parti
 
 **1. Para señal de Reposo**
 <div align="center">
-    <img src="../../Imagenes/Lab8/DetectionReposo.jpeg" height="200">
-    <img src="../../Imagenes/Lab8/CaracteristicasReposo.jpeg" height="200">
-    <p>Figura 4. Resultados de Reposo
+    <div style="display:inline-block; margin-right:20px;">
+        <img src="../../Imagenes/Lab8/DetectionReposo.jpeg" height="400">
+        <p>Figura 4. Resultados de Reposo</p>
+    </div>
+    <div style="display:inline-block;">
+        <img src="../../Imagenes/Lab8/CaracteristicasReposo.jpeg" height="400">
+        <p>Figura 5. Características de Reposo</p>
+    </div>
 </div>
+
 
 **2. Para señal de Oposición**
 <div align="center">
-    <img src="../../Imagenes/Lab8/DetectionOposicion.jpeg" height="200">
-    <img src="../../Imagenes/Lab8/CaracteristicasOposicion.jpeg" height="200">
-    <p>Figura 4. Resultados de Reposo
+    <div style="display:inline-block; margin-right:20px;">
+        <img src="../../Imagenes/Lab8/DetectionOposicion.jpeg" height="400">
+        <p>Figura 6. Resultados de Oposición</p>
+    </div>
+    <div style="display:inline-block;">
+        <img src="../../Imagenes/Lab8/CaracteristicasOposicion.jpeg" height="400">
+        <p>Figura 7. Características de Oposición</p>
+    </div>
 </div>
-
 
 ## Discusión de resultados
 No fue necesario normalizar la señal ya que provienen del mismo sujeto a evaluar.
