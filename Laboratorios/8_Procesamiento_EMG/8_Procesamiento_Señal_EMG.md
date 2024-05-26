@@ -40,7 +40,7 @@ Finalmente, la etapa de extracción de características permite la clasificació
 - [Descanso - Basal](../../Software/Lab8/Código_brazo_reposo..ipynb)
 - [Contracción fuerte](../../Software/Lab8/Código_brazo_oposición.ipynb)
 
-### 4.1 Filtrado 
+### 4.1. Filtrado 
 Los datos electromiográficos fueron adquiridos mediante el BITalino con una frecuencia de muestreo de 1000 Hz. Primero, se aplicará un filtro pasa banda Butterworth entre 5 - 500 Hz, seguido de un filtro Notch de 60 Hz para eliminar el ruido por la red eléctrica. 
 
 El movimiento realizado fue una contracción concéntrica del músculo bíceps braquial (BB) en el brazo dominante del sujeto (derecho) seguido por un estado de reposo. 
@@ -68,7 +68,7 @@ Se siguió la metodología utilizada en 3 investigaciones con EMG en la activaci
         <p>Figura 2. Prueba de Filtros en Oposición
 </div>
 
-### 4.2 Gráficas de Bode (filtros)
+### 4.2. Gráficas de Bode (filtros)
 
 Como se discutió del filtro seleccionado es el del 4to estudio
 <div align="center">
@@ -77,12 +77,12 @@ Como se discutió del filtro seleccionado es el del 4to estudio
     </div>
 
 
-### 4.3 Segmentación
+### 4.3. Segmentación
 
 Para la segmentación de las señales, se utilizó una ventana Hanning de 150 ms. Esta ventana se aplicó deslizándose a lo largo de la señal para dividirla en segmentos más pequeños que luego se utilizaron para análisis más detallados.
 
 
-### 4.4 Extracción de características
+### 4.4. Extracción de características
 
 Amplitud de Wilson (WAMP): Característica que representa el número de veces que la diferencia entre la amplitud de la señal excede un umbral predefinido, entre dos valores consecutivos. Además, está relacionado con la activación de los potenciales de acción de la unidad motora (MUAP) y el nivel de contracción muscular. [4]
 
@@ -134,7 +134,7 @@ La ausencia de la necesidad de normalizar la señal de EMG se debe a que todas l
 
 La importancia de analizar las características extraídas tanto en el dominio del tiempo como en el de la frecuencia radica en su capacidad para proporcionar información detallada sobre la actividad muscular. En el dominio del tiempo, características como la raíz cuadrática media (RMS), el valor absoluto medio (MAV), la varianza (VAR), la longitud de la forma de onda (WL) y la EMG integrada (IEMG) ofrecen una comprensión de la amplitud y la forma de la señal de EMG en diferentes momentos durante el movimiento. Por otro lado, en el dominio de la frecuencia, características como la frecuencia mediana (MF) y la frecuencia media (MNF) pueden revelar información sobre la distribución espectral de la señal, lo que puede ser útil para identificar patrones específicos de activación muscular y diferenciar entre distintos tipos de movimientos.
 
-### 5.1 Selección del mejor filtro 
+### 5.1. Selección del mejor filtro 
 Tras una inspección visual de todos los filtros evaluados, se concluye que el filtrado N° 4 se destaca como el más efectivo. Este filtro consta de un filtro Butterworth pasabanda con frecuencias de corte inferior y superior de 20 Hz y 350 Hz de orden 2, complementado con un filtro Notch a 50 Hz. [8]
 
 ## Referencias
