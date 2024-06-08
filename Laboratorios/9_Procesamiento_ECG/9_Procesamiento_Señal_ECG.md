@@ -52,9 +52,18 @@ El cálculo del HRV (variabilidad de la frecuencia cardíaca) es una herramienta
 
 
 ## Metodología
-Para el procesamiento de las señales ECG, se realizará un preprocesamiento inicial que incluye filtrado y generación de gráficas de Bode. Posteriormente, se extraerán las características relevantes como los picos de onda R y se generarán gráficas de HRV. Finalmente, se calculará el RMSSD y se discutirán los resultados.
+Primero, se procedió a extraer la señal EKG en dos estados distintos: en estado basal y después del ejercicio. Posteriormente, se llevó a cabo una etapa de preprocesamiento que incluyó la aplicación de un filtro pasabanda Butterworth de orden 4, con frecuencias de corte de 0.5 a 35 Hz, así como un filtro Notch de 50 Hz, tal como se realizó en uno de los laboratorios anteriores titulado "Filtros IIR y FIR".
 
-Para ese proceso se hizo el siguiente diagrama.
+Una vez completada la etapa de preprocesamiento, se ingresó a la fase de procesamiento de las señales, donde el objetivo principal fue maximizar los picos QRS para facilitar su manipulación. Para lograr esto, nos basamos en un estudio realizado por investigadores de la Universidad de Malasia Perlis, quienes implementaron un protocolo de inducción de estrés basado en el test de Stroop para detectar el estrés utilizando señales de electrocardiograma (ECG) y variabilidad de la frecuencia cardíaca (HRV). [4]
+
+En el procesamiento de la señal ECG, se aplicó un filtro derivativo para reducir los efectos de la línea base errante y otros ruidos. Luego, se utilizó el algoritmo de descomposición en wavelet (DWT) con la función wavelet "coif5" y 8 niveles de descomposición, enfocándose en los coeficientes detallados d4, d5 y d6, junto con el coeficiente de aproximación a4, ya que corresponden a las frecuencias relacionadas con el complejo QRS. Después de la descomposición en wavelet y la extracción de los picos del complejo QRS, se aplicó un filtro cuadrático para refinar la señal, lo cual consistió en elevar al cuadrado la amplitud de los picos R para enfatizar los picos verdaderos y reducir los residuos ruidosos.
+
+Para la detección de picos, se utilizaron marcadores mediante la función findpeaks en Python, estableciendo dos umbrales: uno para los picos R y otro para la distancia mínima entre cada pico R. Finalmente, se generó el gráfico de la señal HRV y se calculó el valor RMSSD utilizando la fórmula presentada en el artículo mencionado. [4]
+
+Es importante destacar que, a pesar de contar con la opción de utilizar el filtro derivativo propuesto en el ejemplo del curso de Python, se optó por buscar otro filtro derivativo proveniente de un estudio distinto para diversificar el enfoque. Se encontró un estudio realizado por investigadores de la Universidad de Nueva Gales del Sur (UNSW), quienes desarrollaron el algoritmo UNSW para detectar complejos QRS en señales de ECG. Se detallará el filtro derivativo utilizado en el código de procesamiento.
+
+Adjuntamos el siguiente diagrama de bloques del procedimiento con el cual se procesó la señal de principio a fin
+
 <div align="center">
     <img src="../../Imagenes/Lab9/MetodologíaECG.jpeg" height="400">
     <p>Figura 2. Diagrama del proceso de análisis de señales ECG.</p>
@@ -208,9 +217,35 @@ Eje Y (BPM) (60-90 BPM)
 - El valor del RMSSD es 556.9206894352083
 
 ## Discusión de resultados
-- Comparar los valores de RMSSD en estado basal y después del ejercicio para entender los efectos de la actividad física en la variabilidad de la frecuencia cardiaca.
-- Evaluar la efectividad de los diferentes filtros aplicados a las señales ECG.
-- Analizar la precisión de la detección de picos R y la extracción de características usando técnicas wavelet.
+Se compararon dos estados fisiológicos distintos: el estado basal y el estado después del ejercicio, utilizando señales de electrocardiograma (EKG). Los resultados obtenidos revelan cambios significativos en varios parámetros, tanto en las señales EKG como en la variabilidad de la frecuencia cardíaca (HRV), que reflejan las adaptaciones del sistema cardiovascular ante diferentes niveles de actividad física.
+
+Señales EKG:
+
+Al analizar las señales EKG en estado basal y después del ejercicio, se observan diferencias en los valores de umbral de pico R y en la distancia entre picos R. En el estado basal, el valor del umbral de pico R es de 0.221, mientras que en el estado de ejercicio es ligeramente menor, con un valor de 0.219. 
+
+Variabilidad de la Frecuencia Cardíaca (HRV):
+
+En las gráficas de HRV, se observa una diferencia notable en el valor del RMSSD entre el estado basal y el estado de ejercicio. En estado basal, el valor del RMSSD es de 55.39, mientras que después del ejercicio aumenta significativamente a 556.92. Este incremento en el RMSSD durante el ejercicio indica una mayor variabilidad en la frecuencia cardíaca
+
+Es importante destacar que, en las gráficas de HRV, se evidencia que en estado basal el ritmo cardíaco se encuentra en un rango de 65 a 95 BPM, mientras que en estado de ejercicio el ritmo cardíaco está entre 110 y 130 BPM. Esto se puede evidenciar con la respuesta fisiológica esperada durante el ejercicio, donde el sistema cardiovascular responde aumentando la frecuencia cardíaca para satisfacer las demandas metabólicas del cuerpo.
+
+
+	Sobre el método realizado:
+
+Cabe resaltar que el método que utilizamos nos da resultados aproximados de la ubicación de los picos R, más no la ubicación exacta de los picos R en la señal verdadera, además que es necesario modificar el umbral y realizar una inspecciòn visual de los marcadores para asegurarnos de abarcar los picos R correctos y la gran mayoría de ellos.
+
+
+
+
+
+
+
+
+Comparar los valores de RMSSD en estado basal y después del ejercicio para entender los efectos de la actividad física en la variabilidad de la frecuencia cardiaca.
+
+Evaluar la efectividad de los diferentes filtros aplicados a las señales ECG.
+Analizar la precisión de la detección de picos R y la extracción de características usando técnicas wavelet.
+
 
 ## Referencias
 [1] Ashley, E. A., and J. Niebauer, Cardiology Explained. London: Remedica, 2004, ch. 3, Conquering the ECG. [Online]. Available: https://www.ncbi.nlm.nih.gov/books/NBK2214/.
