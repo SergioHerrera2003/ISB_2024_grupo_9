@@ -217,31 +217,33 @@ Eje Y (BPM) (60-90 BPM)
 - El valor de la distancia entre picos R es 300.0
 - El valor del RMSSD es 556.9206894352083
 
-## Discusión de resultados
+## REUSLTADOS Y DISCUSIÓN
 Se compararon dos estados fisiológicos distintos: el estado basal y el estado después del ejercicio, utilizando señales de electrocardiograma (EKG). Los resultados obtenidos revelan cambios significativos en varios parámetros, tanto en las señales EKG como en la variabilidad de la frecuencia cardíaca (HRV), que reflejan las adaptaciones del sistema cardiovascular ante diferentes niveles de actividad física.
 
-Señales EKG:
+La validez de las señales HRV a corto plazo es uno de los principales obstáculos. Para la estandarización de HRV en datos ECG a corto plazo se recomienda como mínimo 5 minutos. Debido a que las medidas a corto plazo de la HRV regresan rápidamente al valor inicial después de perturbaciones transitorias inducidas por el ejercicio suave, cuando se realiza un monitoreo ambulatorio de 24 horas se encuentra mayor estabilidad en las medidas de HRV.  [3]
+
+Asimismo, la raíz cuadrada de la media de la suma de los cuadrados de las diferencias entre intervalos normales a normales adyacentes (RMSSD) es más sensible a los artefactos que los parámetros del dominio de la frecuencia, un solo artefacto puede inducir a una interpretación errónea del HRV. Por lo que, una buena corrección de artefactos combinando análisis en el dominio del tiempo y frecuencia debería hacer más confiable y consistente la interpretación de HRV. [6] 
+
+
+## Señales EKG:
 
 Al analizar las señales EKG en estado basal y después del ejercicio, se observan diferencias en los valores de umbral de pico R y en la distancia entre picos R. En el estado basal, el valor del umbral de pico R es de 0.221, mientras que en el estado de ejercicio es ligeramente menor, con un valor de 0.219. 
 
-Variabilidad de la Frecuencia Cardíaca (HRV):
+## Variabilidad de la Frecuencia Cardíaca (HRV):
 
 En las gráficas de HRV, se observa una diferencia notable en el valor del RMSSD entre el estado basal y el estado de ejercicio. En estado basal, el valor del RMSSD es de 55.39, mientras que después del ejercicio aumenta significativamente a 556.92. Este incremento en el RMSSD durante el ejercicio indica una mayor variabilidad en la frecuencia cardíaca
 
-Es importante destacar que, en las gráficas de HRV, se evidencia que en estado basal el ritmo cardíaco se encuentra en un rango de 65 a 95 BPM, mientras que en estado de ejercicio el ritmo cardíaco está entre 110 y 130 BPM. Esto se puede evidenciar con la respuesta fisiológica esperada durante el ejercicio, donde el sistema cardiovascular responde aumentando la frecuencia cardíaca para satisfacer las demandas metabólicas del cuerpo.
+La señal HRV es el tiempo que transcurre entre dos picos RR. En las gráficas de HRV, se observa que en estado basal se tiene entre 65 a 95 latidos por minuto a diferencia de luego del ejercicio en dónde supera los 120 latidos por minuto (100 - 120 BPM). Esto se puede evidenciar con la respuesta fisiológica esperada durante el ejercicio, donde el sistema cardiovascular responde aumentando la frecuencia cardíaca para satisfacer las demandas metabólicas del cuerpo. Se sabe que mientras más grande es el HRV, mayor es la recuperación y menor el estrés del organismo. En este caso, el sujeto de prueba es un deportista calificado de vóleibol que entrena todos los días por lo que su resistencia permite una recuperación rápida con 120 BPM. Cabe resaltar, que un entrenamiento continuo aumenta el HRV. 
 
 
-	Sobre el método realizado:
+## Sobre el método realizado:
 
 Cabe resaltar que el método que utilizamos nos da resultados aproximados de la ubicación de los picos R, más no la ubicación exacta de los picos R en la señal verdadera, además que es necesario modificar el umbral y realizar una inspecciòn visual de los marcadores para asegurarnos de abarcar los picos R correctos y la gran mayoría de ellos.
 
 
-
 Nos ayudó a comprender sobre:
 
-
 - Comparar los valores de RMSSD en estado basal y después del ejercicio para entender los efectos de la actividad física en la variabilidad de la frecuencia cardiaca.
-
 - Evaluar la efectividad de los diferentes filtros aplicados a las señales ECG.
 - Analizar la precisión de la detección de picos R y la extracción de características usando técnicas wavelet.
 
@@ -256,6 +258,8 @@ Nos ayudó a comprender sobre:
 [4] K. Palanisamy, M. Murugappan, and S. Yaacob, "Detection of human stress using short-term ECG and HRV signals," Journal of Mechanics in Medicine and Biology, vol. 12, no. 3, pp. 1350038-1-1350038-15, Apr. 2013. DOI: 10.1142/S0219519413500383.
 
 [5] Khamis H, Weiss R, Xie Y, Chang C-W, Lovell NH, Redmond SJ. QRS detection algorithm for telehealth electrocardiogram recordings. IEEE Trans Biomed Eng [Internet]. 2016 [cited 2024 Jun 8];63(7):1377–88. Available from: https://pubmed.ncbi.nlm.nih.gov/27046889/
+
+[6] N. Bourdillon et al, "RMSSD Is More Sensitive to Artifacts Than Frequency-Domain Parameters: Implication in Athletes’ Monitoring," Jsportscimed, pp. 260, 2022. . DOI: 10.52082/jssm.2022.260.
 
 ### LINKS
 
