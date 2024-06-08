@@ -236,15 +236,13 @@ Cabe resaltar que el método que utilizamos nos da resultados aproximados de la 
 
 
 
+Nos ayudó a comprender sobre:
 
 
+- Comparar los valores de RMSSD en estado basal y después del ejercicio para entender los efectos de la actividad física en la variabilidad de la frecuencia cardiaca.
 
-
-
-Comparar los valores de RMSSD en estado basal y después del ejercicio para entender los efectos de la actividad física en la variabilidad de la frecuencia cardiaca.
-
-Evaluar la efectividad de los diferentes filtros aplicados a las señales ECG.
-Analizar la precisión de la detección de picos R y la extracción de características usando técnicas wavelet.
+- Evaluar la efectividad de los diferentes filtros aplicados a las señales ECG.
+- Analizar la precisión de la detección de picos R y la extracción de características usando técnicas wavelet.
 
 
 ## Referencias
