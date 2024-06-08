@@ -74,7 +74,7 @@ Adjuntamos el siguiente diagrama de bloques del procedimiento con el cual se pro
 
 ### Códigos
 - [Descanso - Basal](../../Software/Lab9/ecg_estado_basal.ipynb)
-- [Después del Ejercicio](../../Software/Lab9/ecg_estado_despues_ejercicio.ipynb)
+- [Después del Ejercicio](../../Software/Lab9/ecg_estado_ejercicio.ipynb)
 
 ### Preprocesamiento
 
