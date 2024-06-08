@@ -54,15 +54,16 @@ El cálculo del HRV (variabilidad de la frecuencia cardíaca) es una herramienta
 ## Metodología
 Primero, se procedió a extraer la señal EKG en dos estados distintos: en estado basal y después del ejercicio. Posteriormente, se llevó a cabo una etapa de preprocesamiento que incluyó la aplicación de un filtro pasabanda Butterworth de orden 4, con frecuencias de corte de 0.5 a 35 Hz, así como un filtro Notch de 50 Hz, tal como se realizó en uno de los laboratorios anteriores titulado "Filtros IIR y FIR".
 
-Una vez completada la etapa de preprocesamiento, se ingresó a la fase de procesamiento de las señales, donde el objetivo principal fue maximizar los picos QRS para facilitar su manipulación. Para lograr esto, nos basamos en un estudio realizado por investigadores de la Universidad de Malasia Perlis, quienes implementaron un protocolo de inducción de estrés basado en el test de Stroop para detectar el estrés utilizando señales de electrocardiograma (ECG) y variabilidad de la frecuencia cardíaca (HRV). [4]
+Una vez completada la etapa de preprocesamiento, se ingresó a la fase de procesamiento de las señales, donde el objetivo principal fue maximizar los picos QRS para facilitar su manipulación. Para lograr esto, nos basamos en un estudio realizado por investigadores de la Universidad de Malasia Perlis, quienes implementaron un protocolo de inducción de estrés basado en el test de Stroop para detectar el estrés utilizando señales de electrocardiograma (ECG) y variabilidad de la frecuencia cardíaca (HRV).
 
-En el procesamiento de la señal ECG, se aplicó un filtro derivativo para reducir los efectos de la línea base errante y otros ruidos. Luego, se utilizó el algoritmo de descomposición en wavelet (DWT) con la función wavelet "coif5" y 8 niveles de descomposición, enfocándose en los coeficientes detallados d4, d5 y d6, junto con el coeficiente de aproximación a4, ya que corresponden a las frecuencias relacionadas con el complejo QRS. Después de la descomposición en wavelet y la extracción de los picos del complejo QRS, se aplicó un filtro cuadrático para refinar la señal, lo cual consistió en elevar al cuadrado la amplitud de los picos R para enfatizar los picos verdaderos y reducir los residuos ruidosos.
+En el procesamiento de la señal ECG, se aplicó un filtro derivativo para reducir los efectos de la línea base errante y otros ruidos. Luego, se utilizó el algoritmo de descomposición en wavelet (DWT) con la función wavelet "coif5" y 8 niveles de descomposición, enfocándose en los coeficientes detallados d4, d5 y d6, junto con el coeficiente de aproximación a4, ya que corresponden a las frecuencias relacionadas con el complejo QRS. Después de la descomposición en wavelet y la extracción de los picos del complejo QRS, se aplicó un filtro cuadrático para refinar la señal, lo cual consistió en elevar al cuadrado la amplitud de los picos R para enfatizar los picos verdaderos y reducir los residuos ruidosos. [4]
 
 Para la detección de picos, se utilizaron marcadores mediante la función findpeaks en Python, estableciendo dos umbrales: uno para los picos R y otro para la distancia mínima entre cada pico R. Finalmente, se generó el gráfico de la señal HRV y se calculó el valor RMSSD utilizando la fórmula presentada en el artículo mencionado. [4]
 
-Es importante destacar que, a pesar de contar con la opción de utilizar el filtro derivativo propuesto en el ejemplo del curso de Python, se optó por buscar otro filtro derivativo proveniente de un estudio distinto para diversificar el enfoque. Se encontró un estudio realizado por investigadores de la Universidad de Nueva Gales del Sur (UNSW), quienes desarrollaron el algoritmo UNSW para detectar complejos QRS en señales de ECG. Se detallará el filtro derivativo utilizado en el código de procesamiento.
+Es importante destacar que, a pesar de contar con la opción de utilizar el filtro derivativo propuesto en el ejemplo del curso de Python, se optó por buscar otro filtro derivativo proveniente de un estudio distinto para diversificar el enfoque. Se encontró un estudio realizado por investigadores de la Universidad de Nueva Gales del Sur (UNSW), quienes desarrollaron el algoritmo UNSW para detectar complejos QRS en señales de ECG. Se detalla el filtro derivativo utilizado en el código de procesamiento. [5]
 
 Adjuntamos el siguiente diagrama de bloques del procedimiento con el cual se procesó la señal de principio a fin
+
 
 <div align="center">
     <img src="../../Imagenes/Lab9/MetodologíaECG.jpeg" height="400">
@@ -252,8 +253,9 @@ Nos ayudó a comprender sobre:
 
 [3] Task Force of the European Society of Cardiology and the North American Society of Pacing and Electrophysiology, "Heart rate variability: Standards of measurement, physiological interpretation, and clinical use," Circulation, vol. 93, no. 5, pp. 1043-1065, March 1996.
 
-[4] J. Pan and W. J. Tompkins, "A Real-Time QRS Detection Algorithm," in IEEE Transactions on Biomedical Engineering, vol. BME-32, no. 3, pp. 230-236, March 1985, doi: 10.1109/TBME.1985.325532.
-keywords: {Detection algorithms;Electrocardiography;Detectors;Databases;Band pass filters;Interference;Filtering;Computer displays;Digital filters;Noise reduction},
+[4] K. Palanisamy, M. Murugappan, and S. Yaacob, "Detection of human stress using short-term ECG and HRV signals," Journal of Mechanics in Medicine and Biology, vol. 12, no. 3, pp. 1350038-1-1350038-15, Apr. 2013. DOI: 10.1142/S0219519413500383.
+
+[5] Khamis H, Weiss R, Xie Y, Chang C-W, Lovell NH, Redmond SJ. QRS detection algorithm for telehealth electrocardiogram recordings. IEEE Trans Biomed Eng [Internet]. 2016 [cited 2024 Jun 8];63(7):1377–88. Available from: https://pubmed.ncbi.nlm.nih.gov/27046889/
 
 ### LINKS
 
