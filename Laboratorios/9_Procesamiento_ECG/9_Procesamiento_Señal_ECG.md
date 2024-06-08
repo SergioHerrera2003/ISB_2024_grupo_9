@@ -224,19 +224,16 @@ La validez de las señales HRV a corto plazo es uno de los principales obstácul
 
 Asimismo, la raíz cuadrada de la media de la suma de los cuadrados de las diferencias entre intervalos normales a normales adyacentes (RMSSD) es más sensible a los artefactos que los parámetros del dominio de la frecuencia, un solo artefacto puede inducir a una interpretación errónea del HRV. Por lo que, una buena corrección de artefactos combinando análisis en el dominio del tiempo y frecuencia debería hacer más confiable y consistente la interpretación de HRV. [6] 
 
-
-## Señales EKG:
-
 Al analizar las señales EKG en estado basal y después del ejercicio, se observan diferencias en los valores de umbral de pico R y en la distancia entre picos R. En el estado basal, el valor del umbral de pico R es de 0.221, mientras que en el estado de ejercicio es ligeramente menor, con un valor de 0.219. 
 
-## Variabilidad de la Frecuencia Cardíaca (HRV):
+### Variabilidad de la Frecuencia Cardíaca (HRV):
 
 En las gráficas de HRV, se observa una diferencia notable en el valor del RMSSD entre el estado basal y el estado de ejercicio. En estado basal, el valor del RMSSD es de 55.39, mientras que después del ejercicio aumenta significativamente a 556.92. Este incremento en el RMSSD durante el ejercicio indica una mayor variabilidad en la frecuencia cardíaca
 
 La señal HRV es el tiempo que transcurre entre dos picos RR. En las gráficas de HRV, se observa que en estado basal se tiene entre 65 a 95 latidos por minuto a diferencia de luego del ejercicio en dónde supera los 120 latidos por minuto (100 - 120 BPM). Esto se puede evidenciar con la respuesta fisiológica esperada durante el ejercicio, donde el sistema cardiovascular responde aumentando la frecuencia cardíaca para satisfacer las demandas metabólicas del cuerpo. Se sabe que mientras más grande es el HRV, mayor es la recuperación y menor el estrés del organismo. En este caso, el sujeto de prueba es un deportista calificado de vóleibol que entrena todos los días por lo que su resistencia permite una recuperación rápida con 120 BPM. Cabe resaltar, que un entrenamiento continuo aumenta el HRV. 
 
 
-## Sobre el método realizado:
+### Sobre el método realizado:
 
 Cabe resaltar que el método que utilizamos nos da resultados aproximados de la ubicación de los picos R, más no la ubicación exacta de los picos R en la señal verdadera, además que es necesario modificar el umbral y realizar una inspecciòn visual de los marcadores para asegurarnos de abarcar los picos R correctos y la gran mayoría de ellos.
 
