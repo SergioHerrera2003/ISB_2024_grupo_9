@@ -39,16 +39,17 @@
 - Herramientas de análisis de señales (software de filtrado, herramientas de cálculo de HRV, etc.).
 
 ## Introducción
-La señal de ECG produce una gráfica que representa la actividad eléctrica del corazón. Esta gráfica presenta un patrón básico que sigue una lógica de acuerdo al tipo de actividad cardíaca: la actividad cardíaca hacia un electrodo causa una deflexión hacia arriba, la actividad eléctrica alejada de un electrodo causa una deflexión hacia abajo, y las deflexiones de despolarización y repolarización ocurren en direcciones opuestas. El patrón básico de esta actividad eléctrica comprende tres ondas, que han sido nombradas P, QRS (un complejo de ondas) y T (ver Figura 4). Este patrón de actividad eléctrica, observado en Fig. 1, se conforma por tres ondas P, QRS (complejo de ondas) y T [1].
+La señal de ECG produce una gráfica que representa la actividad eléctrica del corazón. Esta gráfica sigue un patrón básico, determinado por el tipo de actividad cardíaca: la actividad eléctrica dirigida hacia un electrodo provoca una deflexión ascendente, mientras que la actividad eléctrica alejada de un electrodo causa una deflexión descendente. Las deflexiones de despolarización y repolarización ocurren en direcciones opuestas. Este patrón eléctrico básico comprende tres ondas: P, QRS (un complejo de ondas), y T (ver Figura 1) [1].
 
 <div align="center">
     <img src="../../Imagenes/Lab9/IntroduccionECG.jpeg" height="300">
     <p>Figura 1. Representación de la actividad eléctrica del corazón en una señal de ECG.</p>
 </div>
 
-La onda R es un componente de la señal ECG, que representa la despolarización de los ventrículos cardíacos y puede ser crucial para el diagnóstico de diversas condiciones cardíacas [1]. Es importante la detección con precisión de los picos de la onda R es esencial para obtener una interpretación precisa de la señal ECG [2]. Para ello, se utilizarán los métodos de procesamiento de señales que se utilizaron en los laboratorios 7, que permitirán identificar estos picos. Además, se emplearán los datos del ECG de la 2da derivación que hallamos en el laboratorio 4, con los datos de Estado basal o respiración normal y después de hacer ejercicio.
+En la Figura 1, se observa que el pico más elevado corresponde a la onda R, un componente esencial de la señal ECG que representa la despolarización de los ventrículos cardíacos. La detección precisa de los picos de la onda R es crucial para el diagnóstico de diversas condiciones cardíacas y para obtener una interpretación precisa de la señal ECG [2]. Para identificar estos picos, se utilizarán métodos de procesamiento de señales abordados en el laboratorio 7. Además, se emplearán los datos del ECG obtenidos en el laboratorio 4, específicamente de la segunda derivación, en condiciones de estado basal o respiración normal y después de realizar ejercicio.
+ 
+El cálculo del HRV (variabilidad de la frecuencia cardíaca) es una herramienta importante para evaluar la actividad del sistema nervioso autónomo y el estado de salud cardiovascular. La HRV mide las variaciones en el intervalo de tiempo entre latidos consecutivos del corazón (intervalo RR), proporcionando información sobre la regulación del ritmo cardíaco [3].
 
-Además, el cálculo del HRV es una herramienta para evaluar la actividad del sistema nervioso autónomo y el estado de salud cardiovascular. La HRV mide las variaciones en el intervalo de tiempo entre latidos del corazón (intervalo RR) y proporciona información sobre la regulación del ritmo cardíaco.
 
 ## Metodología
 Para el procesamiento de las señales ECG, se realizará un preprocesamiento inicial que incluye filtrado y generación de gráficas de Bode. Posteriormente, se extraerán las características relevantes como los picos de onda R y se generarán gráficas de HRV. Finalmente, se calculará el RMSSD y se discutirán los resultados.
@@ -212,6 +213,17 @@ Eje Y (BPM) (60-90 BPM)
 - Analizar la precisión de la detección de picos R y la extracción de características usando técnicas wavelet.
 
 ## Referencias
+[1] Ashley, E. A., and J. Niebauer, Cardiology Explained. London: Remedica, 2004, ch. 3, Conquering the ECG. [Online]. Available: https://www.ncbi.nlm.nih.gov/books/NBK2214/.
+
+[2] J. Pan and W. J. Tompkins, "A Real-Time QRS Detection Algorithm," IEEE Transactions on Biomedical Engineering, vol. BME-32, no. 3, pp. 230-236, March 1985, doi: 10.1109/TBME.1985.325532.
+
+[3] Task Force of the European Society of Cardiology and the North American Society of Pacing and Electrophysiology, "Heart rate variability: Standards of measurement, physiological interpretation, and clinical use," Circulation, vol. 93, no. 5, pp. 1043-1065, March 1996.
+
+[4] J. Pan and W. J. Tompkins, "A Real-Time QRS Detection Algorithm," in IEEE Transactions on Biomedical Engineering, vol. BME-32, no. 3, pp. 230-236, March 1985, doi: 10.1109/TBME.1985.325532.
+keywords: {Detection algorithms;Electrocardiography;Detectors;Databases;Band pass filters;Interference;Filtering;Computer displays;Digital filters;Noise reduction},
+
+### LINKS
+
 - [Biosignals Notebooks](https://github.com/pluxbiosignals/biosignalsnotebooks)
 
 Para la detección de eventos como picos:
@@ -219,9 +231,5 @@ Para la detección de eventos como picos:
 
 Para el análisis de parámetros de variabilidad de la frecuencia cardiaca:
 - [Análisis de parámetros HRV](http://notebooks.pluxbiosignals.com/notebooks/Categories/Extract/hrv_parameters_rev.html)
-- [IEEE Explore](https://ieeexplore.ieee.org/document/4122029)
 
-### LINKS
-- [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0010482523013732?via%3Dihub#fig1)
-- [Springer 1](https://link.springer.com/article/10.1007/s13246-016-0510-6)
-- [Springer 2](https://link.springer.com/article/10.1007/s12553-022-00662-x?fromPaywallRec=true)
+- [A Real-Time QRS Detection Algorithm](https://ieeexplore.ieee.org/document/4122029)
