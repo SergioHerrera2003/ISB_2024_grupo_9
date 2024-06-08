@@ -145,7 +145,7 @@ Eje Y (BPM) (60-90 BPM)
 **EJERCICIO**
 - La gráfica HRV después del ejercicio refleja los cambios en la frecuencia cardiaca debido a la actividad física.
 <div align="center">
-    <img src=""D:\DISCO LOCAL D\PUCP - UPCH\2024.1\INTRODUCCIÓN A SEÑALES BIOMÉDICAS\LABORATORIOS\LAB 11_Procesamiento de señales ECG\HRV_ejercicio.jpg"" height="400">
+    <img src="D:\DISCO LOCAL D\PUCP - UPCH\2024.1\INTRODUCCIÓN A SEÑALES BIOMÉDICAS\LABORATORIOS\LAB 11_Procesamiento de señales ECG\HRV_ejercicio.jpg" height="400">
     <p>Figura 10. Gráfica HRV de la señal ECG después del ejercicio.</p>
 </div>
 
