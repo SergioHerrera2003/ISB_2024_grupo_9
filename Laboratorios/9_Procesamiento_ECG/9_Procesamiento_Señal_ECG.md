@@ -228,7 +228,7 @@ Al analizar las señales EKG en estado basal y después del ejercicio, se observ
 
 ### Variabilidad de la Frecuencia Cardíaca (HRV):
 
-En las gráficas de HRV, se observa una diferencia notable en el valor del RMSSD entre el estado basal y el estado de ejercicio. En estado basal, el valor del RMSSD es de 55.39, mientras que después del ejercicio aumenta significativamente a 556.92. Este incremento en el RMSSD durante el ejercicio indica una mayor variabilidad en la frecuencia cardíaca
+En las gráficas de HRV, se observa una diferencia notable en el valor del RMSSD entre el estado basal y el estado de ejercicio. En estado basal, el valor del RMSSD es de 55.39, mientras que después del ejercicio aumenta significativamente a 33.09. Este incremento en el RMSSD durante el ejercicio indica una mayor variabilidad en la frecuencia cardíaca
 
 La señal HRV es el tiempo que transcurre entre dos picos RR. En las gráficas de HRV, se observa que en estado basal se tiene entre 65 a 95 latidos por minuto a diferencia de luego del ejercicio en dónde supera los 120 latidos por minuto (100 - 120 BPM). Esto se puede evidenciar con la respuesta fisiológica esperada durante el ejercicio, donde el sistema cardiovascular responde aumentando la frecuencia cardíaca para satisfacer las demandas metabólicas del cuerpo. Se sabe que mientras más grande es el HRV, mayor es la recuperación y menor el estrés del organismo. En este caso, el sujeto de prueba es un deportista calificado de vóleibol que entrena todos los días por lo que su resistencia permite una recuperación rápida con 120 BPM. Cabe resaltar, que un entrenamiento continuo aumenta el HRV. 
 
