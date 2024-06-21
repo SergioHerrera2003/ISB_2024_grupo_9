@@ -107,7 +107,7 @@ Los artefactos oculares, son identificados por una marcada proyección frontal e
 Los artefactos identificados se muestran en la figura 1 según su actividad de las épocas respecto al tiempo y espectro de potencia son: componentes corticales (a-c), artefactos oculares (d-e), artefacto muscular (F) , electrodo de alta impedancia (f), artefacto de origen desconocido (h) [8]
 
 <div align="center">
-    <img src="../../Imagenes/Lab10/ComponentesICA.jpg" height="50">
+    <img src="../../Imagenes/Lab10/ComponentesICA.jpg" height="100">
 </div>
 
 Figura 1. Identificación de artefactos mediante tres algoritmos de procesamiento. (FastICA, Infomax, SOBI) [8]
