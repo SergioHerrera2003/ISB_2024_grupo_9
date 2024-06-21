@@ -9,7 +9,7 @@
 Este proyecto incluye un script en Python para leer datos de un archivo `.txt` de OpenSignals, procesar estos datos para identificar la señal que más varía, realizar un ventaneo de los datos y generar archivos CSV. Finalmente, los archivos CSV generados se suben a Edge Impulse para su posterior procesamiento.
 
 <div align="center">
-    <img src="../../../Imagenes/Lab11/Figura1.jpeg" height="100">
+    <img src="../../../Imagenes/Lab11/Figura1.jpeg" height="300">
 </div>
 
 ### Origen de los Datos
