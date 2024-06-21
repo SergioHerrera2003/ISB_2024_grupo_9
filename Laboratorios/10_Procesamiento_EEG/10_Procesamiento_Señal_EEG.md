@@ -107,7 +107,7 @@ Los artefactos oculares, son identificados por una marcada proyección frontal e
 Los artefactos identificados se muestran en la figura 1 según su actividad de las épocas respecto al tiempo y espectro de potencia son: componentes corticales (a-c), artefactos oculares (d-e), artefacto muscular (F) , electrodo de alta impedancia (f), artefacto de origen desconocido (h) [8]
 
 <div align="center">
-    <img src="../../Imagenes/Lab10/ComponentesICA.jpeg" height="50">
+    <img src="../../Imagenes/Lab10/ComponentesICA.jpg" height="50">
 </div>
 
 Figura 1. Identificación de artefactos mediante tres algoritmos de procesamiento. (FastICA, Infomax, SOBI) [8]
@@ -143,7 +143,7 @@ Las transiciones entre microestados representan la activación secuencial de dif
 La principal característica extraía de las señales EEG son la Densidad de poder espectral ( Power Spectral Density). Un estudio evaluó el cerebro de atletas de natación, realizaron un experimento que constó de un estado de vigilia con los ojos cerrados (EC) por 2 minutos, seguido por 2 minutos de ojos abiertos (EO) fijos en una pantalla. Luego, realizaron la acción compleja (CR) que involucra ojo-mano-pie considerada una característica de comportamiento que distingue a los nadadores de élite. La principal diferencia entre grupos, fue una mejor coordinación ojo-mano-pie con un tiempo de reacción más rápido que los controles, respaldado por las conexiones escasamente cableadas en la banda beta superior (20-30 Hz) pero energéticamente eficientes que se reflejan en un rendimiento motor y cognitivo superior. Además de presentar tasas de parpadeo más estables y bajas. [7]
 
 <div align="center">
-    <img src="../../Imagenes/Lab10/AtletasNatacion.jpeg" height="300">
+    <img src="../../Imagenes/Lab10/AtletasNatacion.jpg" height="300">
 </div>
 
 Figura 2. Cambios del espectro de potencia desde la condición EO al estado de tarea CR. Topología y características de frecuencia media en 2 grupos . ES: nadadores de élite. CG: grupo control 
