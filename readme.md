@@ -51,7 +51,10 @@ maria.jaico@upch.pe, alberto.woll@upch.pe, guillermo.armoa@upch.pe, sergio.herre
 Para más detalles, consulte el [entregable 1](ISB_2024_grupo_10\Laboratorios\1_Integrantes\Lab_1.md) sobre el equipo.
 
 # Paper
-En el enlace a [Papers with Code](https://paperswithcode.com/).
+[Paper en PDF](../ISB_2024_grupo_9/Documentacion/Paper_Project_ISB.pdf)
+
+
+También puede acceder por URL en el enlace a [Papers with Code](https://paperswithcode.com/paper/characterization-of-alzheimer-s-disease-using).
 
 <details><summary><h3>Referencias Bibliográficas</h3></summary>
 
