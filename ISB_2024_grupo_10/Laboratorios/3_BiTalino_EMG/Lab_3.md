@@ -30,12 +30,12 @@
 3. Encender la placa.
 
    <div align="center">
-    <img src="../../Imagenes/Lab3/Figura1.jpeg" width="200" height="300">
+    <img src="../../../Imagenes/Lab3/Figura1.jpeg" width="200" height="300">
     <p>Fig 1. Manual de BiTalino
 
 4. Buscar la tarjeta BITalino.
    <div align="center">
-    <img src="../../Imagenes/Lab3/Figura2.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/Figura2.jpeg" width="400" height="200">
       <p>Fig 2. Pantalla de Inicio OpenSignals
 <br>
 
@@ -45,7 +45,7 @@
 
 7. Conectar los cables a A1, que es el puerto para Electromiografía (EMG). 
    <div align="center">
-    <img src="../../Imagenes/Lab3/Figura3.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/Figura3.jpeg" width="400" height="200">
       <p>Fig 3. Canales del BiTalinmos. Canal A1
 <br>
 
@@ -58,7 +58,7 @@
 ### 4.1 Señal de Biceps
 - Fotos conexión usada (Electrodos,cuerpo y bitalino).
    <div align="center">
-    <img src="../../Imagenes/Lab3/BicepReposo.jpeg" width="400" height="400">
+    <img src="../../../Imagenes/Lab3/BicepReposo.jpeg" width="400" height="400">
    <p>Fig 4. Conexiones del bícep
 <br>
 
@@ -83,41 +83,41 @@
 - Ploteo en OpenSignals.
    <br>
       <div align="center">
-    <img src="../../Imagenes/Lab3/ReposoBrazo.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/ReposoBrazo.jpeg" width="400" height="200">
       <p> Fig 5. Señal en Reposo de Brazo
    <br>
    <div align="center">
-    <img src="../../Imagenes/Lab3/MovimientoBrazo.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/MovimientoBrazo.jpeg" width="400" height="200">
       <p> Fig 6. Señal en Flexión y extensión de Brazo
    <br>
    <div align="center">
-    <img src="../../Imagenes/Lab3/OposicionBrazo.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/OposicionBrazo.jpeg" width="400" height="200">
       <p> Fig 7. Señal en Oposición de Brazo
    <br>
 
 - Archivos de los datos de las señales <br>
-   Descargar Brazo Reposo:    [Documento Reposo Brazo](../../Documentacion/Laboratorios/Lab3/Brazo_reposo.txt)
+   Descargar Brazo Reposo:    [Documento Reposo Brazo](../../../Documentacion/Laboratorios/Lab3/Brazo_reposo.txt)
    <br>
-   Descargar Brazo Flexión:   [Documento Movimiento Brazo](../../Documentacion/Laboratorios/Lab3/brazo_movimiento.txt)
+   Descargar Brazo Flexión:   [Documento Movimiento Brazo](../../../Documentacion/Laboratorios/Lab3/brazo_movimiento.txt)
    <br>
-   Descargar Brazo Oposición: [Documento Oposición Brazo](../../Documentacion/Laboratorios/Lab3/brazo_oposicion.txt)
+   Descargar Brazo Oposición: [Documento Oposición Brazo](../../../Documentacion/Laboratorios/Lab3/brazo_oposicion.txt)
 - Ploteo cada señal en (Python)
 
 <div align="center">
-  <img src="../../Imagenes/Lab3/SeñalBicepReposo5s.png" width="300">
+  <img src="../../../Imagenes/Lab3/SeñalBicepReposo5s.png" width="300">
   <p>Fig 8. Ploteo en Python Bícep Reposo <br>
 
-  <img src="../../Imagenes/Lab3/SeñalBicepsFlexionExtension15s.png" width="300">
+  <img src="../../../Imagenes/Lab3/SeñalBicepsFlexionExtension15s.png" width="300">
   <p>Fig 9. Ploteo en Python Bícep Flexión y extensión <br>
 
-  <img src="../../Imagenes/Lab3/SeñalDedoPulgarOposición.png" width="300">
+  <img src="../../../Imagenes/Lab3/SeñalDedoPulgarOposición.png" width="300">
   <p>Fig 10. Ploteo en Python Bícep Oposición
 </div>
 
 ### 4.2 Señal de Pulgar
 - Fotos conexión usada.
    <div align="center">
-    <img src="../../Imagenes/Lab3/PulgarElectrodo.jpeg" width="400" height="250">
+    <img src="../../../Imagenes/Lab3/PulgarElectrodo.jpeg" width="400" height="250">
    <p>Fig 11. Conexiones del pulgar
 <br>
 
@@ -142,35 +142,35 @@
 - Ploteo en OpenSignals.
    <br>
       <div align="center">
-    <img src="../../Imagenes/Lab3/ReposoPulgar.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/ReposoPulgar.jpeg" width="400" height="200">
       <p> Fig 12. Señal en Reposo de Pulgar
    <br>
    <div align="center">
-    <img src="../../Imagenes/Lab3/MovimientoPulgar.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/MovimientoPulgar.jpeg" width="400" height="200">
       <p> Fig 13. Señal en Flexión y extensión de Pulgar
    <br>
    <div align="center">
-    <img src="../../Imagenes/Lab3/OposicionPulgar.jpeg" width="400" height="200">
+    <img src="../../../Imagenes/Lab3/OposicionPulgar.jpeg" width="400" height="200">
       <p> Fig 14. Señal en Oposición de Pulgar
    <br>
 
 - Archivos de los datos de las señales
 
-   Descargar Pulgar Reposo:    [Documento Reposo Pulgar](../../Documentacion/Laboratorios/Lab3/reposo_pulgar.txt)
+   Descargar Pulgar Reposo:    [Documento Reposo Pulgar](../../../Documentacion/Laboratorios/Lab3/reposo_pulgar.txt)
    <br>
-   Descargar Pulgar Flexión:   [Documento Movimiento Pulgar](../../Documentacion/Laboratorios/Lab3/pulgar.txt)
+   Descargar Pulgar Flexión:   [Documento Movimiento Pulgar](../../../Documentacion/Laboratorios/Lab3/pulgar.txt)
    <br>
-   Descargar Pulgar Oposición: [Documento Oposición Pulgar](../../Documentacion/Laboratorios/Lab3/oposicion_pulgar.txt)
+   Descargar Pulgar Oposición: [Documento Oposición Pulgar](../../../Documentacion/Laboratorios/Lab3/oposicion_pulgar.txt)
 
 - Ploteo de cada señal (Python).
 <div align="center">
-  <img src="../../Imagenes/Lab3/SeñalPulgarReposo.png" width="300">
+  <img src="../../../Imagenes/Lab3/SeñalPulgarReposo.png" width="300">
   <p>Fig 15. Ploteo en Python Pulgar Reposo <br>
 
-  <img src="../../Imagenes/Lab3/SeñalDedoGordo.png" width="300">
+  <img src="../../../Imagenes/Lab3/SeñalDedoGordo.png" width="300">
   <p>Fig 16. Ploteo en Python Pulgar Flexión y extensión <br>
 
-  <img src="../../Imagenes/Lab3/SeñalDedoPulgarOposición.png" width="300">
+  <img src="../../../Imagenes/Lab3/SeñalDedoPulgarOposición.png" width="300">
   <p>Fig 17. Ploteo en Python Pulgar Oposición
 </div>
 

@@ -45,13 +45,13 @@ Para la obtención de las señales de EEG, se utilizan electrodos que se colocan
 - Encender la placa 
 
 <div align="center">
-   <img src="../../Imagenes/Lab5/Figura_1.jpeg" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_1.jpeg" height="300">
     <p>Figura 1. Manual de BiTalino [3]
 </div>
 
 - Buscar la tarjeta BITalino 
 <div align="center">
-   <img src="../../Imagenes/Lab5/Figura_2.jpeg" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_2.jpeg" height="300">
     <p>Figura 2. Pantalla de Inicio OpenSignals
 </div>
 
@@ -60,7 +60,7 @@ Para la obtención de las señales de EEG, se utilizan electrodos que se colocan
 - Conectamos los cables a A2 que es el puerto para Electroencefalograma (EEG)  [User Manual]
 - Colocar los electrodos en los cables y ponerlos en el lugar de la medición. 
 <div align="center">
-   <img src="../../Imagenes/Lab5/Figura_3.jpeg" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_3.jpeg" height="300">
     <p>Figura 3. Canales del BiTalino. Usamos A4 [3]
 </div>
 
@@ -68,7 +68,7 @@ Para la obtención de las señales de EEG, se utilizan electrodos que se colocan
 
 Se utilizó como guía para la colocación de electrodos al BITalino “BITalino HOME-GUIDE #3 ELECTROENCEPHALOGRAPHY (EEG) Exploring Brain Signals”. Según su protocolo, se colocaron los electrodos en las muñecas y cresta ilíaca como se muestra en la figura 4. 
 <div align="center">
-   <img src="../../Imagenes/Lab5/Figura_4.jpeg" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_4.jpeg" height="300">
     <p>Figura 4. Posicionamiento de electrodos para medir EEG en la posición FP1: Pines de medición IN+/- (en la frente) y referencia (atrás de la oreja). [3]
 </div>
 
@@ -95,8 +95,8 @@ Se utilizó como guía para la colocación de electrodos al BITalino “BITalino
 Se presenta las conexión de los electrodos en la cabeza
 
 <div align="center">
-   <img src="../../Imagenes/Lab5/Figura_5p1.jpeg" height="300">
-   <img src="../../Imagenes/Lab5/Figura_5p2.jpeg" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_5p1.jpeg" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_5p2.jpeg" height="300">
     <p>Figura 5. Foto de la conexión del Electrodos en la cabeza positiva y negativa, con la referencia para el BiTalino
 </div>
 
@@ -227,8 +227,8 @@ plt.show()
 #### Señal en Python Basal 1 (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_6p1.png" height="300">
-   <img src="../../Imagenes/Lab5/Figura_6p2.png"" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_6p1.png" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_6p2.png"" height="300">
 </div>
 <p style="text-align: center;">Figura 6. Señal ploteada en estado de relajación como línea base primera medición en Python y su correspondiente FFT</p>
 
@@ -236,24 +236,24 @@ plt.show()
 #### Señal en Python Ojos Abiertos y cerrados (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_7p1.png" height="300">
-   <img src="../../Imagenes/Lab5/Figura_7p2.png" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_7p1.png" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_7p2.png" height="300">
 </div>
 <p style="text-align: center;">Figura 7. Señal ploteada con los ojos abiertos y cerrados durante 5 segundos cada fase en Python y su correspondiente FFT</p>
 
 #### Señal en Python Basal 2 (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_8p1.png" height="300">
-   <img src="../../Imagenes/Lab5/Figura_8p2.png" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_8p1.png" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_8p2.png" height="300">
 </div>
 <p style="text-align: center;">Figura 8. Señal ploteada en estado de relajación como línea base segunda medición en Python y su correspondiente FFT</p>
 
 #### Señal en Python Ejercicios Mentales (Bitalino)
 
 <div style="display: flex; justify-content: center;">
-   <img src="../../Imagenes/Lab5/Figura_9p1.png" height="300">
-   <img src="../../Imagenes/Lab5/Figura_9p2.png" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_9p1.png" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_9p2.png" height="300">
 </div>
 <p style="text-align: center;">Figura 9. Señal ploteada en estado de activación por ejercicios mentales de matemática en Python y su correspondiente FFT</p>
 
@@ -263,32 +263,28 @@ plt.show()
 ### Archivos de las señales ploteadas 
 - Aquí se presentan los archivos txt de la información para cada señal mostrada: <br>
     - Para el BiTalino <br>
-   [Estado Basal 1 BiTalino](../../Documentacion/Laboratorios/Lab5/estado_basal_1.txt)<br>
-   [Ojos Abiertos - Cerrados BiTalino](../../Documentacion/Laboratorios/Lab5/ciclo_ojos_abiertos_cerrados.txt)<br>
-   [Estado Basal 2 BiTalino](../../Documentacion/Laboratorios/Lab5/estado_basal_2.txt)<br>
-   [Ejercicios mentales BiTalino](../../Documentacion/Laboratorios/Lab5/respondiendo_preguntas_12seg.txt)
+   [Estado Basal 1 BiTalino](../../../Documentacion/Laboratorios/Lab5/estado_basal_1.txt)<br>
+   [Ojos Abiertos - Cerrados BiTalino](../../../Documentacion/Laboratorios/Lab5/ciclo_ojos_abiertos_cerrados.txt)<br>
+   [Estado Basal 2 BiTalino](../../../Documentacion/Laboratorios/Lab5/estado_basal_2.txt)<br>
+   [Ejercicios mentales BiTalino](../../../Documentacion/Laboratorios/Lab5/respondiendo_preguntas_12seg.txt)
    - Para el OpenBCI <br>
-   [Estado Basal 1 BiTalino](../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-Basal1.txt)<br>
-   [Ojos Abiertos - Cerrados BiTalino](../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-ojos%20abiertos_cerrados.txt)<br>
-   [Estado Basal 2 BiTalino](../../Documentacion/Laboratorios/Lab5/estado_basal_2.txt)<br>
-   [Ejercicios mentales BiTalino](../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-ejercicios_mentales.txt)
+   [Estado Basal 1 BiTalino](../../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-Basal1.txt)<br>
+   [Ojos Abiertos - Cerrados BiTalino](../../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-ojos%20abiertos_cerrados.txt)<br>
+   [Estado Basal 2 BiTalino](../../../Documentacion/Laboratorios/Lab5/estado_basal_2.txt)<br>
+   [Ejercicios mentales BiTalino](../../../Documentacion/Laboratorios/Lab5/OpenBCI_GUI-v5-ejercicios_mentales.txt)
 
 - Así mismo se muestran los archivos python que se usaron
 Todos los códigos en: <br>
-[Códigos EEG py](../../Software/Lab5)
+[Códigos EEG py](../../../Software/Lab5)
 
 
 ## Discusión y conclusiones
 El cerebro humano se compone de cuatro secciones principales llamadas lóbulos: el frontal (anaranjado), el temporal (en verde), el parietal (en azul) y el occipital (en amarillo), como se muestra en la Figura 13. Estos  lóbulos han sido subdivididos y están asociados con funciones específicas del cerebro. Para propósitos de este laboratorio, nuestra área de enfoque es el lóbulo frontal, el cual despliega un papel fundamental en el control de movimientos voluntarios, la toma de decisiones, la ejecución de procesos cognitivos como la planificación y la atención, y se considera el núcleo de nuestra personalidad.
-<div align="center">
-   <img src="../../Imagenes/Lab5/Figura_14.jpeg" height="300">
-    <p>Figura 14: Bandas de frecuencia del EEG, ocurrencia y tareas para desencadenar la potencia de la banda. [3]
-</div>
 
 
 Observemos teóricamente la siguiente figura del BITalino Home Guide[3]
 <div align="center">
-   <img src="../../Imagenes/Lab5/Figura_15.jpeg" height="300">
+   <img src="../../../Imagenes/Lab5/Figura_15.jpeg" height="300">
     <p>Figura 14: Bandas de frecuencia del EEG, ocurrencia y tareas para desencadenar la potencia de la banda. [3]
 </div>
 

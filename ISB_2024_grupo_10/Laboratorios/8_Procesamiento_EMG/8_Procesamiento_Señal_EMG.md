@@ -37,8 +37,8 @@ Finalmente, la etapa de extracción de características permite la clasificació
 ## Resultados 
 
 #### Códigos
-- [Descanso - Basal](../../Software/Lab8/Código_brazo_reposo..ipynb)
-- [Contracción fuerte](../../Software/Lab8/Código_brazo_oposición.ipynb)
+- [Descanso - Basal](../../../Software/Lab8/Código_brazo_reposo..ipynb)
+- [Contracción fuerte](../../../Software/Lab8/Código_brazo_oposición.ipynb)
 
 ### 4.1. Filtrado 
 Los datos electromiográficos fueron adquiridos mediante el BITalino con una frecuencia de muestreo de 1000 Hz. Primero, se aplicará un filtro pasa banda Butterworth entre 5 - 500 Hz, seguido de un filtro Notch de 60 Hz para eliminar el ruido por la red eléctrica. 
@@ -58,13 +58,13 @@ Se siguió la metodología utilizada en 3 investigaciones con EMG en la activaci
 
 **1. Para señal de Reposo**
 <div align="center">
-    <img src="../../Imagenes/Lab8/FiltrosReposo.jpeg" height="400">
+    <img src="../../../Imagenes/Lab8/FiltrosReposo.jpeg" height="400">
         <p>Figura 1. Prueba de Filtros en Reposo
 </div>
 
 **2. Para señal de Oposición**
 <div align="center">
-    <img src="../../Imagenes/Lab8/FiltrosOposicion.jpeg" height="400">
+    <img src="../../../Imagenes/Lab8/FiltrosOposicion.jpeg" height="400">
         <p>Figura 2. Prueba de Filtros en Oposición
 </div>
 
@@ -72,7 +72,7 @@ Se siguió la metodología utilizada en 3 investigaciones con EMG en la activaci
 
 Como se discutió del filtro seleccionado es el del 4to estudio
 <div align="center">
-    <img src="../../Imagenes/Lab8/DiagramaBode.jpeg" height="400">
+    <img src="../../../Imagenes/Lab8/DiagramaBode.jpeg" height="400">
         <p>Figura 3. Diagrama de Bode
     </div>
 
@@ -103,12 +103,12 @@ Transformada Wavelet Continua (CWT): Se extrajeron tres características a parti
 **1. Para señal de Reposo**
 <div align="center">
     <div style="display:inline-block; margin-right:20px;">
-        <img src="../../Imagenes/Lab8/DetectionReposo.jpeg" height="400">
+        <img src="../../../Imagenes/Lab8/DetectionReposo.jpeg" height="400">
         <p>Figura 4. Resultados de Reposo</p>
     </div>
     <div style="display:inline-block;">
-        <img src="../../Imagenes/Lab8/CaracteristicasReposo.jpeg" height="400" style="margin-right: 10px;">
-        <img src="../../Imagenes/Lab8/REPOSO.jpeg" height="200">
+        <img src="../../../Imagenes/Lab8/CaracteristicasReposo.jpeg" height="400" style="margin-right: 10px;">
+        <img src="../../../Imagenes/Lab8/REPOSO.jpeg" height="200">
         <p>Figura 5. Características de Reposo</p>
     </div>
 </div>
@@ -117,12 +117,12 @@ Transformada Wavelet Continua (CWT): Se extrajeron tres características a parti
 **2. Para señal de Oposición**
 <div align="center">
     <div style="display:inline-block; margin-right:20px;">
-        <img src="../../Imagenes/Lab8/DetectionOposicion.jpeg" height="400">
+        <img src="../../../Imagenes/Lab8/DetectionOposicion.jpeg" height="400">
         <p>Figura 6. Resultados de Oposición</p>
     </div>
     <div style="display:inline-block;">
-        <img src="../../Imagenes/Lab8/CaracteristicasOposicion.jpeg" height="400" style ="marrgin-right: 10px;">
-        <img src="../../Imagenes/Lab8/OPOSICION.jpeg" height="200">
+        <img src="../../../Imagenes/Lab8/CaracteristicasOposicion.jpeg" height="400" style ="marrgin-right: 10px;">
+        <img src="../../../Imagenes/Lab8/OPOSICION.jpeg" height="200">
         <p>Figura 7. Características de Oposición</p>
     </div>
 </div>
@@ -143,15 +143,15 @@ Tras una inspección visual de todos los filtros evaluados, se concluye que el f
 
 [2] D. Farina and R. Merletti, “Comparison of algorithms for estimation of EMG variables during voluntary isometric contractions,” pp. 337–349, 2000.
 
-[3] V. M. Gallón, S. M. Vélez, J. Ramírez, and F. Bolaños, “Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing,” vol. 94. Elsevier BV, Mar. 25, 2024, doi: [10.1016/j.bspc.2024.106266](https://doi.org/10.1016/j.bspc.2024.106266). or [PDF](../../Documentacion/Laboratorios/Lab8_EMG_Proces/Comparison%20of%20machine%20learning%20algorithms%20and%20feature%20extraction%20techniques%20for%20the%20automatic%20detection%20of%20surface%20EMG%20activation%20timing.pdf)
+[3] V. M. Gallón, S. M. Vélez, J. Ramírez, and F. Bolaños, “Comparison of machine learning algorithms and feature extraction techniques for the automatic detection of surface EMG activation timing,” vol. 94. Elsevier BV, Mar. 25, 2024, doi: [10.1016/j.bspc.2024.106266](https://doi.org/10.1016/j.bspc.2024.106266). or [PDF](../../../Documentacion/Laboratorios/Lab8_EMG_Proces/Comparison%20of%20machine%20learning%20algorithms%20and%20feature%20extraction%20techniques%20for%20the%20automatic%20detection%20of%20surface%20EMG%20activation%20timing.pdf)
 
-[4] A. Turner, D. Shieff, A. Dwivedi, and M. Liarokapis, “Comparing Machine Learning Methods and Feature Extraction Techniques for the EMG Based Decoding of Human Intention.” IEEE, Nov. 01, 2021, doi: [10.1109/embc46164.2021.9630998](https://doi.org/10.1109/embc46164.2021.9630998). or [PDF](../../Documentacion/Laboratorios/Lab8_EMG_Proces/Comparing_Machine_Learning_Methods_and_Feature_Extraction_Techniques_for_the_EMG_Based_Decoding_of_Human_Intention.pdf)
+[4] A. Turner, D. Shieff, A. Dwivedi, and M. Liarokapis, “Comparing Machine Learning Methods and Feature Extraction Techniques for the EMG Based Decoding of Human Intention.” IEEE, Nov. 01, 2021, doi: [10.1109/embc46164.2021.9630998](https://doi.org/10.1109/embc46164.2021.9630998). or [PDF](../../../Documentacion/Laboratorios/Lab8_EMG_Proces/Comparing_Machine_Learning_Methods_and_Feature_Extraction_Techniques_for_the_EMG_Based_Decoding_of_Human_Intention.pdf)
 
-[5] Z. Xiao, J. Ye, H. Shen, S. Deng, H. Zhu, and H. Xiao, “Analysis of Digital Filtering Design Based on Surface EMG Signals.” IEEE, Apr. 14, 2023, doi: [10.1109/iceib57887.2023.10170168](https://doi.org/10.1109/iceib57887.2023.10170168). or [PDF](../../Documentacion/Laboratorios/Lab8_EMG_Proces/Analysis_of_Digital_Filtering_Design_Based_on_Surface_EMG_Signals.pdf)
+[5] Z. Xiao, J. Ye, H. Shen, S. Deng, H. Zhu, and H. Xiao, “Analysis of Digital Filtering Design Based on Surface EMG Signals.” IEEE, Apr. 14, 2023, doi: [10.1109/iceib57887.2023.10170168](https://doi.org/10.1109/iceib57887.2023.10170168). or [PDF](../../../Documentacion/Laboratorios/Lab8_EMG_Proces/Analysis_of_Digital_Filtering_Design_Based_on_Surface_EMG_Signals.pdf)
 
-[6] G. J. Rani, M. F. Hashmi, and G. Muhammad, “Variational Mode Decomposition and Empirical Wavelet Transform-Based Feature Extraction and Ensemble Classifier for Lower Limb Movement Prediction With Surface Electromyography Signal,” vol. 12. Institute of Electrical and Electronics Engineers (IEEE), p. 55201, 2024, doi: [10.1109/access.2024.338891](https://doi.org/10.1109/access.2024.338891). or [PDF](../../Documentacion/Laboratorios/Lab8_EMG_Proces/Variational_Mode_Decomposition_and_Empirical_Wavelet_Transform-Based_Feature_Extraction_and_Ensemble_Classifier_for_Lower_Limb_Mo.pdf)
+[6] G. J. Rani, M. F. Hashmi, and G. Muhammad, “Variational Mode Decomposition and Empirical Wavelet Transform-Based Feature Extraction and Ensemble Classifier for Lower Limb Movement Prediction With Surface Electromyography Signal,” vol. 12. Institute of Electrical and Electronics Engineers (IEEE), p. 55201, 2024, doi: [10.1109/access.2024.338891](https://doi.org/10.1109/access.2024.338891). or [PDF](../../../Documentacion/Laboratorios/Lab8_EMG_Proces/Variational_Mode_Decomposition_and_Empirical_Wavelet_Transform-Based_Feature_Extraction_and_Ensemble_Classifier_for_Lower_Limb_Mo.pdf)
 
-[7] F. Di Nardo, A. Nocera, A. Cucchiarelli, S. Fioretti, and C. Morbidoni, “Machine Learning for Detection of Muscular Activity from Surface EMG Signals,” vol. 22, no. 9. MDPI AG, Apr. 28, 2022, doi: [10.3390/s22093393](https://doi.org/10.3390/s22093393). or [PDF](../../Documentacion/Laboratorios/Lab8_EMG_Proces/Machine_Learning_for_Detection_of_Muscular_Activity.pdf)
+[7] F. Di Nardo, A. Nocera, A. Cucchiarelli, S. Fioretti, and C. Morbidoni, “Machine Learning for Detection of Muscular Activity from Surface EMG Signals,” vol. 22, no. 9. MDPI AG, Apr. 28, 2022, doi: [10.3390/s22093393](https://doi.org/10.3390/s22093393). or [PDF](../../../Documentacion/Laboratorios/Lab8_EMG_Proces/Machine_Learning_for_Detection_of_Muscular_Activity.pdf)
 
 [8] J. Li et al., ‘Motion intention prediction of upper limb in stroke survivors using sEMG signal and attention mechanism’, Biomed. Signal Process. Control, vol. 78, no. 103981, p. 103981, 2022.
 

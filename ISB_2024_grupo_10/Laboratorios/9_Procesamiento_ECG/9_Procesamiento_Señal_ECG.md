@@ -42,7 +42,7 @@
 La señal de ECG produce una gráfica que representa la actividad eléctrica del corazón. Esta gráfica sigue un patrón básico, determinado por el tipo de actividad cardíaca: la actividad eléctrica dirigida hacia un electrodo provoca una deflexión ascendente, mientras que la actividad eléctrica alejada de un electrodo causa una deflexión descendente. Las deflexiones de despolarización y repolarización ocurren en direcciones opuestas. Este patrón eléctrico básico comprende tres ondas: P, QRS (un complejo de ondas), y T (ver Figura 1) [1].
 
 <div align="center">
-    <img src="../../Imagenes/Lab9/IntroduccionECG.jpeg" height="300">
+    <img src="../../../Imagenes/Lab9/IntroduccionECG.jpeg" height="300">
     <p>Figura 1. Representación de la actividad eléctrica del corazón en una señal de ECG.</p>
 </div>
 
@@ -66,15 +66,15 @@ Adjuntamos el siguiente diagrama de bloques del procedimiento con el cual se pro
 
 
 <div align="center">
-    <img src="../../Imagenes/Lab9/MetodologíaECG.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/MetodologíaECG.jpeg" height="400">
     <p>Figura 2. Diagrama del proceso de análisis de señales ECG.</p>
 </div>
 
 ## Resultados
 
 ### Códigos
-- [Descanso - Basal](../../Software/Lab9/ecg_estado_basal.ipynb)
-- [Después del Ejercicio](../../Software/Lab9/ecg_estado_ejercicio.ipynb)
+- [Descanso - Basal](../../../Software/Lab9/ecg_estado_basal.ipynb)
+- [Después del Ejercicio](../../../Software/Lab9/ecg_estado_ejercicio.ipynb)
 
 ### Preprocesamiento
 
@@ -83,14 +83,14 @@ Adjuntamos el siguiente diagrama de bloques del procedimiento con el cual se pro
 **BASAL**
 - Se realizó el filtrado de la señal ECG en estado basal para eliminar el ruido y las interferencias.
 <div align="center">
-    <img src="../../Imagenes/Lab9/EstadoBasal_ButterNotch.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/EstadoBasal_ButterNotch.jpeg" height="400">
     <p>Figura 3. Filtrado de la señal ECG en estado basal.</p>
 </div>
 
 **EJERCICIO**
 - Se aplicó el mismo proceso de filtrado a la señal ECG obtenida después del ejercicio.
 <div align="center">
-    <img src="../../Imagenes/Lab9/Ejercicio_ButterNotch.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/Ejercicio_ButterNotch.jpeg" height="400">
     <p>Figura 4. Filtrado de la señal ECG después del ejercicio.</p>
 </div>
 
@@ -99,14 +99,14 @@ Adjuntamos el siguiente diagrama de bloques del procedimiento con el cual se pro
 **BASAL**
 - La gráfica de Bode para la señal ECG en estado basal muestra la respuesta en frecuencia del filtro utilizado.
 <div align="center">
-    <img src="../../Imagenes/Lab9/EstadoBasal_RespuestaEnFreq.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/EstadoBasal_RespuestaEnFreq.jpeg" height="400">
     <p>Figura 5. Respuesta en frecuencia del filtro aplicado a la señal ECG en estado basal.</p>
 </div>
 
 **EJERCICIO**
 - La gráfica de Bode para la señal ECG después del ejercicio proporciona una comparación de la efectividad del filtro en diferentes condiciones.
 <div align="center">
-    <img src="../../Imagenes/Lab9/Ejercicio_RespuestaEnFreq.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/Ejercicio_RespuestaEnFreq.jpeg" height="400">
     <p>Figura 6. Respuesta en frecuencia del filtro aplicado a la señal ECG después del ejercicio.</p>
 </div>
 
@@ -117,14 +117,14 @@ Adjuntamos el siguiente diagrama de bloques del procedimiento con el cual se pro
 **BASAL**
 - Se identificaron y anotaron los picos de onda R en la señal ECG en estado basal.
 <div align="center">
-    <img src="../../Imagenes/Lab9/EstadoBasal_Picos.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/EstadoBasal_Picos.jpeg" height="400">
     <p>Figura 7. Identificación de picos de onda R en la señal ECG en estado basal.</p>
 </div>
 
 **EJERCICIO**
 - Los picos de onda R también fueron detectados en la señal ECG después del ejercicio.
 <div align="center">
-    <img src="../../Imagenes/Lab9/Ejercicio_Picos.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/Ejercicio_Picos.jpeg" height="400">
     <p>Figura 8. Identificación de picos de onda R en la señal ECG después del ejercicio.</p>
 </div>
 
@@ -138,7 +138,7 @@ Eje Y (BPM) (60-90 BPM)
 **BASAL**
 - La gráfica HRV de la señal en estado basal muestra la variación de la frecuencia cardiaca en condiciones normales.
 <div align="center">
-    <img src="../../Imagenes/Lab9/EstadoBasal_HRV.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/EstadoBasal_HRV.jpeg" height="400">
     <p>Figura 9. Gráfica HRV de la señal ECG en estado basal.</p>
 </div>
 
@@ -158,14 +158,14 @@ Eje Y (BPM) (60-90 BPM)
 **BASAL**
 - Aplicación del filtro cuadrático a la señal ECG en estado basal.
 <div align="center">
-    <img src="../../Imagenes/Lab9/EstadoBasal_FiltroCuadratico.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/EstadoBasal_FiltroCuadratico.jpeg" height="400">
     <p>Figura 11. Aplicación del filtro cuadrático a la señal ECG en estado basal.</p>
 </div>
 
 **EJERCICIO**
 - Aplicación del filtro cuadrático a la señal ECG después del ejercicio.
 <div align="center">
-    <img src="../../Imagenes/Lab9/Ejercicio_FiltroCuadratico.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/Ejercicio_FiltroCuadratico.jpeg" height="400">
     <p>Figura 12. Aplicación del filtro cuadrático a la señal ECG después del ejercicio.</p>
 </div>
 
@@ -174,7 +174,7 @@ Eje Y (BPM) (60-90 BPM)
 **BASAL**
 - Extracción de coeficientes wavelet de la señal ECG en estado basal.
 <div align="center">
-    <img src="../../Imagenes/Lab9/EstadoBasal_CoefWavelet.jpeg" height="500">
+    <img src="../../../Imagenes/Lab9/EstadoBasal_CoefWavelet.jpeg" height="500">
         <p>Figura 13. Extracción de coeficientes Wavelet Estado Basal
 </div>
 
@@ -183,7 +183,7 @@ Eje Y (BPM) (60-90 BPM)
 - Extracción de coeficientes wavelet de la señal ECG después del ejercicio.
 
 <div align="center">
-    <img src="../../Imagenes/Lab9/Ejercicio_CoefWavelet.jpeg" height="500">
+    <img src="../../../Imagenes/Lab9/Ejercicio_CoefWavelet.jpeg" height="500">
         <p>Figura 14. Extracción de coeficientes Wavelet en Ejercicio
 </div>
 
@@ -193,7 +193,7 @@ Eje Y (BPM) (60-90 BPM)
 **BASAL**
 - Aplicación de un filtro wavelet a la señal ECG en estado basal.
 <div align="center">
-    <img src="../../Imagenes/Lab9/EstadoBasal_FiltWavelet.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/EstadoBasal_FiltWavelet.jpeg" height="400">
         <p>Figura 15. Filtro Wavelet a la señal filtrada en Estado Basal.
 </div>
 
@@ -201,7 +201,7 @@ Eje Y (BPM) (60-90 BPM)
 **EJERCICIO**
 - Aplicación de un filtro wavelet a la señal ECG después del Ejercicio.
 <div align="center">
-    <img src="../../Imagenes/Lab9/Ejercicio_FiltWavelet.jpeg" height="400">
+    <img src="../../../Imagenes/Lab9/Ejercicio_FiltWavelet.jpeg" height="400">
         <p>Figura 16. Filtro Wavelet a la señal filtrada en ejercicio.
 </div>
 

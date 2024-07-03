@@ -8,7 +8,7 @@
 
 
     <div style="text-align:center;">
-        <img src="../../Imagenes/Sergio_Herrera.jpeg" width="200px">
+        <img src="../../../Imagenes/Sergio_Herrera.jpeg" width="200px">
     </div>
 <br>
 <br>
@@ -19,7 +19,7 @@
     (maria.jaico@upch.pe)
 
     <div style="text-align:center;">
-        <img src="../../Imagenes/Maria_Jaico.jpg" width="200px">
+        <img src="../../../Imagenes/Maria_Jaico.jpg" width="200px">
     </div>
 <br>
 <br>
@@ -30,7 +30,7 @@
 
      (guillermo.armoa@upch.pe)
     <div style="text-align:center;">
-        <img src="../../Imagenes/Guillermo_Armoa(1).jpeg" width="200px">
+        <img src="../../../Imagenes/Guillermo_Armoa(1).jpeg" width="200px">
     </div>
 <br>
 <br>
@@ -41,5 +41,5 @@
     
     (alberto.woll@upch.pe)
     <div style="text-align:center;">
-        <img src="../../Imagenes/Alberto_Woll.jpeg" width="200px">
+        <img src="../../../Imagenes/Alberto_Woll.jpeg" width="200px">
     </div>

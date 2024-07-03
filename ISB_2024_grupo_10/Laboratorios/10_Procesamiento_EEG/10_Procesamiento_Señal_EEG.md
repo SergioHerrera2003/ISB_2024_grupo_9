@@ -28,7 +28,7 @@ Se exploró la extracción de características utilizando transformadas Wavelet 
 Se presentan los resultados obtenidos del proceso de filtrado y preprocesamiento.
 
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig1.jpeg" height="400">
+    <img src="../../../Imagenes/Lab10/Fig1.jpeg" height="400">
 </div>
 
 - **Filtrado pasabanda e ICA**
@@ -40,49 +40,49 @@ Se presentan los resultados obtenidos del proceso de filtrado y preprocesamiento
 - **Extracción de Características (Wavelet continua o discreta)**
   - Se exploraron técnicas de extracción de características mediante transformadas Wavelet.
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig2.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig2.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig3.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig3.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig4.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig4.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig5.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig5.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig6.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig6.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig7.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig7.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig8.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig8.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig9.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig9.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig10.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig10.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig11.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig11.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig12.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig12.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig13.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig13.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig14.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig14.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig15.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig15.jpeg" height="100">
 </div>
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig16.jpeg" height="100">
+    <img src="../../../Imagenes/Lab10/Fig16.jpeg" height="100">
 </div>
 
 ## Discusión
@@ -107,7 +107,7 @@ Los artefactos oculares, son identificados por una marcada proyección frontal e
 Los artefactos identificados se muestran en la figura 1 según su actividad de las épocas respecto al tiempo y espectro de potencia son: componentes corticales (a-c), artefactos oculares (d-e), artefacto muscular (F) , electrodo de alta impedancia (f), artefacto de origen desconocido (h) [8]
 
 <div align="center">
-    <img src="../../Imagenes/Lab10/ComponentesICA.jpg">
+    <img src="../../../Imagenes/Lab10/ComponentesICA.jpg">
 </div>
 
 Figura 1. Identificación de artefactos mediante tres algoritmos de procesamiento. (FastICA, Infomax, SOBI) [8]
@@ -121,14 +121,14 @@ Normalización por desviación estándatar
 
 La actividad eléctrica se puede describir mediante GFP que representa la fuerza del campo eléctrico sobre el cerebro en cada instante. Se utiliza para medir la respuesta cerebral global a un evento o para caracterizar los cambios rápidos de la actividad cerebral. 
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig18.jpeg" height="50">
+    <img src="../../../Imagenes/Lab10/Fig18.jpeg" height="50">
 </div>
 
 
 Los instantes de mayor intensidad de campo y  mayor relación topográfica señal - ruido (SNR)  están representados por los máximos locales de la curva GFP, los cuales se consideran estados discretos del EEG en el análisis de microestados siendo la evolución de la señal una serie de estos estados (A-D) lo que genera mapas topográficos de la matriz de electrodos. La señal EEG multicanal es descrita como una serie de microestados alternos con una duración de 80 - 120 ms cada uno de estos periodos de cuasi estabilidad de mapas individuales. [1]
 
 <div align="center">
-    <img src="../../Imagenes/Lab10/Fig19.jpeg" height="300">
+    <img src="../../../Imagenes/Lab10/Fig19.jpeg" height="300">
 </div>
 
 Figura 1. Ilustración del método de agrupamiento y análisis de microestados. Curva GFP en rojo 
@@ -143,7 +143,7 @@ Las transiciones entre microestados representan la activación secuencial de dif
 La principal característica extraía de las señales EEG son la Densidad de poder espectral ( Power Spectral Density). Un estudio evaluó el cerebro de atletas de natación, realizaron un experimento que constó de un estado de vigilia con los ojos cerrados (EC) por 2 minutos, seguido por 2 minutos de ojos abiertos (EO) fijos en una pantalla. Luego, realizaron la acción compleja (CR) que involucra ojo-mano-pie considerada una característica de comportamiento que distingue a los nadadores de élite. La principal diferencia entre grupos, fue una mejor coordinación ojo-mano-pie con un tiempo de reacción más rápido que los controles, respaldado por las conexiones escasamente cableadas en la banda beta superior (20-30 Hz) pero energéticamente eficientes que se reflejan en un rendimiento motor y cognitivo superior. Además de presentar tasas de parpadeo más estables y bajas. [7]
 
 <div align="center">
-    <img src="../../Imagenes/Lab10/AtletasNatacion.jpg" height="300">
+    <img src="../../../Imagenes/Lab10/AtletasNatacion.jpg" height="300">
 </div>
 
 Figura 2. Cambios del espectro de potencia desde la condición EO al estado de tarea CR. Topología y características de frecuencia media en 2 grupos . ES: nadadores de élite. CG: grupo control 
@@ -175,6 +175,6 @@ La eliminación de diferentes artefactos tanto fisiológicos como no fisiológic
 ### Extra
 Si tiene problemas con el pdf puede seguir el camino de  Documentacion/Laboratorios/Lab10_EEG
 
-- [PDF1]("../../../../Documentacion/Laboratorios/Lab10_EEG/A%20review%20of%20EEG%20Signal%20Analysis%20for%20Diagnosis%20of%20Neurological%20Disorders%20using%20Machine%20Learning.pdf")
+- [PDF1]("../../../../../../Documentacion/Laboratorios/Lab10_EEG/A%20review%20of%20EEG%20Signal%20Analysis%20for%20Diagnosis%20of%20Neurological%20Disorders%20using%20Machine%20Learning.pdf")
 
-- [PDF2]("../../../../Documentacion/Laboratorios/Lab10_EEG/EBSCO-FullText-2024-06-14.pdf")
+- [PDF2]("../../../../../../Documentacion/Laboratorios/Lab10_EEG/EBSCO-FullText-2024-06-14.pdf")

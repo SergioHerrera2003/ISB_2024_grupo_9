@@ -59,36 +59,36 @@ Diseñar un filtro FIR, elegir entre los siguientes tipos de ventana: Hamming y 
 ### Tabla EMG
 | Campo              | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR |
 |--------------------|-------------------------|-------------------------------|-------------------------------|
-| Descanso - Basal  | <img src="../../Imagenes/Lab6/EMG_brazo reposo cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo reposo IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo reposo FIR.jpeg" height="200">
-| Contracción débil | <img src="../../Imagenes/Lab6/EMG_Brazo movimiento cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo movimiento IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo movimiento FIR.jpeg" height="200">|
-| Contracción fuerte| <img src="../../Imagenes/Lab6/EMG_brazo oposición cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo oposicion IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EMG_brazo oposicion FIR.jpeg" height="200"> |
+| Descanso - Basal  | <img src="../../../Imagenes/Lab6/EMG_brazo reposo cruda.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EMG_brazo reposo IIR.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EMG_brazo reposo FIR.jpeg" height="200">
+| Contracción débil | <img src="../../../Imagenes/Lab6/EMG_Brazo movimiento cruda.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EMG_brazo movimiento IIR.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EMG_brazo movimiento FIR.jpeg" height="200">|
+| Contracción fuerte| <img src="../../../Imagenes/Lab6/EMG_brazo oposición cruda.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EMG_brazo oposicion IIR.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EMG_brazo oposicion FIR.jpeg" height="200"> |
 #### Códigos
-- [Descanso - Basal](../../Software/Lab6/brazo_reposo.py)
-- [Contracción débil](../../Software/Lab6/brazo_movimiento.py)
-- [Contracción fuerte](../../Software/Lab6/brazo_oposicion.py)
+- [Descanso - Basal](../../../Software/Lab6/brazo_reposo.py)
+- [Contracción débil](../../../Software/Lab6/brazo_movimiento.py)
+- [Contracción fuerte](../../../Software/Lab6/brazo_oposicion.py)
 
 ### Tabla ECG
 | Campo          | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR | 
 |----------------|-------------------------|-------------------------------|-------------------------------|
-| Basal          | <img src="../../Imagenes/Lab6/ECG_original_respiracion_normal.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_IIR.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_normal_FIR.png" height="200"> |
-| Post Ejercicio | <img src="../../Imagenes/Lab6/ECG_original_despues_ejercicio.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_despues_ejercicio_IIR.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_despues_ejercicio_FIR.png" height="200"> |
-| Respiración - Post Ejercicio | <img src="../../Imagenes/Lab6/ECG_original_respiracion_despues_ejercicio.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_IIR.png" height="200"> | <img src="../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_FIR.png" height="200"> |
+| Basal          | <img src="../../../Imagenes/Lab6/ECG_original_respiracion_normal.png" height="200"> | <img src="../../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_IIR.png" height="200"> | <img src="../../../Imagenes/Lab6/ECG_respiracion_normal_FIR.png" height="200"> |
+| Post Ejercicio | <img src="../../../Imagenes/Lab6/ECG_original_despues_ejercicio.png" height="200"> | <img src="../../../Imagenes/Lab6/ECG_despues_ejercicio_IIR.png" height="200"> | <img src="../../../Imagenes/Lab6/ECG_despues_ejercicio_FIR.png" height="200"> |
+| Respiración - Post Ejercicio | <img src="../../../Imagenes/Lab6/ECG_original_respiracion_despues_ejercicio.png" height="200"> | <img src="../../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_IIR.png" height="200"> | <img src="../../../Imagenes/Lab6/ECG_respiracion_despues_ejercicio_FIR.png" height="200"> |
 #### Códigos
-- [Basal](../../Software/Lab6/ECG_respiracion_normal_filter.ipynb)
-- [Post Ejercicio](../../Software/Lab6/ECG_despues_ejercicio_filters.ipynb)
-- [Respiración -Post Ejercicio](../../Software/Lab6/ECG3_respiracion_despues_ejercicio_filter.ipynb)
+- [Basal](../../../Software/Lab6/ECG_respiracion_normal_filter.ipynb)
+- [Post Ejercicio](../../../Software/Lab6/ECG_despues_ejercicio_filters.ipynb)
+- [Respiración -Post Ejercicio](../../../Software/Lab6/ECG3_respiracion_despues_ejercicio_filter.ipynb)
 
 ### Tabla EEG
 | Campo              | Señal Cruda             | Señal filtrada con filtro IIR | Señal filtrada con filtro FIR |
 |--------------------|-------------------------|-------------------------------|-------------------------------|
-| Basal   | <img src="../../Imagenes/Lab6/EEG_estado basal cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_estado basal IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_estado basal FIR.jpeg" height="200">
-| Ojos abiertos- cerrados  | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ojos cerrados abiertos FIR.jpeg" height="200">|
-| Ejercicios Mentales   | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales cruda.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales IIR.jpeg" height="200"> | <img src="../../Imagenes/Lab6/EEG_ejercicios mentales FIR.jpeg" height="200"> |
+| Basal   | <img src="../../../Imagenes/Lab6/EEG_estado basal cruda.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EEG_estado basal IIR.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EEG_estado basal FIR.jpeg" height="200">
+| Ojos abiertos- cerrados  | <img src="../../../Imagenes/Lab6/EEG_ojos cerrados abiertos cruda.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EEG_ojos cerrados abiertos IIR.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EEG_ojos cerrados abiertos FIR.jpeg" height="200">|
+| Ejercicios Mentales   | <img src="../../../Imagenes/Lab6/EEG_ejercicios mentales cruda.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EEG_ejercicios mentales IIR.jpeg" height="200"> | <img src="../../../Imagenes/Lab6/EEG_ejercicios mentales FIR.jpeg" height="200"> |
 
 #### Códigos
-- [Basal](../../Software/Lab6/Estado_basal_IIR.py)
-- [Ojos abierto - cerrados](../../Software/Lab6/ciclo_ojos_abiertos_cerrados_IIR.py)
-- [Ejercicios Mentales](../../Software/Lab6/ejercicio_mental_IIR.py)
+- [Basal](../../../Software/Lab6/Estado_basal_IIR.py)
+- [Ojos abierto - cerrados](../../../Software/Lab6/ciclo_ojos_abiertos_cerrados_IIR.py)
+- [Ejercicios Mentales](../../../Software/Lab6/ejercicio_mental_IIR.py)
 
 ## Discusión
 Los filtros FIR son una clase esencial de filtros digitales que se caracterizan por tener una respuesta al impulso de duración finita. Esto significa que su salida depende únicamente de una suma ponderada de valores de entrada anteriores, sin considerar valores previos de salida, a diferencia de los filtros IIR. Además, los filtros FIR son siempre estables y relativamente fáciles de diseñar e implementar en hardware digital. Sin embargo, a menudo requieren un orden de filtro más alto que los filtros IIR para lograr un rendimiento similar, lo que puede resultar en un mayor retardo y una mayor complejidad computacional. [5]

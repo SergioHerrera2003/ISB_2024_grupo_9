@@ -30,7 +30,7 @@ En base a los dataset recopilados en los anteriores laboratorios: EMG, ECG y EEG
     - Para el umbral, nos basamos en una fórmula que también se realiza en otros papers para la Transformada de Wavelet [5]. Así pues nos deja completar el cálculo para efectuar este filtro a la señal original.
 
     <div align="center">
-    <img src="../../Imagenes/Lab7/Ecuacion_1.jpeg" height="150">
+    <img src="../../../Imagenes/Lab7/Ecuacion_1.jpeg" height="150">
         <p>Figura 1. Ecuación para el Umbral [5]
     </div>
 
@@ -76,39 +76,39 @@ Dada su eficacia demostrada en múltiples contextos de análisis EEG, incluyendo
 ### Tabla EMG:
 | Campo              | Señal Cruda             | Señal filtrada con DWT       |
 |--------------------|-------------------------|-------------------------------|
-| Descanso - Basal  | <img src="../../Imagenes/Lab7/EMG_Basal.jpeg" height="200"> | <img src="../../Imagenes/Lab7/EMG_Basal_DWT.jpeg" height="200"> |
-| Contracción débil | <img src="../../Imagenes/Lab7/EMG_Movimiento.jpeg" height="200"> | <img src="../../Imagenes/Lab7/EMG_Movimiento_DWT.jpeg" height="200"> |
-| Contracción fuerte| <img src="../../Imagenes/Lab7/EMG_Oposicion.jpeg" height="200"> | <img src="../../Imagenes/Lab7/EMG_Oposicion_DWT.jpeg" height="200"> |
+| Descanso - Basal  | <img src="../../../Imagenes/Lab7/EMG_Basal.jpeg" height="200"> | <img src="../../../Imagenes/Lab7/EMG_Basal_DWT.jpeg" height="200"> |
+| Contracción débil | <img src="../../../Imagenes/Lab7/EMG_Movimiento.jpeg" height="200"> | <img src="../../../Imagenes/Lab7/EMG_Movimiento_DWT.jpeg" height="200"> |
+| Contracción fuerte| <img src="../../../Imagenes/Lab7/EMG_Oposicion.jpeg" height="200"> | <img src="../../../Imagenes/Lab7/EMG_Oposicion_DWT.jpeg" height="200"> |
 
 #### Códigos
-- [Descanso - Basal](../../Software/Lab7/Brazo_basal.ipynb)
-- [Contracción débil](../../Software/Lab7/Brazo_movimiento.ipynb)
-- [Contracción fuerte](../../Software/Lab7/Brazo_oposicion.ipynb)
+- [Descanso - Basal](../../../Software/Lab7/Brazo_basal.ipynb)
+- [Contracción débil](../../../Software/Lab7/Brazo_movimiento.ipynb)
+- [Contracción fuerte](../../../Software/Lab7/Brazo_oposicion.ipynb)
 
 ### Tabla ECG:
 | Campo              | Señal Cruda             | Señal filtrada con DWT       |
 |--------------------|-------------------------|-------------------------------|
-| Descanso - Basal  | <img src="../../Imagenes/Lab7/ECG_Basal.jpeg" height="200"> | <img src="../../Imagenes/Lab7/ECG_Basal_DWT.jpeg" height="200"> |
-| Post Ejercicio | <img src="../../Imagenes/Lab7/ECG_Ejercicio.jpeg" height="200"> | <img src="../../Imagenes/Lab7/ECG_Ejercicio_DWT.jpeg" height="200"> |
-| Recuperación| <img src="../../Imagenes/Lab7/ECG_Recuperacion.jpeg" height="200"> | <img src="../../Imagenes/Lab7/ECG_Recuperacion_DWT.jpeg" height="200"> |
+| Descanso - Basal  | <img src="../../../Imagenes/Lab7/ECG_Basal.jpeg" height="200"> | <img src="../../../Imagenes/Lab7/ECG_Basal_DWT.jpeg" height="200"> |
+| Post Ejercicio | <img src="../../../Imagenes/Lab7/ECG_Ejercicio.jpeg" height="200"> | <img src="../../../Imagenes/Lab7/ECG_Ejercicio_DWT.jpeg" height="200"> |
+| Recuperación| <img src="../../../Imagenes/Lab7/ECG_Recuperacion.jpeg" height="200"> | <img src="../../../Imagenes/Lab7/ECG_Recuperacion_DWT.jpeg" height="200"> |
 
 #### Códigos
-- [Basal](../../Software/Lab7/ECG_Basal.ipynb)
-- [Post Ejercicio](../../Software/Lab7/ECG_Ejercicio.ipynb)
-- [Recuperación](../../Software/Lab7/ECG_recuperacion.ipynb)
+- [Basal](../../../Software/Lab7/ECG_Basal.ipynb)
+- [Post Ejercicio](../../../Software/Lab7/ECG_Ejercicio.ipynb)
+- [Recuperación](../../../Software/Lab7/ECG_recuperacion.ipynb)
 
 ### Tabla EEG:
 | Campo              | Señal Cruda             | Señal filtrada con DWT       |
 |--------------------|-------------------------|-------------------------------|
-| Basal  | <img src="../../Imagenes/Lab7/EEG_estado_basal_original.png" height="200"> | <img src="../../Imagenes/Lab7/EEG_estado_basal_wavelet.png" height="200"> |
-| Ojos abiertos - cerrados | <img src="../../Imagenes/Lab7/EGG_ojos_cerrados_original.png" height="200"> | <img src="../../Imagenes/Lab7/EEG_ojos_cerrados_wavelet.png" height="200"> |
-| Ejercicios Mentales| <img src="../../Imagenes/Lab7/EEG_ejercicios_mentales_original.png" height="200"> | <img src="../../Imagenes/Lab7/EEG_ejercicios_mentales_wavelet.png" height="200"> |
+| Basal  | <img src="../../../Imagenes/Lab7/EEG_estado_basal_original.png" height="200"> | <img src="../../../Imagenes/Lab7/EEG_estado_basal_wavelet.png" height="200"> |
+| Ojos abiertos - cerrados | <img src="../../../Imagenes/Lab7/EGG_ojos_cerrados_original.png" height="200"> | <img src="../../../Imagenes/Lab7/EEG_ojos_cerrados_wavelet.png" height="200"> |
+| Ejercicios Mentales| <img src="../../../Imagenes/Lab7/EEG_ejercicios_mentales_original.png" height="200"> | <img src="../../../Imagenes/Lab7/EEG_ejercicios_mentales_wavelet.png" height="200"> |
 
 
 #### Códigos
-- [Basal](../../Software/Lab7/estado_basal_wavelet.py)
-- [Ojos abierto - cerrados](../../Software/Lab7/ojos_cerrados_wavelet.py)
-- [Ejercicios Mentales](../../Software/Lab7/ejercicios_mentales_wavelet.py)
+- [Basal](../../../Software/Lab7/estado_basal_wavelet.py)
+- [Ojos abierto - cerrados](../../../Software/Lab7/ojos_cerrados_wavelet.py)
+- [Ejercicios Mentales](../../../Software/Lab7/ejercicios_mentales_wavelet.py)
 
 ## Discusión y Conclusiones
 
@@ -144,15 +144,15 @@ La adquisición de las señales EEG, se realizó siguiendo un protocolo de pregu
 
 [3]. F. Abramovich, T. C. Bailey, and T. Sapatinas, ‘Wavelet analysis and its statistical applications’, Journal of the Royal Statistical Society: Series D (The Statistician), vol. 49, no. 1, pp. 1–29, 2000.
 
-[4] Aljebory, Karim & Jwmah, Yashar & Mohammed, Thabit. (2024). Classification of EMG Signals Using DWT Features and ANN Classifier. 51. 23-32. [PDF web](https://www.iaeng.org/IJCS/issues_v51/issue_1/IJCS_51_1_04.pdf) or [PDF](../../Documentacion/Laboratorios/Lab7_DWT/Classification%20of%20EMG%20Signals_Using%20DWT%20Features%20and%20ANN%20Classifier.pdf)
+[4] Aljebory, Karim & Jwmah, Yashar & Mohammed, Thabit. (2024). Classification of EMG Signals Using DWT Features and ANN Classifier. 51. 23-32. [PDF web](https://www.iaeng.org/IJCS/issues_v51/issue_1/IJCS_51_1_04.pdf) or [PDF](../../../Documentacion/Laboratorios/Lab7_DWT/Classification%20of%20EMG%20Signals_Using%20DWT%20Features%20and%20ANN%20Classifier.pdf)
 
-[5] M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing noise, artifacts and Interference in Single-Channel EMG Signals: a review,” Sensors, vol. 23, no. 6, p. 2927, Mar. 2023, [doi: 10.3390/s23062927](https://doi.org/10.3390/s23062927). or [PDF](../../Documentacion/Laboratorios/Lab7_DWT/EMG_Wavelet_Paper2.pdf)
+[5] M. Boyer, L. Bouyer, J.-S. Roy, and A. Campeau-Lecours, “Reducing noise, artifacts and Interference in Single-Channel EMG Signals: a review,” Sensors, vol. 23, no. 6, p. 2927, Mar. 2023, [doi: 10.3390/s23062927](https://doi.org/10.3390/s23062927). or [PDF](../../../Documentacion/Laboratorios/Lab7_DWT/EMG_Wavelet_Paper2.pdf)
 
 [6] R. Singh, R. Mehta, and N. Rajpal, ‘Efficient wavelet families for ECG classification using neural classifiers’, Procedia Comput. Sci., vol. 132, pp. 11–21, 2018.
 
 [7] M. Sharma, V. Patel, J. Tiwari, and U. R. Acharya, ‘Automated characterization of cyclic alternating pattern using wavelet-based features and ensemble learning techniques with EEG signals’, Diagnostics (Basel), vol. 11, no. 8, p. 1380, 2021.
 
-[8] S. Mohammady, Wavelet Theory. 2021, pp. 105–101. [PDF](../../Documentacion/Laboratorios/Lab7_DWT/Wavelet_Theory.pdf)
+[8] S. Mohammady, Wavelet Theory. 2021, pp. 105–101. [PDF](../../../Documentacion/Laboratorios/Lab7_DWT/Wavelet_Theory.pdf)
 
 [9] Selcan Kaplan Berkaya, et al. "A survey on ECG analysis," Biomedical Signal Processing and Control, vol. 43, pp. 216-235, 2018.
 
