@@ -12,7 +12,7 @@ Realizado por estudiantes de Ingeniería Biomédica de la Universidad Peruana Ca
 
 ## Presentación
 
-[Ver Presentación](https://www.canva.com/design/DAGBVwR0aRk/EpQsPL15Y5OwZCgcwBEfCA/view?utm_content=DAGBVwR0aRk&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+[Ver Presentación](https://www.canva.com/design/DAGJ4LoqchQ/5M1XGqoErARV0_BfaZqT7g/edit)
 
 # Characterization of Alzheimer's Disease Using EEG as a Potential Early Diagnostic Tool
 
