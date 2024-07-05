@@ -53,9 +53,6 @@ Para más detalles, consulte el [entregable 1](ISB_2024_grupo_10\Laboratorios\1_
 # Paper
 [Paper en PDF](../ISB_2024_grupo_9/Documentacion/Paper_Project_ISB.pdf)
 
-
-También puede acceder por URL en el enlace a [Papers with Code](https://paperswithcode.com/paper/characterization-of-alzheimer-s-disease-using).
-
 <details><summary><h3>Referencias Bibliográficas</h3></summary>
 
   [1] Instituto Nacional sobre el Envejecimiento. (s.f.). Hoja Informativa sobre la enfermedad de alzheimer | NIA. La enfermedad de Alzheimer. [Online]. Available: https://www.nia.nih.gov/espanol/enfermedad-alzheimer/enfermedad-alzheimer <br>
